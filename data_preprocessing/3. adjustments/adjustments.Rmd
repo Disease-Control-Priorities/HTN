@@ -1,0 +1,518 @@
+---
+title: "adjustments"
+author: "Sarah Pickresgill"
+date: "3/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls()) 
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+library(dplyr)
+library(data.table)
+library(tidyr)
+library(ggplot2)
+library(RColorBrewer)
+```
+
+#Load data
+```{r}
+pop20<-fread("PopulationsAge20_full.csv")
+pop20<-pop20[year_id>2010 & year_id<=2040]
+
+#baseline rates calculated in file:
+b_rates<-fread("../2. get AARcs/baseline_rates_new_new2019.csv")
+
+#can't have >1 for TP rows
+b_rates<-b_rates%>%mutate(test = ifelse(IR+BG.mx>1,1,0))%>%
+  mutate(IR2 = ifelse(test==1, (IR/(IR+BG.mx))-0.005, IR),
+         BG.mx2 = ifelse(test==1, (BG.mx/(IR+BG.mx))-0.005, BG.mx))%>%
+  mutate(test2=ifelse(IR2+BG.mx2>1,1,0))%>%
+  mutate(test=ifelse(CF+BG.mx2>1,1,0))%>%
+  mutate(CF2 = ifelse(test==1, (CF/(CF+BG.mx2))-0.005, CF),
+         BG.mx3 = ifelse(test==1, BG.mx2/(CF+BG.mx2)-0.005, BG.mx2))%>%
+  mutate(test3 = ifelse(CF2+BG.mx3>1,1,0))%>%
+  select(-c(IR,CF,BG.mx,BG.mx2, test, test2, test3))%>%
+  rename(IR = IR2, CF = CF2, BG.mx = BG.mx3)
+
+rep_rates<-b_rates[year==2010]
+
+#repeat year 2017 to 2019
+repYear2010<-function(row){
+  2010+floor((row-1)/118560)
+}
+
+b_rates<-rep_rates[rep(seq(1,nrow(rep_rates)),11)][, year:=repYear2010(.I)]
+setnames(pop20, c("year_id", "Nx"), c("year", "Nx20"))
+
+countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(location!="Global", 
+                   location!="American Samoa",location!="Andorra",location!= "Bermuda",
+                   location!= "Dominica", location!="Greenland", location!="Marshall Islands",
+                   location!="Northern Mariana Islands", location!="Palestine",
+                   location!="Taiwan (Province of China)", location!="Guam", location!="Puerto Rico",
+                   location!="South Sudan", location!="Virgin Islands, U.S.")%>%pull(location)
+
+b_rates<-b_rates[location %in% countrylist]
+pop20<-pop20[location %in% countrylist]
+
+
+```
+
+
+#baseline function
+```{r}
+################## run baseline projections ################################
+
+#as a function#
+state.transition<-function(b_rates, pop20, IRadjust, CFadjust){ 
+  
+base_rates<-merge(b_rates, pop20, by=c("year", "location", "sex", "age"), all=TRUE)
+base_rates[age==20 & year>2010, Nx:=Nx20]
+base_rates[, Nx20:=NULL]
+
+## calculate initial states for the incoming year 2000 and all years for age 20 population
+base_rates[year==2010 | age==20, sick:=Nx*PREVt0]
+base_rates[year==2010 | age==20, dead:=Nx*DIS.mx.t0]
+base_rates[year==2010 | age==20, well:=Nx*(1-(PREVt0+ALL.mx))]
+
+#base_rates<-base_rates[location %in% countrylist]
+base_rates[age==20 | year==2010, pop:=Nx]
+base_rates[age==20 | year==2010, all.mx:=Nx*ALL.mx]
+  
+base_rates[, IR:=IR*IRadjust]
+base_rates[, CF:=CF*CFadjust]
+
+base_rates[,IRadjust:=IRadjust]
+base_rates[,CFadjust:=CFadjust]
+
+base_rates[CF>0.99, CF:=0.99]
+base_rates[IR>0.99, IR:=0.99]
+#STATE TRANSITIONS#
+for(i in 1:10){
+
+b2<-base_rates[year<=2010+i & year>=2010+i-1]
+b2[,age2:=age+1]
+
+#sick
+b2[, sick2:=shift(sick)*(1-(CF+BG.mx)) + shift(well)*IR, by=.(sex, location, cause, age)]
+#b2[age2>=95, sick2:=sick2+shift(sick2, type="lead"), by=.(sex, location, cause, year)]
+b2[sick2<0, sick2:=0]
+
+#dead
+b2[, dead2:=shift(sick)*CF, by=.(sex, location, cause, age)]
+#b2[age2>=95, dead2:=dead2+shift(dead2, type="lead"), by=.(sex, location, cause, year)]
+b2[dead2<0, sick2:=0]
+
+#pop
+b2[,pop2:=shift(pop)-shift(all.mx), by=.(sex, location, cause, age)]
+#b2[age2>=95, pop2:=pop2+shift(pop2, type="lead"), by=.(sex, location, cause, year)]
+b2[pop2<0, pop2:=0] #prevent negatives
+
+#all dead
+b2[, all.mx2:=sum(dead2), by=.(sex, location, year, age)]
+b2[,all.mx2:=all.mx2+(pop2*BG.mx.all)]
+b2[all.mx2<0, all.mx2:=0]
+
+#well
+b2[, well2:=pop2-all.mx2-sick2]
+b2[well2<0, well2:=0] #prevent negatives
+
+#re-combined into original data.table
+b2<-b2[year==2010+i & age2<96, c("age2", "sick2", "dead2", "well2", "pop2", "all.mx2", "sex", "location", "cause")]
+setnames(b2, "age2", "age")
+base_rates[year==2010+i & age>20, sick:=b2[,sick2]]
+base_rates[year==2010+i & age>20, dead:=b2[,dead2]]
+base_rates[year==2010+i & age>20, well:=b2[,well2]]
+base_rates[year==2010+i & age>20, pop:=b2[,pop2]]
+base_rates[year==2010+i & age>20, all.mx:=b2[,all.mx2]]
+
+}
+
+base_rates
+}
+
+```
+
+#Run reps for adjustments file
+```{r}
+
+Sys.time()
+out.df<-state.transition(b_rates, pop20, 1.05, 1.05)
+
+for(i in 0:6){
+  for(j in 0:6){
+    out.df2<-state.transition(b_rates, pop20, 1-(0.05*i), 1-(0.05*j))
+    out.df<-rbindlist(list(out.df, out.df2))
+  }
+}
+
+Sys.time()
+
+```
+
+##Load GBD data##
+```{r}
+
+setwd("../2. get AARCs")
+
+dt1<-fread("gbd1.csv")
+dt2<-fread("gbd2.csv")
+dt3<-fread("gbd3.csv")
+dt4<-fread("gbd4.csv")
+dt5<-fread("gbd5.csv")
+dt6<-fread("gbd6.csv")
+dt7<-fread("gbd7.csv")
+dt8<-fread("gbd8.csv")
+dt9<-fread("gbd9.csv")
+dt10<-fread("gbd10.csv")
+
+DT<-rbindlist(list(dt1,dt2,dt3,dt4,dt5,dt6,dt7,dt8,dt9,dt10))
+DT[, upper:=NULL]
+DT[, lower:=NULL]
+
+
+## update GBD names ##
+iso3<-fread("Country_groupings_extended.csv")
+iso3<-iso3[, c("gbd2019", "location_gbd")]
+setnames(iso3, "gbd2019", "location")
+DT<-merge(DT, iso3, by="location")
+DT[,location:=NULL]
+setnames(DT, "location_gbd", "location")
+
+DT<-DT[metric=="Number" & measure!="Incidence"]
+
+gbd<-as.data.table(DT%>%spread(measure, val))
+gbd[, intervention:="gbd"]
+gbd<-gbd[year>=2010 & year<=2020]
+
+
+```
+
+
+#Combine
+```{r}
+dt<-as.data.table(out.df)
+dt[,intervention:=paste0("IR*", IRadjust, "/CF*", CFadjust)]
+
+dt1<-dt[age<25,]
+dt1[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt1[,age:=NULL]
+dt1[,age:="20 to 24"]
+
+dt2<-dt[age>=25 & age<30,]
+dt2[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt2[,age:=NULL]
+dt2[,age:="25 to 29"]
+
+dt3<-dt[age>=30 & age<35,]
+dt3[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt3[,age:=NULL]
+dt3[,age:="30 to 34"]
+
+dt4<-dt[age>=35 & age<40,]
+dt4[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt4[,age:=NULL]
+dt4[,age:="35 to 39"]
+
+dt5<-dt[age>=40 & age<45,]
+dt5[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt5[,age:=NULL]
+dt5[,age:="40 to 44"]
+
+dt6<-dt[age>=45 & age<50,]
+dt6[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt6[,age:=NULL]
+dt6[,age:="45 to 49"]
+
+dt7<-dt[age>=50 & age<55,]
+dt7[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt7[,age:=NULL]
+dt7[,age:="50 to 54"]
+
+dt8<-dt[age>=55 & age<60,]
+dt8[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt8[,age:=NULL]
+dt8[,age:="55 to 59"]
+
+dt9<-dt[age>=60 & age<65,]
+dt9[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt9[,age:=NULL]
+dt9[,age:="60 to 64"]
+
+dt10<-dt[age>=65 & age<70,]
+dt10[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt10[,age:=NULL]
+dt10[,age:="65 to 69"]
+
+dt11<-dt[age>=70 & age<75,]
+dt11[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt11[,age:=NULL]
+dt11[,age:="70 to 74"]
+
+dt12<-dt[age>=75 & age<80,]
+dt12[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt12[,age:=NULL]
+dt12[,age:="75 to 79"]
+
+dt13<-dt[age>=80 & age<85,]
+dt13[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt13[,age:=NULL]
+dt13[,age:="80 to 84"]
+
+dt14<-dt[age>=85 & age<90,]
+dt14[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt14[,age:=NULL]
+dt14[,age:="85 to 89"]
+
+dt15<-dt[age>=90 & age<95,]
+dt15[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt15[,age:=NULL]
+dt15[,age:="90 to 94"]
+
+dt16<-dt[age>=95,]
+dt16[,c("sick", "dead") := list(sum(sick), sum(dead)), by=.(cause, sex, year, intervention, location)]
+dt16[,age:=NULL]
+dt16[,age:="95 plus"]
+
+dt<-rbindlist(list(dt1,dt2,dt3,dt4,dt5,
+                   dt6,dt7,dt8,dt9,dt10,
+                   dt11, dt12, dt13, dt14, dt15, dt16))
+
+dt<-dt[, c("year", "location", "cause", "sex", "age", "sick", "dead", "intervention")]
+dt<-unique(dt)
+
+dt[cause=="ihd", cause:="Ischemic heart disease"]
+dt[cause=="hhd", cause:="Hypertensive heart disease"]
+dt[cause=="istroke", cause:="Ischemic stroke"]
+dt[cause=="hstroke", cause:="Intracerebral hemorrhage"]
+setnames(dt, c("sick", "dead"), c("Prevalence", "Deaths"))
+
+gbd[,metric:=NULL]
+dt<-dt[,c("age", "sex", "location", "year", "intervention", "Deaths", "Prevalence", "cause")]
+
+###### root mean square error ########
+gbd2<-gbd[,intervention:=NULL]
+setnames(gbd, c("Deaths", "Prevalence"), c("gbdDeaths", "gbdPrev"))
+
+data2<-merge(dt[year<2020], gbd2[year<2020 & cause!="All causes"], by=c("age", "year", "location", "sex", "cause"))
+
+data2<-data2%>%filter(age!="95 plus")%>%group_by(year, intervention, sex, cause, location)%>%
+  summarise(Deaths=sum(Deaths), Prevalence=sum(Prevalence), gbdDeaths=sum(gbdDeaths),
+            gbdPrev=sum(gbdPrev))
+
+data2$derror<-(data2$gbdDeaths-data2$Deaths)^2
+data2$perror<-(data2$gbdPrev-data2$Prevalence)^2
+
+data2<-data2%>%group_by(location, sex, cause, intervention)%>%summarise(RMSE_deaths=sqrt(mean(derror)),
+                                                                 RMSE_prev=sqrt(mean(perror)))
+
+data.adj<-as.data.table(data2)
+data.adj[, error:=2*RMSE_deaths + RMSE_prev]
+test<-data.adj[ , .SD[which.min(error)], by=.(location, sex, cause)]
+test[, IRadjust:=substr(intervention, 4,7)]
+library(stringr)
+test[, CFadjust:=str_sub(intervention, -4,-1)]
+
+test[, IRadjust:=as.numeric(str_remove_all(IRadjust, "[/CF]"))]
+test[, CFadjust:=as.numeric(str_remove_all(CFadjust, "[*CF]"))]
+test[, intervention:=NULL]
+
+test[cause=="Ischemic heart disease", cause:="ihd"]
+test[cause=="Hypertensive heart disease", cause:="hhd"]
+test[cause=="Ischemic stroke", cause:="istroke"]
+test[cause=="Intracerebral hemorrhage", cause:="hstroke"]
+
+adjustments<-test[, c("sex", "location", "cause", "IRadjust", "CFadjust")]
+
+```
+
+##write out adjustments
+```{r}
+write.csv(adjustments, "adjustments2021.csv", row.names = F)
+```
+
+
+#Add plot comparing to GBD/WPP?
+```{r}
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#################################################################################################
+
+##libraries
+library(dplyr)
+library(data.table)
+library(tidyr)
+library(ggplot2)
+library(RColorBrewer)
+
+#################################################################################################
+#load in data
+pop20<-fread("PopulationsAge20_full.csv")
+pop20<-pop20[year_id>2010 & year_id<=2040]
+
+#baseline rates calculated in file:
+b_rates<-fread("../2. get AARcs/baseline_rates_new_new2019.csv")
+
+#can't have >1 for TP rows
+b_rates<-b_rates%>%mutate(test = ifelse(IR+BG.mx>1,1,0))%>%
+  mutate(IR2 = ifelse(test==1, (IR/(IR+BG.mx))-0.005, IR),
+         BG.mx2 = ifelse(test==1, (BG.mx/(IR+BG.mx))-0.005, BG.mx))%>%
+  mutate(test2=ifelse(IR2+BG.mx2>1,1,0))%>%
+  mutate(test=ifelse(CF+BG.mx2>1,1,0))%>%
+  mutate(CF2 = ifelse(test==1, (CF/(CF+BG.mx2))-0.005, CF),
+         BG.mx3 = ifelse(test==1, BG.mx2/(CF+BG.mx2)-0.005, BG.mx2))%>%
+  mutate(test3 = ifelse(CF2+BG.mx3>1,1,0))%>%
+  select(-c(IR,CF,BG.mx,BG.mx2, test, test2, test3))%>%
+  rename(IR = IR2, CF = CF2, BG.mx = BG.mx3)
+
+rep_rates<-b_rates[year==2010]
+
+#repeat year 2017 to 2019
+repYear2010<-function(row){
+  2010+floor((row-1)/118560)
+}
+
+b_rates<-rep_rates[rep(seq(1,nrow(rep_rates)),11)][, year:=repYear2010(.I)]
+setnames(pop20, c("year_id", "Nx"), c("year", "Nx20"))
+
+countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(location!="Global", 
+                   location!="American Samoa",location!="Andorra",location!= "Bermuda",
+                   location!= "Dominica", location!="Greenland", location!="Marshall Islands",
+                   location!="Northern Mariana Islands", location!="Palestine",
+                   location!="Taiwan (Province of China)", location!="Guam", location!="Puerto Rico",
+                   location!="South Sudan", location!="Virgin Islands, U.S.")%>%pull(location)
+
+b_rates<-b_rates[location %in% countrylist]
+pop20<-pop20[location %in% countrylist]
+
+
+adjustments<-read.csv("adjustments2021.csv", stringsAsFactors = )
+b_rates<-merge(b_rates, adjustments, by=c("location", "sex", "cause"))
+
+b_rates[, IR:=IR*IRadjust]
+b_rates[, CF:=CF*CFadjust]
+
+b_rates[CF>0.99, CF:=0.99]
+b_rates[IR>0.99, IR:=0.99]
+
+
+##model##
+#as a function#
+state.transition<-function(b_rates, pop20){ 
+  
+base_rates<-merge(b_rates, pop20, by=c("year", "location", "sex", "age"), all=TRUE)
+base_rates[age==20 & year>2010, Nx:=Nx20]
+base_rates[, Nx20:=NULL]
+
+## calculate initial states for the incoming year 2000 and all years for age 20 population
+base_rates[year==2010 | age==20, sick:=Nx*PREVt0]
+base_rates[year==2010 | age==20, dead:=Nx*DIS.mx.t0]
+base_rates[year==2010 | age==20, well:=Nx*(1-(PREVt0+ALL.mx))]
+
+#base_rates<-base_rates[location %in% countrylist]
+base_rates[age==20 | year==2010, pop:=Nx]
+base_rates[age==20 | year==2010, all.mx:=Nx*ALL.mx]
+  
+
+#STATE TRANSITIONS#
+for(i in 1:10){
+
+b2<-base_rates[year<=2010+i & year>=2010+i-1]
+b2[,age2:=age+1]
+
+#sick
+b2[, sick2:=shift(sick)*(1-(CF+BG.mx)) + shift(well)*IR, by=.(sex, location, cause, age)]
+#b2[age2>=95, sick2:=sick2+shift(sick2, type="lead"), by=.(sex, location, cause, year)]
+b2[sick2<0, sick2:=0]
+
+#dead
+b2[, dead2:=shift(sick)*CF, by=.(sex, location, cause, age)]
+#b2[age2>=95, dead2:=dead2+shift(dead2, type="lead"), by=.(sex, location, cause, year)]
+b2[dead2<0, sick2:=0]
+
+#pop
+b2[,pop2:=shift(pop)-shift(all.mx), by=.(sex, location, cause, age)]
+#b2[age2>=95, pop2:=pop2+shift(pop2, type="lead"), by=.(sex, location, cause, year)]
+b2[pop2<0, pop2:=0] #prevent negatives
+
+#all dead
+b2[, all.mx2:=sum(dead2), by=.(sex, location, year, age)]
+b2[,all.mx2:=all.mx2+(pop2*BG.mx.all)]
+b2[all.mx2<0, all.mx2:=0]
+
+#well
+b2[, well2:=pop2-all.mx2-sick2]
+b2[well2<0, well2:=0] #prevent negatives
+
+#re-combined into original data.table
+b2<-b2[year==2010+i & age2<96, c("age2", "sick2", "dead2", "well2", "pop2", "all.mx2", "sex", "location", "cause")]
+setnames(b2, "age2", "age")
+base_rates[year==2010+i & age>20, sick:=b2[,sick2]]
+base_rates[year==2010+i & age>20, dead:=b2[,dead2]]
+base_rates[year==2010+i & age>20, well:=b2[,well2]]
+base_rates[year==2010+i & age>20, pop:=b2[,pop2]]
+base_rates[year==2010+i & age>20, all.mx:=b2[,all.mx2]]
+
+}
+
+base_rates
+}
+
+out.df<-state.transition(b_rates, pop20)
+
+
+```
+
+#plots
+```{r}
+
+######## compare to GBD results #########################
+
+dt1<-fread("../2. get AARcs/gbd1.csv")
+dt2<-fread("../2. get AARcs/gbd2.csv")
+dt3<-fread("../2. get AARcs/gbd3.csv")
+dt4<-fread("../2. get AARcs/gbd4.csv")
+dt5<-fread("../2. get AARcs/gbd5.csv")
+dt6<-fread("../2. get AARcs/gbd6.csv")
+dt7<-fread("../2. get AARcs/gbd7.csv")
+dt8<-fread("../2. get AARcs/gbd8.csv")
+dt9<-fread("../2. get AARcs/gbd9.csv")
+dt10<-fread("../2. get AARcs/gbd10.csv")
+
+DT<-rbindlist(list(dt1,dt2,dt3,dt4,dt5,dt6,dt7,dt8,dt9,dt10))
+DT[, upper:=NULL]
+DT[, lower:=NULL]
+
+setnames(DT, "age", "age.group")
+
+## update GBD names ##
+iso3<-fread("Country_groupings_extended.csv")
+iso3<-iso3[, c("gbd2019", "location_gbd")]
+setnames(iso3, "gbd2019", "location")
+DT<-merge(DT, iso3, by="location")
+DT[,location:=NULL]
+setnames(DT, "location_gbd", "location")
+
+out.df$age.group[out.df$age<25]<-"20 to 24"
+out.df$age.group[out.df$age<30 & out.df$age>=25]<-"25 to 29"
+out.df$age.group[out.df$age<35 & out.df$age>=30]<-"30 to 34"
+out.df$age.group[out.df$age<40 & out.df$age>=35]<-"35 to 39"
+out.df$age.group[out.df$age<45 & out.df$age>=40]<-"40 to 44"
+out.df$age.group[out.df$age<50 & out.df$age>=45]<-"45 to 49"
+out.df$age.group[out.df$age<55 & out.df$age>=50]<-"50 to 54"
+out.df$age.group[out.df$age<60 & out.df$age>=55]<-"55 to 59"
+out.df$age.group[out.df$age<65 & out.df$age>=60]<-"60 to 64"
+out.df$age.group[out.df$age<70 & out.df$age>=65]<-"65 to 69"
+out.df$age.group[out.df$age<75 & out.df$age>=70]<-"70 to 74"
+out.df$age.group[out.df$age<80 & out.df$age>=75]<-"75 to 79"
+out.df$age.group[out.df$age<85 & out.df$age>=80]<-"80 to 84"
+out.df$age.group[out.df$age<90 & out.df$age>=85]<-"85 to 89"
+out.df$age.group[out.df$age<95 & out.df$age>=90]<-"90 to 94"
+out.df$age.group[out.df$age>=95]<-"95 plus"
+
+
+##do +/- 5% graph for deaths*
+
+
+
+```

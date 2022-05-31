@@ -1,0 +1,1457 @@
+"location","cause","sex","IRadjust","CFadjust","CFAARC"
+"Afghanistan","hhd","Female",0.95,0.9,1
+"Afghanistan","hhd","Male",0.95,0.9,1
+"Afghanistan","hstroke","Female",0.95,0.85,0.97
+"Afghanistan","hstroke","Male",0.95,0.8,0.98
+"Afghanistan","ihd","Female",0.95,0.85,0.98
+"Afghanistan","ihd","Male",0.95,0.9,0.98
+"Afghanistan","istroke","Female",0.95,0.7,0.98
+"Afghanistan","istroke","Male",0.95,0.7,0.99
+"Albania","hhd","Female",0.85,0.9,1.02
+"Albania","hhd","Male",0.8,0.85,1.02
+"Albania","hstroke","Female",0.7,0.95,0.98
+"Albania","hstroke","Male",0.75,0.95,0.95
+"Albania","ihd","Female",0.75,0.8,0.98
+"Albania","ihd","Male",0.75,0.8,0.97
+"Albania","istroke","Female",0.8,0.8,0.97
+"Albania","istroke","Male",0.8,0.8,0.95
+"Algeria","hhd","Female",0.75,0.7,1.01
+"Algeria","hhd","Male",0.85,0.75,1.01
+"Algeria","hstroke","Female",0.75,0.75,0.97
+"Algeria","hstroke","Male",0.75,0.75,0.99
+"Algeria","ihd","Female",0.7,0.7,0.98
+"Algeria","ihd","Male",0.8,0.8,0.99
+"Algeria","istroke","Female",0.75,0.7,0.95
+"Algeria","istroke","Male",0.8,0.7,0.97
+"Angola","hhd","Female",0.8,0.85,1.01
+"Angola","hhd","Male",0.8,0.85,1.02
+"Angola","hstroke","Female",0.8,0.85,0.96
+"Angola","hstroke","Male",0.8,0.85,0.99
+"Angola","ihd","Female",0.85,0.9,0.97
+"Angola","ihd","Male",0.85,0.9,0.99
+"Angola","istroke","Female",0.85,0.8,0.97
+"Angola","istroke","Male",0.85,0.8,0.98
+"Antigua and Barbuda","hhd","Female",0.8,0.95,1.02
+"Antigua and Barbuda","hhd","Male",0.85,0.9,1.02
+"Antigua and Barbuda","hstroke","Female",0.8,0.9,0.97
+"Antigua and Barbuda","hstroke","Male",0.8,0.85,0.97
+"Antigua and Barbuda","ihd","Female",0.75,0.8,0.99
+"Antigua and Barbuda","ihd","Male",0.85,0.8,0.99
+"Antigua and Barbuda","istroke","Female",0.75,0.75,0.98
+"Antigua and Barbuda","istroke","Male",0.85,0.75,0.97
+"Argentina","hhd","Female",0.85,0.85,1.02
+"Argentina","hhd","Male",0.9,0.9,1
+"Argentina","hstroke","Female",0.8,0.85,0.98
+"Argentina","hstroke","Male",0.8,0.85,0.99
+"Argentina","ihd","Female",0.8,0.85,0.98
+"Argentina","ihd","Male",0.85,0.9,0.98
+"Argentina","istroke","Female",0.85,0.75,0.98
+"Argentina","istroke","Male",0.85,0.75,0.98
+"Armenia","hhd","Female",0.75,0.8,1.02
+"Armenia","hhd","Male",0.75,0.8,1.02
+"Armenia","hstroke","Female",0.7,0.95,0.98
+"Armenia","hstroke","Male",0.7,0.9,0.99
+"Armenia","ihd","Female",0.7,0.85,0.97
+"Armenia","ihd","Male",0.7,0.8,0.98
+"Armenia","istroke","Female",0.7,0.85,0.98
+"Armenia","istroke","Male",0.7,0.8,0.97
+"Australia","hhd","Female",0.85,0.95,1.02
+"Australia","hhd","Male",0.7,0.95,1.02
+"Australia","hstroke","Female",0.85,0.75,0.96
+"Australia","hstroke","Male",0.8,0.8,0.96
+"Australia","ihd","Female",0.85,0.75,0.99
+"Australia","ihd","Male",0.85,0.75,0.99
+"Australia","istroke","Female",0.85,0.7,0.98
+"Australia","istroke","Male",0.8,0.7,0.96
+"Austria","hhd","Female",0.9,0.95,1.01
+"Austria","hhd","Male",0.85,0.9,1
+"Austria","hstroke","Female",0.8,0.8,0.99
+"Austria","hstroke","Male",0.8,0.75,0.97
+"Austria","ihd","Female",0.75,0.7,0.98
+"Austria","ihd","Male",0.75,0.7,0.97
+"Austria","istroke","Female",0.8,0.75,1
+"Austria","istroke","Male",0.75,0.75,0.99
+"Azerbaijan","hhd","Female",0.75,0.8,1.02
+"Azerbaijan","hhd","Male",0.8,0.85,1.01
+"Azerbaijan","hstroke","Female",0.75,0.85,0.96
+"Azerbaijan","hstroke","Male",0.75,0.8,0.96
+"Azerbaijan","ihd","Female",0.7,0.8,0.98
+"Azerbaijan","ihd","Male",0.75,0.85,0.97
+"Azerbaijan","istroke","Female",0.8,0.7,0.97
+"Azerbaijan","istroke","Male",0.8,0.7,0.96
+"Bahrain","hhd","Female",0.9,0.75,0.99
+"Bahrain","hhd","Male",0.95,0.8,0.98
+"Bahrain","hstroke","Female",0.9,0.7,0.97
+"Bahrain","hstroke","Male",0.95,0.7,0.95
+"Bahrain","ihd","Female",0.8,0.7,0.98
+"Bahrain","ihd","Male",0.85,0.75,0.97
+"Bahrain","istroke","Female",0.9,0.7,0.96
+"Bahrain","istroke","Male",0.95,0.8,0.95
+"Bangladesh","hhd","Female",0.85,0.85,0.99
+"Bangladesh","hhd","Male",0.85,0.8,1.01
+"Bangladesh","hstroke","Female",0.75,0.8,0.96
+"Bangladesh","hstroke","Male",0.75,0.85,0.98
+"Bangladesh","ihd","Female",1,1,0.97
+"Bangladesh","ihd","Male",0.95,0.85,0.98
+"Bangladesh","istroke","Female",0.8,0.7,0.96
+"Bangladesh","istroke","Male",0.8,0.75,0.97
+"Barbados","hhd","Female",0.9,0.85,1.02
+"Barbados","hhd","Male",0.95,0.9,1.01
+"Barbados","hstroke","Female",0.95,0.8,0.98
+"Barbados","hstroke","Male",0.9,0.85,0.98
+"Barbados","ihd","Female",0.95,0.8,1
+"Barbados","ihd","Male",0.95,0.75,1
+"Barbados","istroke","Female",0.9,0.7,0.98
+"Barbados","istroke","Male",0.9,0.7,0.98
+"Belarus","hhd","Female",0.8,0.75,1.02
+"Belarus","hhd","Male",0.75,0.75,1.02
+"Belarus","hstroke","Female",0.7,0.8,1.01
+"Belarus","hstroke","Male",0.7,0.85,1.01
+"Belarus","ihd","Female",0.7,0.85,0.98
+"Belarus","ihd","Male",0.7,0.9,0.97
+"Belarus","istroke","Female",0.7,0.7,0.99
+"Belarus","istroke","Male",0.7,0.75,0.98
+"Belgium","hhd","Female",0.85,0.8,1.02
+"Belgium","hhd","Male",0.85,0.85,1.02
+"Belgium","hstroke","Female",0.75,0.85,0.98
+"Belgium","hstroke","Male",0.75,0.8,0.96
+"Belgium","ihd","Female",0.8,0.75,0.99
+"Belgium","ihd","Male",0.75,0.7,0.99
+"Belgium","istroke","Female",0.8,0.75,0.99
+"Belgium","istroke","Male",0.75,0.7,0.98
+"Belize","hhd","Female",0.9,0.9,1.02
+"Belize","hhd","Male",0.95,0.95,1.02
+"Belize","hstroke","Female",0.9,0.85,0.99
+"Belize","hstroke","Male",0.95,0.9,0.98
+"Belize","ihd","Female",0.95,0.9,0.99
+"Belize","ihd","Male",0.95,0.85,1
+"Belize","istroke","Female",0.95,0.7,0.99
+"Belize","istroke","Male",0.95,0.7,0.99
+"Benin","hhd","Female",0.9,0.95,1.01
+"Benin","hhd","Male",0.95,0.95,1.01
+"Benin","hstroke","Female",0.85,0.9,0.96
+"Benin","hstroke","Male",0.85,0.85,0.98
+"Benin","ihd","Female",0.9,0.9,0.99
+"Benin","ihd","Male",0.95,0.9,0.99
+"Benin","istroke","Female",0.9,0.8,0.98
+"Benin","istroke","Male",0.95,0.8,1
+"Bhutan","hhd","Female",0.75,0.85,1.02
+"Bhutan","hhd","Male",0.75,0.85,1.01
+"Bhutan","hstroke","Female",0.7,0.85,0.98
+"Bhutan","hstroke","Male",0.7,0.95,0.97
+"Bhutan","ihd","Female",0.75,0.9,0.99
+"Bhutan","ihd","Male",0.7,0.85,0.99
+"Bhutan","istroke","Female",0.7,0.85,0.99
+"Bhutan","istroke","Male",0.7,0.95,0.97
+"Bolivia","hhd","Female",0.85,0.85,1.01
+"Bolivia","hhd","Male",0.95,0.8,1
+"Bolivia","hstroke","Female",0.9,0.85,0.96
+"Bolivia","hstroke","Male",0.85,0.85,0.97
+"Bolivia","ihd","Female",0.85,0.85,0.97
+"Bolivia","ihd","Male",0.9,0.9,0.98
+"Bolivia","istroke","Female",0.95,0.8,0.96
+"Bolivia","istroke","Male",0.9,0.75,0.97
+"Bosnia and Herzegovina","hhd","Female",0.7,0.8,1.02
+"Bosnia and Herzegovina","hhd","Male",0.75,0.85,1.01
+"Bosnia and Herzegovina","hstroke","Female",0.7,0.9,0.96
+"Bosnia and Herzegovina","hstroke","Male",0.7,0.8,0.98
+"Bosnia and Herzegovina","ihd","Female",0.7,0.85,0.96
+"Bosnia and Herzegovina","ihd","Male",0.7,0.9,0.98
+"Bosnia and Herzegovina","istroke","Female",0.7,0.85,0.95
+"Bosnia and Herzegovina","istroke","Male",0.7,0.8,0.95
+"Botswana","hhd","Female",0.75,0.85,1.02
+"Botswana","hhd","Male",0.75,0.8,1.02
+"Botswana","hstroke","Female",0.8,0.75,1
+"Botswana","hstroke","Male",0.8,0.8,1.01
+"Botswana","ihd","Female",0.8,0.8,1
+"Botswana","ihd","Male",0.85,0.8,1
+"Botswana","istroke","Female",0.8,0.7,0.99
+"Botswana","istroke","Male",0.8,0.7,1
+"Brazil","hhd","Female",0.85,0.85,1.02
+"Brazil","hhd","Male",0.85,0.85,1.02
+"Brazil","hstroke","Female",0.85,0.8,0.99
+"Brazil","hstroke","Male",0.8,0.85,0.99
+"Brazil","ihd","Female",0.85,0.85,0.98
+"Brazil","ihd","Male",0.85,0.85,0.99
+"Brazil","istroke","Female",0.9,0.8,0.97
+"Brazil","istroke","Male",0.85,0.8,0.98
+"Brunei","hhd","Female",0.7,0.9,1.02
+"Brunei","hhd","Male",0.7,0.9,0.99
+"Brunei","hstroke","Female",0.7,0.75,0.98
+"Brunei","hstroke","Male",0.7,0.75,0.96
+"Brunei","ihd","Female",0.7,0.85,0.97
+"Brunei","ihd","Male",0.7,0.9,0.96
+"Brunei","istroke","Female",0.7,0.7,0.99
+"Brunei","istroke","Male",0.7,0.8,0.96
+"Bulgaria","hhd","Female",0.8,0.85,1.02
+"Bulgaria","hhd","Male",0.9,0.9,1.02
+"Bulgaria","hstroke","Female",0.7,0.85,1.02
+"Bulgaria","hstroke","Male",0.8,0.9,0.98
+"Bulgaria","ihd","Female",0.75,0.75,0.98
+"Bulgaria","ihd","Male",0.8,0.75,0.99
+"Bulgaria","istroke","Female",0.8,0.7,0.95
+"Bulgaria","istroke","Male",0.85,0.8,0.95
+"Burkina Faso","hhd","Female",0.85,0.95,1.01
+"Burkina Faso","hhd","Male",0.9,0.95,1.02
+"Burkina Faso","hstroke","Female",0.85,0.9,0.97
+"Burkina Faso","hstroke","Male",0.9,0.9,1
+"Burkina Faso","ihd","Female",0.85,0.85,1
+"Burkina Faso","ihd","Male",0.9,0.85,1.02
+"Burkina Faso","istroke","Female",0.9,0.8,0.97
+"Burkina Faso","istroke","Male",0.95,0.8,1.01
+"Burundi","hhd","Female",0.85,0.9,0.99
+"Burundi","hhd","Male",1,1,1
+"Burundi","hstroke","Female",0.8,0.9,0.99
+"Burundi","hstroke","Male",0.9,0.95,1.01
+"Burundi","ihd","Female",0.85,0.9,0.99
+"Burundi","ihd","Male",1,1,0.99
+"Burundi","istroke","Female",0.85,0.95,0.97
+"Burundi","istroke","Male",0.95,0.7,1
+"Cambodia","hhd","Female",0.95,0.95,1
+"Cambodia","hhd","Male",0.95,0.85,1.01
+"Cambodia","hstroke","Female",0.85,0.95,0.96
+"Cambodia","hstroke","Male",0.85,0.9,0.98
+"Cambodia","ihd","Female",0.9,0.9,0.99
+"Cambodia","ihd","Male",0.95,0.95,0.99
+"Cambodia","istroke","Female",0.9,0.8,0.98
+"Cambodia","istroke","Male",0.95,0.85,0.97
+"Cameroon","hhd","Female",0.9,0.85,0.98
+"Cameroon","hhd","Male",0.95,0.85,0.99
+"Cameroon","hstroke","Female",0.8,0.85,0.96
+"Cameroon","hstroke","Male",0.85,0.85,0.98
+"Cameroon","ihd","Female",0.85,0.85,0.97
+"Cameroon","ihd","Male",0.9,0.85,0.98
+"Cameroon","istroke","Female",0.9,0.8,0.96
+"Cameroon","istroke","Male",0.9,0.75,0.98
+"Canada","hhd","Female",0.9,0.95,1.02
+"Canada","hhd","Male",0.9,0.95,1.02
+"Canada","hstroke","Female",0.85,0.85,0.98
+"Canada","hstroke","Male",0.85,0.8,0.97
+"Canada","ihd","Female",0.85,0.8,0.99
+"Canada","ihd","Male",0.85,0.8,0.99
+"Canada","istroke","Female",0.9,0.8,0.97
+"Canada","istroke","Male",0.9,0.7,0.97
+"Cape Verde","hhd","Female",0.9,0.95,0.99
+"Cape Verde","hhd","Male",0.85,0.95,0.96
+"Cape Verde","hstroke","Female",0.75,0.95,0.95
+"Cape Verde","hstroke","Male",0.75,0.95,0.95
+"Cape Verde","ihd","Female",0.85,0.9,0.99
+"Cape Verde","ihd","Male",0.85,0.95,0.97
+"Cape Verde","istroke","Female",0.7,0.95,1
+"Cape Verde","istroke","Male",0.7,0.95,0.98
+"Central African Republic","hhd","Female",0.85,0.95,0.95
+"Central African Republic","hhd","Male",0.8,0.9,1.02
+"Central African Republic","hstroke","Female",0.85,0.9,0.97
+"Central African Republic","hstroke","Male",0.8,0.85,1.01
+"Central African Republic","ihd","Female",0.9,0.95,0.97
+"Central African Republic","ihd","Male",0.85,0.95,0.99
+"Central African Republic","istroke","Female",0.9,0.9,0.95
+"Central African Republic","istroke","Male",0.85,0.85,0.97
+"Chad","hhd","Female",0.8,0.9,0.99
+"Chad","hhd","Male",0.95,0.9,1.02
+"Chad","hstroke","Female",0.8,0.9,0.98
+"Chad","hstroke","Male",0.85,0.85,1.02
+"Chad","ihd","Female",0.8,0.9,1
+"Chad","ihd","Male",0.95,0.85,1.01
+"Chad","istroke","Female",0.8,0.9,0.98
+"Chad","istroke","Male",0.95,0.75,1.01
+"Chile","hhd","Female",0.85,0.85,1.01
+"Chile","hhd","Male",0.9,0.95,1
+"Chile","hstroke","Female",0.8,0.8,0.96
+"Chile","hstroke","Male",0.8,0.85,0.96
+"Chile","ihd","Female",0.8,0.75,0.98
+"Chile","ihd","Male",0.85,0.85,0.98
+"Chile","istroke","Female",0.8,0.7,0.96
+"Chile","istroke","Male",0.8,0.8,0.95
+"China","hhd","Female",0.85,0.85,1.01
+"China","hhd","Male",0.85,0.85,0.99
+"China","hstroke","Female",0.7,0.9,0.95
+"China","hstroke","Male",0.7,0.85,0.95
+"China","ihd","Female",0.8,0.8,0.96
+"China","ihd","Male",0.75,0.75,0.97
+"China","istroke","Female",0.85,0.7,0.97
+"China","istroke","Male",0.85,0.7,0.95
+"Colombia","hhd","Female",0.85,0.9,1.02
+"Colombia","hhd","Male",0.85,0.85,1.02
+"Colombia","hstroke","Female",0.75,0.8,1.01
+"Colombia","hstroke","Male",0.7,0.8,1.01
+"Colombia","ihd","Female",0.8,0.85,1
+"Colombia","ihd","Male",0.75,0.8,1
+"Colombia","istroke","Female",0.85,0.85,1
+"Colombia","istroke","Male",0.8,0.85,1
+"Comoros","hhd","Female",1,1,1.02
+"Comoros","hhd","Male",0.95,0.9,1.01
+"Comoros","hstroke","Female",0.85,0.95,1.02
+"Comoros","hstroke","Male",0.85,0.95,1.01
+"Comoros","ihd","Female",1,1,0.99
+"Comoros","ihd","Male",0.95,0.95,1
+"Comoros","istroke","Female",1,1,0.99
+"Comoros","istroke","Male",0.95,0.9,1
+"Congo","hhd","Female",0.85,0.9,0.98
+"Congo","hhd","Male",0.9,0.95,0.99
+"Congo","hstroke","Female",0.85,0.85,0.96
+"Congo","hstroke","Male",0.9,0.9,0.97
+"Congo","ihd","Female",0.85,0.85,0.97
+"Congo","ihd","Male",0.9,0.9,0.98
+"Congo","istroke","Female",0.9,0.8,0.96
+"Congo","istroke","Male",0.95,0.85,0.97
+"Costa Rica","hhd","Female",0.85,0.85,1.02
+"Costa Rica","hhd","Male",0.85,0.85,1.02
+"Costa Rica","hstroke","Female",0.9,0.85,0.97
+"Costa Rica","hstroke","Male",0.85,0.85,0.98
+"Costa Rica","ihd","Female",0.85,0.85,0.99
+"Costa Rica","ihd","Male",0.85,0.95,0.99
+"Costa Rica","istroke","Female",0.95,0.95,0.97
+"Costa Rica","istroke","Male",0.9,0.9,0.97
+"Cote d'Ivoire","hhd","Female",0.8,0.95,0.98
+"Cote d'Ivoire","hhd","Male",0.85,0.9,0.99
+"Cote d'Ivoire","hstroke","Female",0.7,0.85,0.97
+"Cote d'Ivoire","hstroke","Male",0.75,0.85,0.97
+"Cote d'Ivoire","ihd","Female",0.75,0.9,0.98
+"Cote d'Ivoire","ihd","Male",0.8,0.85,0.98
+"Cote d'Ivoire","istroke","Female",0.7,0.85,0.97
+"Cote d'Ivoire","istroke","Male",0.8,0.8,0.97
+"Croatia","hhd","Female",0.75,0.75,1.02
+"Croatia","hhd","Male",0.8,0.8,1.02
+"Croatia","hstroke","Female",0.7,0.85,0.95
+"Croatia","hstroke","Male",0.7,0.8,0.95
+"Croatia","ihd","Female",0.7,0.7,0.96
+"Croatia","ihd","Male",0.75,0.75,0.96
+"Croatia","istroke","Female",0.7,0.7,0.96
+"Croatia","istroke","Male",0.7,0.7,0.96
+"Cuba","hhd","Female",0.9,0.95,1
+"Cuba","hhd","Male",0.9,0.95,1
+"Cuba","hstroke","Female",0.8,0.85,0.97
+"Cuba","hstroke","Male",0.8,0.85,0.98
+"Cuba","ihd","Female",0.85,0.85,0.99
+"Cuba","ihd","Male",0.85,0.95,0.99
+"Cuba","istroke","Female",0.85,0.85,0.96
+"Cuba","istroke","Male",0.85,0.85,0.96
+"Cyprus","hhd","Female",0.7,0.7,1.02
+"Cyprus","hhd","Male",0.75,0.7,0.99
+"Cyprus","hstroke","Female",0.8,0.7,0.95
+"Cyprus","hstroke","Male",0.75,0.7,0.95
+"Cyprus","ihd","Female",0.8,0.7,0.95
+"Cyprus","ihd","Male",0.85,0.7,0.95
+"Cyprus","istroke","Female",0.8,0.7,0.95
+"Cyprus","istroke","Male",0.8,0.7,0.95
+"Czech Republic","hhd","Female",0.95,0.95,1.02
+"Czech Republic","hhd","Male",0.95,0.95,1.01
+"Czech Republic","hstroke","Female",0.8,0.8,0.97
+"Czech Republic","hstroke","Male",0.75,0.75,0.98
+"Czech Republic","ihd","Female",0.75,0.75,0.97
+"Czech Republic","ihd","Male",0.75,0.75,0.97
+"Czech Republic","istroke","Female",0.75,0.7,0.99
+"Czech Republic","istroke","Male",0.75,0.7,0.98
+"Democratic Republic of the Congo","hhd","Female",0.85,0.95,0.97
+"Democratic Republic of the Congo","hhd","Male",0.8,0.9,1.01
+"Democratic Republic of the Congo","hstroke","Female",0.8,0.9,0.98
+"Democratic Republic of the Congo","hstroke","Male",0.8,0.85,0.98
+"Democratic Republic of the Congo","ihd","Female",0.85,0.9,0.99
+"Democratic Republic of the Congo","ihd","Male",0.85,0.9,0.99
+"Democratic Republic of the Congo","istroke","Female",0.85,0.8,0.97
+"Democratic Republic of the Congo","istroke","Male",0.85,0.8,0.97
+"Denmark","hhd","Female",0.9,0.95,1.02
+"Denmark","hhd","Male",0.75,0.85,1.02
+"Denmark","hstroke","Female",0.75,0.85,0.98
+"Denmark","hstroke","Male",0.75,0.85,0.96
+"Denmark","ihd","Female",0.8,0.8,0.99
+"Denmark","ihd","Male",0.8,0.7,0.99
+"Denmark","istroke","Female",0.8,0.85,0.98
+"Denmark","istroke","Male",0.7,0.75,0.97
+"Djibouti","hhd","Female",0.85,0.9,1
+"Djibouti","hhd","Male",0.9,0.9,1
+"Djibouti","hstroke","Female",0.85,0.8,0.96
+"Djibouti","hstroke","Male",0.9,0.85,0.97
+"Djibouti","ihd","Female",0.9,0.95,0.97
+"Djibouti","ihd","Male",0.9,0.9,0.98
+"Djibouti","istroke","Female",0.95,0.85,0.96
+"Djibouti","istroke","Male",0.95,0.8,0.97
+"Dominican Republic","hhd","Female",0.85,0.95,1
+"Dominican Republic","hhd","Male",0.85,0.95,1.02
+"Dominican Republic","hstroke","Female",0.85,0.9,0.96
+"Dominican Republic","hstroke","Male",0.9,0.95,0.95
+"Dominican Republic","ihd","Female",0.8,0.9,0.98
+"Dominican Republic","ihd","Male",0.8,0.95,0.99
+"Dominican Republic","istroke","Female",0.85,0.85,0.96
+"Dominican Republic","istroke","Male",0.85,0.85,0.97
+"Ecuador","hhd","Female",0.75,0.75,1.01
+"Ecuador","hhd","Male",0.8,0.75,1
+"Ecuador","hstroke","Female",0.85,0.8,0.98
+"Ecuador","hstroke","Male",0.85,0.85,0.99
+"Ecuador","ihd","Female",0.8,0.8,0.99
+"Ecuador","ihd","Male",0.85,0.85,0.99
+"Ecuador","istroke","Female",0.85,0.7,0.98
+"Ecuador","istroke","Male",0.85,0.75,0.98
+"Egypt","hhd","Female",0.8,0.85,0.98
+"Egypt","hhd","Male",1,1,0.99
+"Egypt","hstroke","Female",0.8,0.9,0.96
+"Egypt","hstroke","Male",0.9,0.95,0.98
+"Egypt","ihd","Female",0.75,0.9,0.96
+"Egypt","ihd","Male",0.9,0.95,0.98
+"Egypt","istroke","Female",0.8,0.8,0.97
+"Egypt","istroke","Male",0.95,0.9,0.97
+"El Salvador","hhd","Female",0.95,0.95,1.02
+"El Salvador","hhd","Male",0.95,0.9,1.02
+"El Salvador","hstroke","Female",0.9,0.95,0.97
+"El Salvador","hstroke","Male",0.85,0.9,0.99
+"El Salvador","ihd","Female",0.9,0.95,0.98
+"El Salvador","ihd","Male",0.85,0.9,0.99
+"El Salvador","istroke","Female",0.9,0.95,0.98
+"El Salvador","istroke","Male",0.9,0.9,0.99
+"Equatorial Guinea","hhd","Female",0.85,0.9,1.02
+"Equatorial Guinea","hhd","Male",0.85,0.9,1
+"Equatorial Guinea","hstroke","Female",0.85,0.85,0.96
+"Equatorial Guinea","hstroke","Male",0.9,0.9,0.95
+"Equatorial Guinea","ihd","Female",0.9,0.9,0.97
+"Equatorial Guinea","ihd","Male",0.9,0.95,0.97
+"Equatorial Guinea","istroke","Female",0.95,0.9,0.98
+"Equatorial Guinea","istroke","Male",0.9,0.8,0.98
+"Eritrea","hhd","Female",0.9,0.95,0.99
+"Eritrea","hhd","Male",1,1,0.99
+"Eritrea","hstroke","Female",0.9,0.95,0.97
+"Eritrea","hstroke","Male",1,1,0.97
+"Eritrea","ihd","Female",0.95,0.95,0.98
+"Eritrea","ihd","Male",1,1,0.99
+"Eritrea","istroke","Female",1,1,0.96
+"Eritrea","istroke","Male",1,1,0.97
+"Estonia","hhd","Female",0.9,0.95,0.95
+"Estonia","hhd","Male",0.85,0.95,0.95
+"Estonia","hstroke","Female",0.7,0.7,1.02
+"Estonia","hstroke","Male",0.7,0.85,0.98
+"Estonia","ihd","Female",0.7,0.7,0.98
+"Estonia","ihd","Male",0.7,0.7,0.97
+"Estonia","istroke","Female",0.7,0.7,1.01
+"Estonia","istroke","Male",0.7,0.7,0.97
+"Ethiopia","hhd","Female",0.8,0.85,0.97
+"Ethiopia","hhd","Male",0.85,0.85,0.99
+"Ethiopia","hstroke","Female",0.75,0.95,0.95
+"Ethiopia","hstroke","Male",0.75,0.9,0.99
+"Ethiopia","ihd","Female",0.85,0.9,0.97
+"Ethiopia","ihd","Male",0.9,0.9,0.98
+"Ethiopia","istroke","Female",0.8,0.9,0.96
+"Ethiopia","istroke","Male",0.85,0.85,0.98
+"Federated States of Micronesia","hhd","Female",0.8,0.95,1
+"Federated States of Micronesia","hhd","Male",0.8,0.95,1.01
+"Federated States of Micronesia","hstroke","Female",0.75,0.9,0.96
+"Federated States of Micronesia","hstroke","Male",0.75,0.85,0.98
+"Federated States of Micronesia","ihd","Female",0.75,0.9,0.97
+"Federated States of Micronesia","ihd","Male",0.75,0.95,0.99
+"Federated States of Micronesia","istroke","Female",0.75,0.9,0.96
+"Federated States of Micronesia","istroke","Male",0.75,0.85,0.96
+"Fiji","hhd","Female",0.8,0.9,0.99
+"Fiji","hhd","Male",0.75,0.9,1
+"Fiji","hstroke","Female",0.7,0.85,0.95
+"Fiji","hstroke","Male",0.75,0.85,0.95
+"Fiji","ihd","Female",0.75,0.9,0.96
+"Fiji","ihd","Male",0.7,0.9,0.96
+"Fiji","istroke","Female",0.75,0.85,0.96
+"Fiji","istroke","Male",0.75,0.85,0.95
+"Finland","hhd","Female",0.9,0.95,1.02
+"Finland","hhd","Male",0.9,0.9,1.01
+"Finland","hstroke","Female",0.75,0.9,0.99
+"Finland","hstroke","Male",0.8,0.9,0.96
+"Finland","ihd","Female",0.8,0.75,0.98
+"Finland","ihd","Male",0.8,0.8,0.97
+"Finland","istroke","Female",0.8,0.8,0.98
+"Finland","istroke","Male",0.75,0.8,0.98
+"France","hhd","Female",0.85,0.9,1.02
+"France","hhd","Male",0.8,0.8,1.02
+"France","hstroke","Female",0.75,0.8,0.97
+"France","hstroke","Male",0.75,0.8,0.95
+"France","ihd","Female",0.85,0.75,0.98
+"France","ihd","Male",0.8,0.7,0.98
+"France","istroke","Female",0.8,0.75,0.98
+"France","istroke","Male",0.75,0.7,0.97
+"Gabon","hhd","Female",0.8,0.85,1
+"Gabon","hhd","Male",0.8,0.9,1.01
+"Gabon","hstroke","Female",0.8,0.85,0.97
+"Gabon","hstroke","Male",0.8,0.85,0.98
+"Gabon","ihd","Female",0.8,0.8,0.97
+"Gabon","ihd","Male",0.8,0.9,0.99
+"Gabon","istroke","Female",0.85,0.85,0.96
+"Gabon","istroke","Male",0.8,0.8,0.98
+"Georgia","hhd","Female",0.9,0.95,0.98
+"Georgia","hhd","Male",0.85,0.95,0.98
+"Georgia","hstroke","Female",0.7,0.9,1.02
+"Georgia","hstroke","Male",0.7,0.9,1.02
+"Georgia","ihd","Female",0.8,0.85,0.99
+"Georgia","ihd","Male",0.75,0.85,0.99
+"Georgia","istroke","Female",0.85,0.9,0.95
+"Georgia","istroke","Male",0.85,0.9,0.95
+"Germany","hhd","Female",0.85,0.85,1.02
+"Germany","hhd","Male",0.8,0.8,1
+"Germany","hstroke","Female",0.8,0.8,0.97
+"Germany","hstroke","Male",0.75,0.8,0.97
+"Germany","ihd","Female",0.8,0.75,0.97
+"Germany","ihd","Male",0.75,0.7,0.98
+"Germany","istroke","Female",0.8,0.75,0.99
+"Germany","istroke","Male",0.75,0.75,0.97
+"Ghana","hhd","Female",0.85,0.9,1.02
+"Ghana","hhd","Male",0.85,0.9,1.01
+"Ghana","hstroke","Female",0.85,0.9,0.97
+"Ghana","hstroke","Male",0.8,0.85,0.98
+"Ghana","ihd","Female",0.85,0.9,0.98
+"Ghana","ihd","Male",0.85,0.85,0.99
+"Ghana","istroke","Female",0.9,0.85,0.96
+"Ghana","istroke","Male",0.8,0.75,0.99
+"Greece","hhd","Female",0.85,0.85,1.01
+"Greece","hhd","Male",0.9,0.9,0.99
+"Greece","hstroke","Female",0.7,0.85,1.02
+"Greece","hstroke","Male",0.75,0.9,0.99
+"Greece","ihd","Female",0.75,0.7,0.97
+"Greece","ihd","Male",0.8,0.8,0.98
+"Greece","istroke","Female",0.7,0.75,0.99
+"Greece","istroke","Male",0.75,0.75,0.98
+"Grenada","hhd","Female",0.7,0.95,1.01
+"Grenada","hhd","Male",0.7,0.95,1
+"Grenada","hstroke","Female",0.7,0.85,0.96
+"Grenada","hstroke","Male",0.7,0.85,0.97
+"Grenada","ihd","Female",0.7,0.95,0.97
+"Grenada","ihd","Male",0.7,0.95,0.97
+"Grenada","istroke","Female",0.7,0.95,0.95
+"Grenada","istroke","Male",0.7,0.95,0.95
+"Guatemala","hhd","Female",0.85,0.8,1.02
+"Guatemala","hhd","Male",0.9,0.8,1.01
+"Guatemala","hstroke","Female",0.9,0.85,0.96
+"Guatemala","hstroke","Male",0.85,0.85,0.97
+"Guatemala","ihd","Female",0.8,0.7,0.99
+"Guatemala","ihd","Male",0.8,0.7,0.99
+"Guatemala","istroke","Female",0.95,0.7,0.97
+"Guatemala","istroke","Male",0.9,0.7,0.96
+"Guinea","hhd","Female",0.8,0.9,1.01
+"Guinea","hhd","Male",0.9,0.9,1.01
+"Guinea","hstroke","Female",0.8,0.9,0.98
+"Guinea","hstroke","Male",0.85,0.85,1
+"Guinea","ihd","Female",0.8,0.9,1
+"Guinea","ihd","Male",0.9,0.9,1.01
+"Guinea","istroke","Female",0.75,0.75,1
+"Guinea","istroke","Male",0.85,0.75,1.02
+"Guinea-Bissau","hhd","Female",0.85,0.95,0.98
+"Guinea-Bissau","hhd","Male",0.85,0.9,1
+"Guinea-Bissau","hstroke","Female",0.75,0.85,0.96
+"Guinea-Bissau","hstroke","Male",0.8,0.9,0.97
+"Guinea-Bissau","ihd","Female",0.8,0.9,0.98
+"Guinea-Bissau","ihd","Male",0.8,0.85,0.99
+"Guinea-Bissau","istroke","Female",0.8,0.9,0.97
+"Guinea-Bissau","istroke","Male",0.85,0.85,0.97
+"Guyana","hhd","Female",0.8,0.9,1.02
+"Guyana","hhd","Male",0.85,0.95,1.01
+"Guyana","hstroke","Female",0.75,0.9,0.97
+"Guyana","hstroke","Male",0.8,0.95,0.97
+"Guyana","ihd","Female",0.75,0.85,1
+"Guyana","ihd","Male",0.75,0.9,0.99
+"Guyana","istroke","Female",0.7,0.8,1
+"Guyana","istroke","Male",0.75,0.8,0.99
+"Haiti","hhd","Female",0.85,0.9,0.98
+"Haiti","hhd","Male",0.9,0.95,1.01
+"Haiti","hstroke","Female",0.85,0.9,0.95
+"Haiti","hstroke","Male",0.85,0.9,0.98
+"Haiti","ihd","Female",0.85,0.9,0.97
+"Haiti","ihd","Male",0.85,0.9,0.99
+"Haiti","istroke","Female",0.9,0.8,0.95
+"Haiti","istroke","Male",0.85,0.8,0.97
+"Honduras","hhd","Female",0.95,0.9,1
+"Honduras","hhd","Male",0.95,0.8,1.02
+"Honduras","hstroke","Female",0.9,0.9,0.95
+"Honduras","hstroke","Male",0.9,0.95,0.95
+"Honduras","ihd","Female",0.9,0.85,0.97
+"Honduras","ihd","Male",0.95,0.9,0.99
+"Honduras","istroke","Female",0.95,0.8,0.96
+"Honduras","istroke","Male",0.95,0.9,0.97
+"Hungary","hhd","Female",0.9,0.95,1.02
+"Hungary","hhd","Male",0.9,0.95,1
+"Hungary","hstroke","Female",0.75,0.8,0.96
+"Hungary","hstroke","Male",0.75,0.85,0.96
+"Hungary","ihd","Female",0.7,0.75,0.97
+"Hungary","ihd","Male",0.75,0.8,0.97
+"Hungary","istroke","Female",0.8,0.75,0.97
+"Hungary","istroke","Male",0.8,0.75,0.96
+"Iceland","hhd","Female",0.95,0.9,1.01
+"Iceland","hhd","Male",0.9,0.8,1
+"Iceland","hstroke","Female",0.8,0.8,0.96
+"Iceland","hstroke","Male",0.8,0.8,0.95
+"Iceland","ihd","Female",0.8,0.75,0.98
+"Iceland","ihd","Male",0.8,0.7,0.97
+"Iceland","istroke","Female",0.8,0.8,0.99
+"Iceland","istroke","Male",0.8,0.75,0.97
+"India","hhd","Female",0.8,0.9,1.01
+"India","hhd","Male",0.85,0.9,1
+"India","hstroke","Female",0.85,0.8,0.96
+"India","hstroke","Male",0.8,0.85,0.96
+"India","ihd","Female",0.85,0.9,0.99
+"India","ihd","Male",0.85,0.95,0.98
+"India","istroke","Female",0.9,0.7,0.96
+"India","istroke","Male",0.85,0.75,0.97
+"Indonesia","hhd","Female",0.8,0.9,1
+"Indonesia","hhd","Male",0.8,0.9,1.01
+"Indonesia","hstroke","Female",0.75,0.85,0.95
+"Indonesia","hstroke","Male",0.75,0.8,0.97
+"Indonesia","ihd","Female",0.75,0.85,0.98
+"Indonesia","ihd","Male",0.8,0.95,0.98
+"Indonesia","istroke","Female",0.75,0.75,0.97
+"Indonesia","istroke","Male",0.8,0.85,0.96
+"Iran","hhd","Female",0.8,0.8,1.01
+"Iran","hhd","Male",0.85,0.8,1.01
+"Iran","hstroke","Female",0.8,0.8,0.99
+"Iran","hstroke","Male",0.8,0.8,0.99
+"Iran","ihd","Female",0.7,0.75,1
+"Iran","ihd","Male",0.8,0.85,0.99
+"Iran","istroke","Female",0.75,0.7,0.99
+"Iran","istroke","Male",0.8,0.75,0.99
+"Iraq","hhd","Female",0.95,0.9,0.98
+"Iraq","hhd","Male",0.85,0.85,1.01
+"Iraq","hstroke","Female",0.9,0.9,0.96
+"Iraq","hstroke","Male",0.85,0.85,0.97
+"Iraq","ihd","Female",0.85,0.9,0.97
+"Iraq","ihd","Male",0.75,0.85,0.99
+"Iraq","istroke","Female",0.9,0.85,0.96
+"Iraq","istroke","Male",0.85,0.85,0.97
+"Ireland","hhd","Female",0.9,0.9,1.02
+"Ireland","hhd","Male",0.85,0.8,1.01
+"Ireland","hstroke","Female",0.85,0.8,0.95
+"Ireland","hstroke","Male",0.8,0.85,0.95
+"Ireland","ihd","Female",0.8,0.75,0.98
+"Ireland","ihd","Male",0.8,0.75,0.97
+"Ireland","istroke","Female",0.85,0.75,0.96
+"Ireland","istroke","Male",0.8,0.7,0.95
+"Israel","hhd","Female",0.9,0.9,1.02
+"Israel","hhd","Male",1,1,1
+"Israel","hstroke","Female",0.8,0.8,0.96
+"Israel","hstroke","Male",0.85,0.85,0.95
+"Israel","ihd","Female",0.85,0.7,0.99
+"Israel","ihd","Male",0.95,0.8,0.97
+"Israel","istroke","Female",0.8,0.8,1
+"Israel","istroke","Male",0.8,0.85,1
+"Italy","hhd","Female",0.9,0.9,1.01
+"Italy","hhd","Male",0.85,0.8,1
+"Italy","hstroke","Female",0.8,0.85,0.95
+"Italy","hstroke","Male",0.75,0.8,0.95
+"Italy","ihd","Female",0.85,0.75,0.97
+"Italy","ihd","Male",0.85,0.75,0.96
+"Italy","istroke","Female",0.8,0.75,0.97
+"Italy","istroke","Male",0.8,0.7,0.95
+"Jamaica","hhd","Female",0.9,0.95,1.01
+"Jamaica","hhd","Male",0.9,0.95,0.99
+"Jamaica","hstroke","Female",0.9,0.95,0.96
+"Jamaica","hstroke","Male",0.85,0.85,0.95
+"Jamaica","ihd","Female",0.85,0.95,0.99
+"Jamaica","ihd","Male",0.85,0.95,0.98
+"Jamaica","istroke","Female",0.85,0.95,0.97
+"Jamaica","istroke","Male",0.8,0.8,0.96
+"Japan","hhd","Female",1,1,1.01
+"Japan","hhd","Male",0.85,0.85,1.01
+"Japan","hstroke","Female",0.9,0.75,0.95
+"Japan","hstroke","Male",0.85,0.75,0.95
+"Japan","ihd","Female",0.9,0.8,0.98
+"Japan","ihd","Male",0.9,0.8,0.96
+"Japan","istroke","Female",0.95,0.85,0.97
+"Japan","istroke","Male",0.85,0.7,0.96
+"Jordan","hhd","Female",0.95,0.75,0.99
+"Jordan","hhd","Male",0.95,0.7,1.01
+"Jordan","hstroke","Female",0.95,0.7,0.98
+"Jordan","hstroke","Male",0.95,0.7,0.98
+"Jordan","ihd","Female",0.95,0.7,0.98
+"Jordan","ihd","Male",0.95,0.7,1
+"Jordan","istroke","Female",0.95,0.7,0.98
+"Jordan","istroke","Male",0.95,0.7,0.98
+"Kazakhstan","hhd","Female",0.7,0.7,1.02
+"Kazakhstan","hhd","Male",0.7,0.7,1.02
+"Kazakhstan","hstroke","Female",0.75,0.9,0.96
+"Kazakhstan","hstroke","Male",0.75,0.9,0.96
+"Kazakhstan","ihd","Female",0.7,0.8,0.97
+"Kazakhstan","ihd","Male",0.7,0.75,0.98
+"Kazakhstan","istroke","Female",0.7,0.75,0.96
+"Kazakhstan","istroke","Male",0.7,0.75,0.96
+"Kenya","hhd","Female",0.9,0.95,1
+"Kenya","hhd","Male",0.9,0.85,1.01
+"Kenya","hstroke","Female",0.85,0.9,0.98
+"Kenya","hstroke","Male",0.8,0.85,1
+"Kenya","ihd","Female",0.9,0.85,0.99
+"Kenya","ihd","Male",0.95,0.9,0.99
+"Kenya","istroke","Female",0.9,0.9,0.98
+"Kenya","istroke","Male",0.9,0.85,0.98
+"Kiribati","hhd","Female",0.85,0.95,1.01
+"Kiribati","hhd","Male",0.8,0.95,1.02
+"Kiribati","hstroke","Female",0.8,0.85,0.98
+"Kiribati","hstroke","Male",0.8,0.9,0.99
+"Kiribati","ihd","Female",0.8,0.9,0.99
+"Kiribati","ihd","Male",0.8,0.95,0.99
+"Kiribati","istroke","Female",0.8,0.8,0.98
+"Kiribati","istroke","Male",0.8,0.85,0.98
+"Kuwait","hhd","Female",0.95,0.7,1.02
+"Kuwait","hhd","Male",0.85,0.85,1.02
+"Kuwait","hstroke","Female",0.95,0.7,1.01
+"Kuwait","hstroke","Male",0.95,0.75,0.97
+"Kuwait","ihd","Female",0.95,0.8,1
+"Kuwait","ihd","Male",0.75,0.9,1
+"Kuwait","istroke","Female",0.95,0.7,1.02
+"Kuwait","istroke","Male",0.75,0.7,1.01
+"Kyrgyzstan","hhd","Female",0.85,0.9,1.02
+"Kyrgyzstan","hhd","Male",0.85,0.95,1.01
+"Kyrgyzstan","hstroke","Female",0.7,0.9,1.01
+"Kyrgyzstan","hstroke","Male",0.7,0.95,1
+"Kyrgyzstan","ihd","Female",0.7,0.85,0.98
+"Kyrgyzstan","ihd","Male",0.7,0.8,0.98
+"Kyrgyzstan","istroke","Female",0.7,0.8,1
+"Kyrgyzstan","istroke","Male",0.7,0.8,0.98
+"Laos","hhd","Female",0.8,0.85,1
+"Laos","hhd","Male",0.85,0.85,1.01
+"Laos","hstroke","Female",0.75,0.9,0.96
+"Laos","hstroke","Male",0.8,0.9,0.97
+"Laos","ihd","Female",0.8,0.9,0.97
+"Laos","ihd","Male",0.8,0.85,0.99
+"Laos","istroke","Female",0.8,0.85,0.97
+"Laos","istroke","Male",0.85,0.8,0.97
+"Latvia","hhd","Female",0.85,0.9,0.97
+"Latvia","hhd","Male",0.85,0.95,0.95
+"Latvia","hstroke","Female",0.7,0.85,1.02
+"Latvia","hstroke","Male",0.7,0.85,0.98
+"Latvia","ihd","Female",0.7,0.75,0.97
+"Latvia","ihd","Male",0.7,0.8,0.96
+"Latvia","istroke","Female",0.7,0.7,0.95
+"Latvia","istroke","Male",0.7,0.75,0.95
+"Lebanon","hhd","Female",0.7,0.8,1.02
+"Lebanon","hhd","Male",0.9,0.95,1.01
+"Lebanon","hstroke","Female",0.7,0.95,0.97
+"Lebanon","hstroke","Male",0.7,0.95,0.99
+"Lebanon","ihd","Female",0.7,0.95,0.97
+"Lebanon","ihd","Male",0.8,0.95,0.98
+"Lebanon","istroke","Female",0.7,0.95,0.96
+"Lebanon","istroke","Male",0.7,0.95,0.99
+"Lesotho","hhd","Female",0.85,0.95,1.02
+"Lesotho","hhd","Male",0.9,0.9,1.02
+"Lesotho","hstroke","Female",0.9,0.9,0.96
+"Lesotho","hstroke","Male",0.95,0.85,1.01
+"Lesotho","ihd","Female",0.95,0.85,0.98
+"Lesotho","ihd","Male",0.95,0.7,1.01
+"Lesotho","istroke","Female",0.95,0.8,0.95
+"Lesotho","istroke","Male",0.95,0.7,0.99
+"Liberia","hhd","Female",0.85,0.95,1
+"Liberia","hhd","Male",0.85,0.9,1.02
+"Liberia","hstroke","Female",0.8,0.9,0.97
+"Liberia","hstroke","Male",0.8,0.85,0.99
+"Liberia","ihd","Female",0.8,0.85,0.99
+"Liberia","ihd","Male",0.85,0.9,1
+"Liberia","istroke","Female",0.8,0.85,0.98
+"Liberia","istroke","Male",0.8,0.7,1
+"Libya","hhd","Female",0.95,0.95,1.01
+"Libya","hhd","Male",1,1,1.01
+"Libya","hstroke","Female",0.95,0.9,0.98
+"Libya","hstroke","Male",0.9,0.85,1
+"Libya","ihd","Female",0.85,0.9,0.99
+"Libya","ihd","Male",0.9,0.95,0.99
+"Libya","istroke","Female",0.9,0.9,0.97
+"Libya","istroke","Male",0.9,0.9,0.98
+"Lithuania","hhd","Female",0.9,0.9,1.02
+"Lithuania","hhd","Male",0.9,0.95,1.01
+"Lithuania","hstroke","Female",0.75,0.8,0.96
+"Lithuania","hstroke","Male",0.75,0.85,0.95
+"Lithuania","ihd","Female",0.7,0.75,0.97
+"Lithuania","ihd","Male",0.7,0.8,0.96
+"Lithuania","istroke","Female",0.75,0.75,0.96
+"Lithuania","istroke","Male",0.7,0.75,0.95
+"Luxembourg","hhd","Female",0.95,0.95,1.02
+"Luxembourg","hhd","Male",0.85,0.9,1.02
+"Luxembourg","hstroke","Female",0.7,0.8,1.01
+"Luxembourg","hstroke","Male",0.75,0.7,0.98
+"Luxembourg","ihd","Female",0.85,0.75,0.98
+"Luxembourg","ihd","Male",0.85,0.7,0.97
+"Luxembourg","istroke","Female",0.8,0.75,0.99
+"Luxembourg","istroke","Male",0.75,0.7,0.98
+"Macedonia","hhd","Female",0.7,0.75,1.02
+"Macedonia","hhd","Male",0.75,0.75,1.02
+"Macedonia","hstroke","Female",0.75,0.9,0.95
+"Macedonia","hstroke","Male",0.8,0.85,0.95
+"Macedonia","ihd","Female",0.7,0.7,0.98
+"Macedonia","ihd","Male",0.8,0.8,0.97
+"Macedonia","istroke","Female",0.7,0.75,0.95
+"Macedonia","istroke","Male",0.7,0.7,0.95
+"Madagascar","hhd","Female",0.8,0.9,0.98
+"Madagascar","hhd","Male",0.8,0.9,1
+"Madagascar","hstroke","Female",0.8,0.9,0.97
+"Madagascar","hstroke","Male",0.8,0.85,0.98
+"Madagascar","ihd","Female",0.8,0.85,0.99
+"Madagascar","ihd","Male",0.8,0.9,0.99
+"Madagascar","istroke","Female",0.8,0.85,0.97
+"Madagascar","istroke","Male",0.8,0.8,0.98
+"Malawi","hhd","Female",0.75,0.8,1.01
+"Malawi","hhd","Male",0.8,0.85,1.01
+"Malawi","hstroke","Female",0.8,0.85,0.97
+"Malawi","hstroke","Male",0.75,0.8,1.02
+"Malawi","ihd","Female",0.8,0.8,1
+"Malawi","ihd","Male",0.85,0.85,1
+"Malawi","istroke","Female",0.75,0.75,0.99
+"Malawi","istroke","Male",0.75,0.7,1.01
+"Malaysia","hhd","Female",0.85,0.85,1.02
+"Malaysia","hhd","Male",0.9,0.9,1.02
+"Malaysia","hstroke","Female",0.75,0.75,0.97
+"Malaysia","hstroke","Male",0.85,0.85,0.95
+"Malaysia","ihd","Female",0.75,0.85,0.98
+"Malaysia","ihd","Male",0.8,0.9,0.98
+"Malaysia","istroke","Female",0.8,0.75,0.97
+"Malaysia","istroke","Male",0.9,0.9,0.96
+"Maldives","hhd","Female",0.8,0.85,1.02
+"Maldives","hhd","Male",0.95,0.85,1.01
+"Maldives","hstroke","Female",0.8,0.7,0.98
+"Maldives","hstroke","Male",0.95,0.7,0.98
+"Maldives","ihd","Female",0.75,0.75,0.99
+"Maldives","ihd","Male",0.95,0.85,0.98
+"Maldives","istroke","Female",0.85,0.75,0.99
+"Maldives","istroke","Male",0.95,0.7,0.97
+"Mali","hhd","Female",0.85,0.9,1.01
+"Mali","hhd","Male",0.95,0.95,1.02
+"Mali","hstroke","Female",0.85,0.9,0.97
+"Mali","hstroke","Male",0.85,0.85,1.01
+"Mali","ihd","Female",0.85,0.9,1
+"Mali","ihd","Male",0.9,0.9,1.01
+"Mali","istroke","Female",0.85,0.8,0.98
+"Mali","istroke","Male",0.9,0.8,1
+"Malta","hhd","Female",0.95,0.9,1.02
+"Malta","hhd","Male",0.95,0.8,0.99
+"Malta","hstroke","Female",0.8,0.8,0.95
+"Malta","hstroke","Male",0.8,0.75,0.95
+"Malta","ihd","Female",0.8,0.8,0.95
+"Malta","ihd","Male",0.85,0.75,0.95
+"Malta","istroke","Female",0.8,0.8,0.96
+"Malta","istroke","Male",0.8,0.7,0.95
+"Mauritania","hhd","Female",0.85,0.9,1
+"Mauritania","hhd","Male",0.9,0.95,1.01
+"Mauritania","hstroke","Female",0.75,0.85,0.97
+"Mauritania","hstroke","Male",0.8,0.85,0.99
+"Mauritania","ihd","Female",0.8,0.85,0.99
+"Mauritania","ihd","Male",0.85,0.9,1.01
+"Mauritania","istroke","Female",0.8,0.8,0.98
+"Mauritania","istroke","Male",0.85,0.85,1
+"Mauritius","hhd","Female",0.9,0.95,1
+"Mauritius","hhd","Male",0.9,0.95,0.99
+"Mauritius","hstroke","Female",0.9,0.8,0.97
+"Mauritius","hstroke","Male",0.85,0.8,0.97
+"Mauritius","ihd","Female",0.8,0.8,0.98
+"Mauritius","ihd","Male",0.85,0.9,0.97
+"Mauritius","istroke","Female",0.85,0.8,0.98
+"Mauritius","istroke","Male",0.8,0.75,0.98
+"Mexico","hhd","Female",0.85,0.85,1.01
+"Mexico","hhd","Male",0.9,0.95,1.01
+"Mexico","hstroke","Female",0.85,0.8,0.97
+"Mexico","hstroke","Male",0.85,0.85,0.99
+"Mexico","ihd","Female",0.8,0.85,0.97
+"Mexico","ihd","Male",0.85,0.9,0.98
+"Mexico","istroke","Female",0.9,0.85,0.96
+"Mexico","istroke","Male",0.9,0.8,0.98
+"Moldova","hhd","Female",0.9,0.95,0.99
+"Moldova","hhd","Male",0.9,0.95,0.98
+"Moldova","hstroke","Female",0.7,0.9,1
+"Moldova","hstroke","Male",0.7,0.9,1
+"Moldova","ihd","Female",0.7,0.8,0.98
+"Moldova","ihd","Male",0.7,0.8,0.98
+"Moldova","istroke","Female",0.75,0.75,0.96
+"Moldova","istroke","Male",0.75,0.8,0.95
+"Mongolia","hhd","Female",0.85,0.75,1.02
+"Mongolia","hhd","Male",0.9,0.85,1.02
+"Mongolia","hstroke","Female",0.75,0.85,0.96
+"Mongolia","hstroke","Male",0.8,0.9,0.97
+"Mongolia","ihd","Female",0.8,0.75,0.99
+"Mongolia","ihd","Male",0.85,0.85,0.98
+"Mongolia","istroke","Female",0.95,0.7,0.97
+"Mongolia","istroke","Male",0.9,0.75,0.97
+"Montenegro","hhd","Female",0.75,0.8,1.02
+"Montenegro","hhd","Male",0.8,0.85,1.02
+"Montenegro","hstroke","Female",0.7,0.95,0.95
+"Montenegro","hstroke","Male",0.8,0.95,0.95
+"Montenegro","ihd","Female",0.7,0.75,0.98
+"Montenegro","ihd","Male",0.75,0.85,0.98
+"Montenegro","istroke","Female",0.75,0.7,0.96
+"Montenegro","istroke","Male",0.8,0.75,0.95
+"Morocco","hhd","Female",0.75,0.8,1.02
+"Morocco","hhd","Male",0.9,0.95,1.02
+"Morocco","hstroke","Female",0.75,0.8,0.98
+"Morocco","hstroke","Male",0.85,0.9,0.98
+"Morocco","ihd","Female",0.7,0.85,0.98
+"Morocco","ihd","Male",0.8,0.95,0.99
+"Morocco","istroke","Female",0.75,0.75,0.98
+"Morocco","istroke","Male",0.85,0.85,0.99
+"Mozambique","hhd","Female",0.85,0.95,0.99
+"Mozambique","hhd","Male",0.9,0.95,1.01
+"Mozambique","hstroke","Female",0.85,0.95,0.95
+"Mozambique","hstroke","Male",0.85,0.9,0.98
+"Mozambique","ihd","Female",0.85,0.9,0.99
+"Mozambique","ihd","Male",0.9,0.9,0.99
+"Mozambique","istroke","Female",0.8,0.95,0.97
+"Mozambique","istroke","Male",0.85,0.85,0.99
+"Myanmar","hhd","Female",0.85,0.85,1.02
+"Myanmar","hhd","Male",0.9,0.9,1
+"Myanmar","hstroke","Female",0.75,0.95,0.97
+"Myanmar","hstroke","Male",0.8,0.9,0.98
+"Myanmar","ihd","Female",0.8,0.85,0.99
+"Myanmar","ihd","Male",0.85,0.9,1
+"Myanmar","istroke","Female",0.85,0.9,0.97
+"Myanmar","istroke","Male",0.8,0.8,0.99
+"Namibia","hhd","Female",0.8,0.9,1.02
+"Namibia","hhd","Male",0.85,0.85,1.02
+"Namibia","hstroke","Female",0.8,0.85,1.01
+"Namibia","hstroke","Male",0.8,0.9,1.01
+"Namibia","ihd","Female",0.85,0.85,1.01
+"Namibia","ihd","Male",0.9,0.85,1
+"Namibia","istroke","Female",0.85,0.85,1.01
+"Namibia","istroke","Male",0.9,0.85,1
+"Nepal","hhd","Female",0.85,0.95,1.01
+"Nepal","hhd","Male",0.85,0.95,1.02
+"Nepal","hstroke","Female",0.8,0.85,0.96
+"Nepal","hstroke","Male",0.85,0.95,0.97
+"Nepal","ihd","Female",0.85,0.9,0.99
+"Nepal","ihd","Male",0.85,0.95,0.99
+"Nepal","istroke","Female",0.8,0.75,0.97
+"Nepal","istroke","Male",0.85,0.9,0.97
+"Netherlands","hhd","Female",0.9,0.95,1.02
+"Netherlands","hhd","Male",0.85,0.9,1.01
+"Netherlands","hstroke","Female",0.8,0.85,0.97
+"Netherlands","hstroke","Male",0.75,0.8,0.96
+"Netherlands","ihd","Female",0.85,0.75,0.99
+"Netherlands","ihd","Male",0.85,0.75,0.98
+"Netherlands","istroke","Female",0.85,0.8,0.97
+"Netherlands","istroke","Male",0.8,0.7,0.96
+"New Zealand","hhd","Female",0.95,0.9,1.02
+"New Zealand","hhd","Male",0.9,0.85,1.02
+"New Zealand","hstroke","Female",0.8,0.8,0.97
+"New Zealand","hstroke","Male",0.8,0.9,0.95
+"New Zealand","ihd","Female",0.85,0.85,0.99
+"New Zealand","ihd","Male",0.85,0.85,0.98
+"New Zealand","istroke","Female",0.85,0.8,0.98
+"New Zealand","istroke","Male",0.8,0.75,0.96
+"Nicaragua","hhd","Female",0.75,0.75,1.02
+"Nicaragua","hhd","Male",0.8,0.8,1.02
+"Nicaragua","hstroke","Female",0.7,0.75,0.98
+"Nicaragua","hstroke","Male",0.7,0.75,1
+"Nicaragua","ihd","Female",0.75,0.75,0.99
+"Nicaragua","ihd","Male",0.75,0.8,1
+"Nicaragua","istroke","Female",0.8,0.75,0.99
+"Nicaragua","istroke","Male",0.75,0.7,1.01
+"Niger","hhd","Female",0.85,0.9,1
+"Niger","hhd","Male",0.9,0.95,1.01
+"Niger","hstroke","Female",0.85,0.9,0.98
+"Niger","hstroke","Male",0.85,0.9,0.99
+"Niger","ihd","Female",0.85,0.9,1
+"Niger","ihd","Male",0.9,0.95,1
+"Niger","istroke","Female",0.85,0.8,0.98
+"Niger","istroke","Male",0.85,0.8,0.99
+"Nigeria","hhd","Female",0.85,0.9,1.02
+"Nigeria","hhd","Male",0.75,0.95,1.02
+"Nigeria","hstroke","Female",0.85,0.85,0.97
+"Nigeria","hstroke","Male",0.7,0.85,0.99
+"Nigeria","ihd","Female",0.85,0.85,1
+"Nigeria","ihd","Male",0.7,0.85,1.01
+"Nigeria","istroke","Female",0.85,0.8,0.99
+"Nigeria","istroke","Male",0.7,0.8,1.01
+"North Korea","hhd","Female",0.8,0.85,1.01
+"North Korea","hhd","Male",0.75,0.85,1.01
+"North Korea","hstroke","Female",0.75,0.95,1
+"North Korea","hstroke","Male",0.75,0.85,1
+"North Korea","ihd","Female",0.75,0.8,1
+"North Korea","ihd","Male",0.75,0.9,1
+"North Korea","istroke","Female",0.8,0.75,0.99
+"North Korea","istroke","Male",0.75,0.8,0.99
+"Norway","hhd","Female",1,1,1.02
+"Norway","hhd","Male",0.9,0.85,1.02
+"Norway","hstroke","Female",0.85,0.75,0.96
+"Norway","hstroke","Male",0.8,0.7,0.96
+"Norway","ihd","Female",0.85,0.75,0.98
+"Norway","ihd","Male",0.8,0.7,0.98
+"Norway","istroke","Female",0.85,0.8,0.99
+"Norway","istroke","Male",0.8,0.7,0.98
+"Oman","hhd","Female",0.85,0.8,1
+"Oman","hhd","Male",0.95,0.7,0.99
+"Oman","hstroke","Female",0.85,0.7,0.96
+"Oman","hstroke","Male",0.95,0.7,0.96
+"Oman","ihd","Female",0.75,0.8,0.98
+"Oman","ihd","Male",0.95,0.7,0.96
+"Oman","istroke","Female",0.9,0.7,0.97
+"Oman","istroke","Male",0.95,0.7,0.96
+"Pakistan","hhd","Female",0.75,0.85,1.01
+"Pakistan","hhd","Male",0.75,0.85,1
+"Pakistan","hstroke","Female",0.75,0.9,0.96
+"Pakistan","hstroke","Male",0.75,0.85,0.97
+"Pakistan","ihd","Female",0.75,0.9,0.99
+"Pakistan","ihd","Male",0.75,0.9,0.98
+"Pakistan","istroke","Female",0.75,0.8,0.97
+"Pakistan","istroke","Male",0.75,0.8,0.97
+"Panama","hhd","Female",0.95,0.95,1.02
+"Panama","hhd","Male",0.95,0.95,1
+"Panama","hstroke","Female",0.85,0.8,0.99
+"Panama","hstroke","Male",0.8,0.8,0.97
+"Panama","ihd","Female",0.9,0.9,0.98
+"Panama","ihd","Male",0.85,0.8,0.98
+"Panama","istroke","Female",0.95,0.9,0.97
+"Panama","istroke","Male",0.85,0.75,0.97
+"Papua New Guinea","hhd","Female",0.95,0.95,0.97
+"Papua New Guinea","hhd","Male",0.95,0.95,1
+"Papua New Guinea","hstroke","Female",0.85,0.85,0.95
+"Papua New Guinea","hstroke","Male",0.9,0.9,0.97
+"Papua New Guinea","ihd","Female",0.9,0.95,0.96
+"Papua New Guinea","ihd","Male",0.9,0.95,0.98
+"Papua New Guinea","istroke","Female",0.95,0.95,0.95
+"Papua New Guinea","istroke","Male",0.95,0.8,0.97
+"Paraguay","hhd","Female",0.85,0.9,1
+"Paraguay","hhd","Male",0.85,0.9,1
+"Paraguay","hstroke","Female",0.8,0.8,0.99
+"Paraguay","hstroke","Male",0.8,0.85,0.99
+"Paraguay","ihd","Female",0.85,0.9,0.98
+"Paraguay","ihd","Male",0.85,0.95,0.98
+"Paraguay","istroke","Female",0.85,0.85,0.96
+"Paraguay","istroke","Male",0.85,0.85,0.97
+"Peru","hhd","Female",0.95,0.9,1.01
+"Peru","hhd","Male",0.95,0.9,1
+"Peru","hstroke","Female",0.95,0.85,0.98
+"Peru","hstroke","Male",0.8,0.8,0.99
+"Peru","ihd","Female",0.9,0.85,0.98
+"Peru","ihd","Male",0.9,0.9,0.98
+"Peru","istroke","Female",0.95,0.7,0.98
+"Peru","istroke","Male",0.9,0.75,0.98
+"Philippines","hhd","Female",0.85,0.9,1
+"Philippines","hhd","Male",0.85,0.95,1
+"Philippines","hstroke","Female",0.8,0.85,0.95
+"Philippines","hstroke","Male",0.8,0.85,0.96
+"Philippines","ihd","Female",0.8,0.85,0.98
+"Philippines","ihd","Male",0.85,0.95,0.98
+"Philippines","istroke","Female",0.8,0.75,0.98
+"Philippines","istroke","Male",0.85,0.85,0.97
+"Poland","hhd","Female",0.8,0.85,1.02
+"Poland","hhd","Male",0.8,0.9,1.02
+"Poland","hstroke","Female",0.75,0.8,0.95
+"Poland","hstroke","Male",0.75,0.9,0.95
+"Poland","ihd","Female",0.7,0.75,0.98
+"Poland","ihd","Male",0.75,0.8,0.97
+"Poland","istroke","Female",0.75,0.7,0.97
+"Poland","istroke","Male",0.75,0.7,0.95
+"Portugal","hhd","Female",0.95,0.95,1
+"Portugal","hhd","Male",0.9,0.9,1
+"Portugal","hstroke","Female",0.75,0.8,0.97
+"Portugal","hstroke","Male",0.7,0.8,0.98
+"Portugal","ihd","Female",0.8,0.7,0.97
+"Portugal","ihd","Male",0.85,0.75,0.97
+"Portugal","istroke","Female",0.75,0.75,0.97
+"Portugal","istroke","Male",0.75,0.7,0.96
+"Qatar","hhd","Female",0.95,0.7,0.97
+"Qatar","hhd","Male",0.8,0.8,0.97
+"Qatar","hstroke","Female",0.95,0.7,0.95
+"Qatar","hstroke","Male",0.95,0.7,0.95
+"Qatar","ihd","Female",0.75,0.7,0.95
+"Qatar","ihd","Male",0.7,0.95,0.95
+"Qatar","istroke","Female",0.95,0.7,0.95
+"Qatar","istroke","Male",0.95,0.7,0.95
+"Romania","hhd","Female",0.75,0.85,1.02
+"Romania","hhd","Male",0.8,0.85,1.02
+"Romania","hstroke","Female",0.7,0.85,0.95
+"Romania","hstroke","Male",0.75,0.9,0.95
+"Romania","ihd","Female",0.7,0.75,0.97
+"Romania","ihd","Male",0.75,0.8,0.97
+"Romania","istroke","Female",0.7,0.7,0.95
+"Romania","istroke","Male",0.75,0.75,0.95
+"Russian Federation","hhd","Female",0.8,0.75,1.02
+"Russian Federation","hhd","Male",0.8,0.85,1.02
+"Russian Federation","hstroke","Female",0.7,0.8,1
+"Russian Federation","hstroke","Male",0.7,0.85,0.99
+"Russian Federation","ihd","Female",0.7,0.75,0.98
+"Russian Federation","ihd","Male",0.7,0.8,0.97
+"Russian Federation","istroke","Female",0.7,0.7,0.96
+"Russian Federation","istroke","Male",0.7,0.75,0.95
+"Rwanda","hhd","Female",0.85,0.85,1.02
+"Rwanda","hhd","Male",0.85,0.85,1
+"Rwanda","hstroke","Female",0.85,0.9,0.98
+"Rwanda","hstroke","Male",0.85,0.95,0.98
+"Rwanda","ihd","Female",0.9,0.85,0.99
+"Rwanda","ihd","Male",0.9,0.85,0.99
+"Rwanda","istroke","Female",0.95,0.9,0.98
+"Rwanda","istroke","Male",0.9,0.85,0.98
+"Saint Lucia","hhd","Female",0.9,0.95,1.02
+"Saint Lucia","hhd","Male",0.9,0.9,1.02
+"Saint Lucia","hstroke","Female",0.9,0.9,0.97
+"Saint Lucia","hstroke","Male",0.9,0.85,0.98
+"Saint Lucia","ihd","Female",0.95,0.9,0.99
+"Saint Lucia","ihd","Male",0.95,0.8,1
+"Saint Lucia","istroke","Female",0.9,0.7,0.97
+"Saint Lucia","istroke","Male",0.9,0.7,0.99
+"Saint Vincent and the Grenadines","hhd","Female",0.85,0.95,1.02
+"Saint Vincent and the Grenadines","hhd","Male",0.9,0.9,1.02
+"Saint Vincent and the Grenadines","hstroke","Female",0.85,0.9,0.96
+"Saint Vincent and the Grenadines","hstroke","Male",0.9,0.9,0.96
+"Saint Vincent and the Grenadines","ihd","Female",0.8,0.75,0.99
+"Saint Vincent and the Grenadines","ihd","Male",0.9,0.8,0.99
+"Saint Vincent and the Grenadines","istroke","Female",0.8,0.75,0.98
+"Saint Vincent and the Grenadines","istroke","Male",0.9,0.7,0.97
+"Samoa","hhd","Female",0.9,0.95,1
+"Samoa","hhd","Male",0.9,0.95,1
+"Samoa","hstroke","Female",0.8,0.9,0.95
+"Samoa","hstroke","Male",0.8,0.9,0.96
+"Samoa","ihd","Female",0.85,0.95,0.97
+"Samoa","ihd","Male",0.8,0.95,0.97
+"Samoa","istroke","Female",0.85,0.9,0.97
+"Samoa","istroke","Male",0.85,0.95,0.96
+"Sao Tome and Principe","hhd","Female",0.85,0.9,1
+"Sao Tome and Principe","hhd","Male",1,1,1
+"Sao Tome and Principe","hstroke","Female",0.8,0.85,0.97
+"Sao Tome and Principe","hstroke","Male",0.9,0.85,0.97
+"Sao Tome and Principe","ihd","Female",0.8,0.85,0.98
+"Sao Tome and Principe","ihd","Male",0.9,0.9,0.98
+"Sao Tome and Principe","istroke","Female",0.8,0.8,0.98
+"Sao Tome and Principe","istroke","Male",0.9,0.75,0.99
+"Saudi Arabia","hhd","Female",0.75,0.85,1.01
+"Saudi Arabia","hhd","Male",0.8,0.85,1.02
+"Saudi Arabia","hstroke","Female",0.75,0.75,0.97
+"Saudi Arabia","hstroke","Male",0.8,0.7,0.97
+"Saudi Arabia","ihd","Female",0.7,0.95,0.96
+"Saudi Arabia","ihd","Male",0.7,0.95,0.98
+"Saudi Arabia","istroke","Female",0.7,0.7,0.95
+"Saudi Arabia","istroke","Male",0.8,0.75,0.96
+"Senegal","hhd","Female",0.85,0.9,1
+"Senegal","hhd","Male",0.9,0.95,1
+"Senegal","hstroke","Female",0.8,0.9,0.97
+"Senegal","hstroke","Male",0.8,0.9,0.99
+"Senegal","ihd","Female",0.8,0.9,0.99
+"Senegal","ihd","Male",0.8,0.8,1.01
+"Senegal","istroke","Female",0.8,0.9,0.97
+"Senegal","istroke","Male",0.8,0.8,0.99
+"Serbia","hhd","Female",0.7,0.7,1.02
+"Serbia","hhd","Male",0.75,0.75,1.02
+"Serbia","hstroke","Female",0.7,0.85,1.02
+"Serbia","hstroke","Male",0.7,0.8,1
+"Serbia","ihd","Female",0.75,0.7,0.98
+"Serbia","ihd","Male",0.8,0.75,0.98
+"Serbia","istroke","Female",0.7,0.7,0.96
+"Serbia","istroke","Male",0.75,0.7,0.95
+"Seychelles","hhd","Female",0.8,0.85,1.01
+"Seychelles","hhd","Male",0.85,0.85,1
+"Seychelles","hstroke","Female",0.8,0.8,0.96
+"Seychelles","hstroke","Male",0.9,0.85,0.96
+"Seychelles","ihd","Female",0.8,0.8,0.98
+"Seychelles","ihd","Male",0.85,0.85,0.98
+"Seychelles","istroke","Female",0.85,0.8,0.97
+"Seychelles","istroke","Male",0.9,0.75,0.96
+"Sierra Leone","hhd","Female",0.9,0.9,1.02
+"Sierra Leone","hhd","Male",0.95,0.8,1.02
+"Sierra Leone","hstroke","Female",0.8,0.9,0.99
+"Sierra Leone","hstroke","Male",0.85,0.85,1
+"Sierra Leone","ihd","Female",0.9,0.9,1
+"Sierra Leone","ihd","Male",0.95,0.85,1
+"Sierra Leone","istroke","Female",0.85,0.8,1
+"Sierra Leone","istroke","Male",0.95,0.75,1
+"Singapore","hhd","Female",0.9,0.95,1.01
+"Singapore","hhd","Male",1,1,1
+"Singapore","hstroke","Female",0.95,0.85,0.97
+"Singapore","hstroke","Male",0.95,0.7,0.97
+"Singapore","ihd","Female",0.85,0.8,0.98
+"Singapore","ihd","Male",0.95,0.75,0.97
+"Singapore","istroke","Female",0.95,0.75,0.98
+"Singapore","istroke","Male",0.95,0.7,0.97
+"Slovakia","hhd","Female",0.9,0.9,1.01
+"Slovakia","hhd","Male",0.9,0.9,0.99
+"Slovakia","hstroke","Female",0.75,0.8,0.97
+"Slovakia","hstroke","Male",0.75,0.85,0.95
+"Slovakia","ihd","Female",0.7,0.75,0.97
+"Slovakia","ihd","Male",0.75,0.8,0.97
+"Slovakia","istroke","Female",0.8,0.8,0.97
+"Slovakia","istroke","Male",0.75,0.75,0.96
+"Slovenia","hhd","Female",0.85,0.8,1.02
+"Slovenia","hhd","Male",0.85,0.85,1.01
+"Slovenia","hstroke","Female",0.75,0.85,0.96
+"Slovenia","hstroke","Male",0.7,0.8,0.97
+"Slovenia","ihd","Female",0.9,0.75,0.97
+"Slovenia","ihd","Male",0.8,0.75,0.98
+"Slovenia","istroke","Female",0.8,0.75,0.96
+"Slovenia","istroke","Male",0.75,0.7,0.95
+"Solomon Islands","hhd","Female",0.85,0.95,1.01
+"Solomon Islands","hhd","Male",0.9,0.9,1.02
+"Solomon Islands","hstroke","Female",0.85,0.9,0.98
+"Solomon Islands","hstroke","Male",0.85,0.9,1
+"Solomon Islands","ihd","Female",0.85,0.95,0.97
+"Solomon Islands","ihd","Male",0.85,0.95,0.99
+"Solomon Islands","istroke","Female",0.85,0.8,0.99
+"Solomon Islands","istroke","Male",0.9,0.8,0.99
+"Somalia","hhd","Female",0.9,0.9,1
+"Somalia","hhd","Male",0.7,0.85,1.02
+"Somalia","hstroke","Female",0.95,0.9,0.99
+"Somalia","hstroke","Male",0.75,0.85,1.02
+"Somalia","ihd","Female",1,1,0.98
+"Somalia","ihd","Male",0.75,0.9,1.01
+"Somalia","istroke","Female",0.95,0.7,0.98
+"Somalia","istroke","Male",0.75,0.7,1.01
+"South Africa","hhd","Female",0.8,0.85,1.02
+"South Africa","hhd","Male",0.8,0.8,1.02
+"South Africa","hstroke","Female",0.7,0.8,1.01
+"South Africa","hstroke","Male",0.75,0.85,1
+"South Africa","ihd","Female",0.85,0.8,0.98
+"South Africa","ihd","Male",0.9,0.8,0.97
+"South Africa","istroke","Female",0.8,0.75,0.98
+"South Africa","istroke","Male",0.85,0.8,0.97
+"South Korea","hhd","Female",0.7,0.7,1.02
+"South Korea","hhd","Male",0.8,0.75,1.01
+"South Korea","hstroke","Female",0.8,0.7,0.97
+"South Korea","hstroke","Male",0.85,0.7,0.95
+"South Korea","ihd","Female",0.75,0.7,0.97
+"South Korea","ihd","Male",0.95,0.75,0.96
+"South Korea","istroke","Female",0.75,0.7,0.99
+"South Korea","istroke","Male",0.7,0.7,0.98
+"Spain","hhd","Female",0.85,0.9,1.02
+"Spain","hhd","Male",0.8,0.8,1.01
+"Spain","hstroke","Female",0.75,0.8,0.96
+"Spain","hstroke","Male",0.7,0.8,0.96
+"Spain","ihd","Female",0.8,0.7,0.99
+"Spain","ihd","Male",0.8,0.75,0.98
+"Spain","istroke","Female",0.8,0.8,0.98
+"Spain","istroke","Male",0.7,0.7,0.98
+"Sri Lanka","hhd","Female",0.85,0.9,1
+"Sri Lanka","hhd","Male",0.85,0.9,0.99
+"Sri Lanka","hstroke","Female",0.7,0.7,0.97
+"Sri Lanka","hstroke","Male",0.75,0.8,0.96
+"Sri Lanka","ihd","Female",0.75,0.8,0.97
+"Sri Lanka","ihd","Male",0.75,0.8,0.97
+"Sri Lanka","istroke","Female",0.75,0.7,0.97
+"Sri Lanka","istroke","Male",0.75,0.75,0.95
+"Sudan","hhd","Female",0.8,0.85,0.98
+"Sudan","hhd","Male",0.9,0.9,1
+"Sudan","hstroke","Female",0.7,0.9,0.96
+"Sudan","hstroke","Male",0.75,0.85,0.98
+"Sudan","ihd","Female",0.7,0.9,0.98
+"Sudan","ihd","Male",0.75,0.85,1
+"Sudan","istroke","Female",0.7,0.8,0.98
+"Sudan","istroke","Male",0.8,0.8,0.99
+"Suriname","hhd","Female",0.9,0.95,1.02
+"Suriname","hhd","Male",0.9,0.95,1.02
+"Suriname","hstroke","Female",0.8,0.8,1
+"Suriname","hstroke","Male",0.8,0.9,1
+"Suriname","ihd","Female",0.9,0.9,0.99
+"Suriname","ihd","Male",0.85,0.95,1
+"Suriname","istroke","Female",0.9,0.85,0.97
+"Suriname","istroke","Male",0.85,0.85,0.99
+"Swaziland","hhd","Female",0.75,0.85,1.02
+"Swaziland","hhd","Male",0.8,0.85,1.02
+"Swaziland","hstroke","Female",0.7,0.85,1.01
+"Swaziland","hstroke","Male",0.8,0.85,1.01
+"Swaziland","ihd","Female",0.85,0.85,0.98
+"Swaziland","ihd","Male",0.9,0.9,0.98
+"Swaziland","istroke","Female",0.75,0.75,0.99
+"Swaziland","istroke","Male",0.85,0.8,0.98
+"Sweden","hhd","Female",1,1,1
+"Sweden","hhd","Male",0.95,0.95,0.98
+"Sweden","hstroke","Female",0.85,0.8,0.97
+"Sweden","hstroke","Male",0.8,0.8,0.96
+"Sweden","ihd","Female",0.85,0.85,0.97
+"Sweden","ihd","Male",0.8,0.75,0.98
+"Sweden","istroke","Female",0.9,0.8,0.96
+"Sweden","istroke","Male",0.85,0.75,0.96
+"Switzerland","hhd","Female",0.9,0.85,1.02
+"Switzerland","hhd","Male",0.85,0.8,1
+"Switzerland","hstroke","Female",0.8,0.8,0.98
+"Switzerland","hstroke","Male",0.75,0.8,0.98
+"Switzerland","ihd","Female",0.85,0.75,0.98
+"Switzerland","ihd","Male",0.8,0.7,0.97
+"Switzerland","istroke","Female",0.9,0.85,0.97
+"Switzerland","istroke","Male",0.8,0.75,0.96
+"Syria","hhd","Female",0.7,0.8,1.02
+"Syria","hhd","Male",0.75,0.9,1.02
+"Syria","hstroke","Female",0.7,0.95,0.98
+"Syria","hstroke","Male",0.7,0.95,1
+"Syria","ihd","Female",0.7,0.95,0.97
+"Syria","ihd","Male",0.7,0.95,0.99
+"Syria","istroke","Female",0.7,0.95,0.97
+"Syria","istroke","Male",0.7,0.95,0.99
+"Tajikistan","hhd","Female",0.7,0.85,1.02
+"Tajikistan","hhd","Male",0.75,0.8,1.02
+"Tajikistan","hstroke","Female",0.75,0.95,0.95
+"Tajikistan","hstroke","Male",0.8,0.95,0.95
+"Tajikistan","ihd","Female",0.7,0.85,0.99
+"Tajikistan","ihd","Male",0.7,0.75,0.99
+"Tajikistan","istroke","Female",0.85,0.75,0.95
+"Tajikistan","istroke","Male",0.85,0.7,0.95
+"Tanzania","hhd","Female",0.85,0.9,1
+"Tanzania","hhd","Male",0.85,0.85,1
+"Tanzania","hstroke","Female",0.85,0.9,0.95
+"Tanzania","hstroke","Male",0.8,0.8,0.98
+"Tanzania","ihd","Female",0.85,0.85,0.98
+"Tanzania","ihd","Male",0.85,0.85,0.99
+"Tanzania","istroke","Female",0.85,0.85,0.97
+"Tanzania","istroke","Male",0.85,0.8,0.98
+"Thailand","hhd","Female",0.95,0.9,1.01
+"Thailand","hhd","Male",0.95,0.95,1
+"Thailand","hstroke","Female",0.75,0.75,0.98
+"Thailand","hstroke","Male",0.85,0.85,0.97
+"Thailand","ihd","Female",0.85,0.8,0.98
+"Thailand","ihd","Male",0.9,0.95,0.97
+"Thailand","istroke","Female",0.85,0.75,0.99
+"Thailand","istroke","Male",0.9,0.85,0.97
+"The Bahamas","hhd","Female",0.8,0.9,1
+"The Bahamas","hhd","Male",0.8,0.9,1.01
+"The Bahamas","hstroke","Female",0.85,0.9,0.95
+"The Bahamas","hstroke","Male",0.8,0.85,0.97
+"The Bahamas","ihd","Female",0.8,0.85,0.98
+"The Bahamas","ihd","Male",0.8,0.9,0.99
+"The Bahamas","istroke","Female",0.8,0.8,0.96
+"The Bahamas","istroke","Male",0.8,0.8,0.97
+"The Gambia","hhd","Female",0.9,0.9,1.02
+"The Gambia","hhd","Male",0.9,0.9,1.02
+"The Gambia","hstroke","Female",0.85,0.95,1.01
+"The Gambia","hstroke","Male",0.85,0.9,1.01
+"The Gambia","ihd","Female",0.9,0.95,1.02
+"The Gambia","ihd","Male",0.9,0.95,1.01
+"The Gambia","istroke","Female",0.85,0.8,1.02
+"The Gambia","istroke","Male",0.85,0.8,1.02
+"Timor-Leste","hhd","Female",0.8,0.9,0.99
+"Timor-Leste","hhd","Male",0.9,0.95,1.01
+"Timor-Leste","hstroke","Female",0.8,0.85,0.97
+"Timor-Leste","hstroke","Male",0.9,0.95,0.98
+"Timor-Leste","ihd","Female",0.8,0.9,0.97
+"Timor-Leste","ihd","Male",0.85,0.95,1
+"Timor-Leste","istroke","Female",0.8,0.8,0.97
+"Timor-Leste","istroke","Male",0.85,0.85,0.98
+"Togo","hhd","Female",0.9,0.95,1
+"Togo","hhd","Male",0.9,0.95,0.99
+"Togo","hstroke","Female",0.85,0.85,0.96
+"Togo","hstroke","Male",0.8,0.85,0.98
+"Togo","ihd","Female",0.9,0.95,0.98
+"Togo","ihd","Male",0.85,0.9,0.98
+"Togo","istroke","Female",0.9,0.8,0.97
+"Togo","istroke","Male",0.85,0.8,0.98
+"Tonga","hhd","Female",0.8,0.95,1
+"Tonga","hhd","Male",0.8,0.85,1.01
+"Tonga","hstroke","Female",0.7,0.95,0.95
+"Tonga","hstroke","Male",0.7,0.9,0.97
+"Tonga","ihd","Female",0.75,0.95,0.96
+"Tonga","ihd","Male",0.7,0.9,0.98
+"Tonga","istroke","Female",0.7,0.95,0.96
+"Tonga","istroke","Male",0.7,0.85,0.98
+"Trinidad and Tobago","hhd","Female",0.9,0.95,1.02
+"Trinidad and Tobago","hhd","Male",0.9,0.95,1.02
+"Trinidad and Tobago","hstroke","Female",0.8,0.85,0.99
+"Trinidad and Tobago","hstroke","Male",0.8,0.85,0.99
+"Trinidad and Tobago","ihd","Female",0.85,0.9,0.99
+"Trinidad and Tobago","ihd","Male",0.85,0.95,0.98
+"Trinidad and Tobago","istroke","Female",0.85,0.8,0.97
+"Trinidad and Tobago","istroke","Male",0.85,0.85,0.97
+"Tunisia","hhd","Female",0.85,0.85,1
+"Tunisia","hhd","Male",0.9,0.85,1
+"Tunisia","hstroke","Female",0.8,0.8,0.97
+"Tunisia","hstroke","Male",0.8,0.85,0.97
+"Tunisia","ihd","Female",0.75,0.8,0.98
+"Tunisia","ihd","Male",0.8,0.85,0.98
+"Tunisia","istroke","Female",0.8,0.75,0.97
+"Tunisia","istroke","Male",0.8,0.7,0.98
+"Turkey","hhd","Female",0.8,0.8,1.02
+"Turkey","hhd","Male",0.85,0.9,1.02
+"Turkey","hstroke","Female",0.8,0.75,0.95
+"Turkey","hstroke","Male",0.85,0.8,0.95
+"Turkey","ihd","Female",0.75,0.85,0.99
+"Turkey","ihd","Male",0.8,0.9,0.98
+"Turkey","istroke","Female",0.8,0.75,0.96
+"Turkey","istroke","Male",0.85,0.8,0.95
+"Turkmenistan","hhd","Female",0.8,0.9,1.02
+"Turkmenistan","hhd","Male",0.8,0.85,1.02
+"Turkmenistan","hstroke","Female",0.75,0.85,0.98
+"Turkmenistan","hstroke","Male",0.8,0.9,0.97
+"Turkmenistan","ihd","Female",0.7,0.85,1
+"Turkmenistan","ihd","Male",0.7,0.85,0.99
+"Turkmenistan","istroke","Female",0.75,0.8,0.99
+"Turkmenistan","istroke","Male",0.8,0.85,0.97
+"Uganda","hhd","Female",0.9,0.95,0.98
+"Uganda","hhd","Male",0.85,0.9,1
+"Uganda","hstroke","Female",0.85,0.95,0.96
+"Uganda","hstroke","Male",0.8,0.95,0.99
+"Uganda","ihd","Female",0.9,0.9,0.98
+"Uganda","ihd","Male",0.85,0.85,0.99
+"Uganda","istroke","Female",0.85,0.95,0.98
+"Uganda","istroke","Male",0.8,0.9,1
+"Ukraine","hhd","Female",0.8,0.85,1.02
+"Ukraine","hhd","Male",0.9,0.95,1.02
+"Ukraine","hstroke","Female",0.75,0.8,1.02
+"Ukraine","hstroke","Male",0.85,0.9,1.02
+"Ukraine","ihd","Female",0.7,0.85,0.98
+"Ukraine","ihd","Male",0.7,0.85,0.99
+"Ukraine","istroke","Female",0.75,0.7,1.01
+"Ukraine","istroke","Male",0.75,0.7,1.02
+"United Arab Emirates","hhd","Female",0.75,0.7,0.95
+"United Arab Emirates","hhd","Male",0.75,0.95,0.96
+"United Arab Emirates","hstroke","Female",0.8,0.8,0.95
+"United Arab Emirates","hstroke","Male",0.75,0.9,0.95
+"United Arab Emirates","ihd","Female",0.75,0.7,0.95
+"United Arab Emirates","ihd","Male",0.7,0.9,0.95
+"United Arab Emirates","istroke","Female",0.8,0.75,0.95
+"United Arab Emirates","istroke","Male",0.7,0.85,0.95
+"United Kingdom","hhd","Female",0.9,0.9,1.02
+"United Kingdom","hhd","Male",0.9,0.95,1
+"United Kingdom","hstroke","Female",0.85,0.85,0.95
+"United Kingdom","hstroke","Male",0.8,0.85,0.95
+"United Kingdom","ihd","Female",0.85,0.8,0.97
+"United Kingdom","ihd","Male",0.8,0.75,0.98
+"United Kingdom","istroke","Female",0.8,0.75,0.96
+"United Kingdom","istroke","Male",0.75,0.75,0.96
+"United States","hhd","Female",0.95,0.95,1.02
+"United States","hhd","Male",0.9,0.95,1.02
+"United States","hstroke","Female",0.8,0.95,0.97
+"United States","hstroke","Male",0.85,0.85,0.97
+"United States","ihd","Female",0.9,0.9,0.98
+"United States","ihd","Male",0.85,0.9,0.98
+"United States","istroke","Female",0.95,0.85,0.97
+"United States","istroke","Male",0.8,0.85,0.98
+"Uruguay","hhd","Female",0.9,0.85,1.01
+"Uruguay","hhd","Male",0.9,0.9,1.01
+"Uruguay","hstroke","Female",0.75,0.8,0.98
+"Uruguay","hstroke","Male",0.7,0.8,0.99
+"Uruguay","ihd","Female",0.85,0.85,0.98
+"Uruguay","ihd","Male",0.85,0.85,0.99
+"Uruguay","istroke","Female",0.8,0.75,0.97
+"Uruguay","istroke","Male",0.8,0.75,0.97
+"Uzbekistan","hhd","Female",0.7,0.8,1.01
+"Uzbekistan","hhd","Male",0.75,0.85,1.01
+"Uzbekistan","hstroke","Female",0.7,0.8,0.96
+"Uzbekistan","hstroke","Male",0.7,0.75,0.98
+"Uzbekistan","ihd","Female",0.7,0.9,0.95
+"Uzbekistan","ihd","Male",0.7,0.9,0.95
+"Uzbekistan","istroke","Female",0.75,0.7,0.97
+"Uzbekistan","istroke","Male",0.7,0.7,0.98
+"Vanuatu","hhd","Female",0.9,0.95,0.99
+"Vanuatu","hhd","Male",0.95,0.8,1.02
+"Vanuatu","hstroke","Female",0.8,0.9,0.97
+"Vanuatu","hstroke","Male",0.9,0.9,0.99
+"Vanuatu","ihd","Female",0.85,0.95,0.97
+"Vanuatu","ihd","Male",0.95,0.95,0.98
+"Vanuatu","istroke","Female",0.9,0.9,0.97
+"Vanuatu","istroke","Male",0.95,0.7,1
+"Venezuela","hhd","Female",0.9,0.9,1.02
+"Venezuela","hhd","Male",0.9,0.85,1.02
+"Venezuela","hstroke","Female",0.9,0.9,0.99
+"Venezuela","hstroke","Male",0.85,0.9,1
+"Venezuela","ihd","Female",0.9,0.95,0.99
+"Venezuela","ihd","Male",0.85,0.9,1
+"Venezuela","istroke","Female",0.9,0.95,0.98
+"Venezuela","istroke","Male",0.85,0.8,0.99
+"Vietnam","hhd","Female",0.85,0.8,1
+"Vietnam","hhd","Male",0.9,0.9,1
+"Vietnam","hstroke","Female",0.75,0.85,0.95
+"Vietnam","hstroke","Male",0.8,0.85,0.96
+"Vietnam","ihd","Female",0.8,0.8,0.98
+"Vietnam","ihd","Male",0.85,0.9,0.98
+"Vietnam","istroke","Female",0.8,0.7,0.95
+"Vietnam","istroke","Male",0.85,0.75,0.96
+"Yemen","hhd","Female",0.85,0.9,1.01
+"Yemen","hhd","Male",0.85,0.85,1.02
+"Yemen","hstroke","Female",0.8,0.9,0.99
+"Yemen","hstroke","Male",0.8,0.85,1.01
+"Yemen","ihd","Female",0.8,0.9,0.98
+"Yemen","ihd","Male",0.8,0.9,1
+"Yemen","istroke","Female",0.8,0.8,0.98
+"Yemen","istroke","Male",0.8,0.75,1.01
+"Zambia","hhd","Female",0.9,0.9,0.98
+"Zambia","hhd","Male",0.95,0.9,0.99
+"Zambia","hstroke","Female",0.9,0.95,0.95
+"Zambia","hstroke","Male",0.95,0.95,0.96
+"Zambia","ihd","Female",0.9,0.8,0.97
+"Zambia","ihd","Male",0.95,0.75,0.99
+"Zambia","istroke","Female",0.95,0.85,0.96
+"Zambia","istroke","Male",0.95,0.7,0.99
+"Zimbabwe","hhd","Female",0.9,0.95,1.02
+"Zimbabwe","hhd","Male",0.85,0.85,1.02
+"Zimbabwe","hstroke","Female",0.85,0.9,0.99
+"Zimbabwe","hstroke","Male",0.8,0.9,1.02
+"Zimbabwe","ihd","Female",0.9,0.9,0.99
+"Zimbabwe","ihd","Male",0.95,0.95,1
+"Zimbabwe","istroke","Female",0.9,0.9,0.97
+"Zimbabwe","istroke","Male",0.85,0.8,1.01
