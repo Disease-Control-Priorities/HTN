@@ -6,7 +6,7 @@ library(RColorBrewer)
 library(readxl)
 library(tidyr)
 
-load("model/model_output_newnorm.Rda")
+load("../model/model_output_newnorm.Rda")
 
 countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(location!="Global", 
                                                                               location!="American Samoa",
@@ -32,7 +32,7 @@ comb<-bind_rows(progress%>%filter(intervention!="b.a.u")%>%
 )
 
 #WB income groups
-groups<-read.csv("..model/Country_groupings_extended.csv", stringsAsFactors = F)%>%
+groups<-read.csv("Country_groupings_extended.csv", stringsAsFactors = F)%>%
   select(wb2021, location_gbd)%>%rename(location = location_gbd)
 
 #########
@@ -67,7 +67,7 @@ ggplot(WB_50q30, aes(x=year, y=x50q30, color=intervention))+
   geom_point()+
   facet_wrap(~wb2021)
 
-write.csv(WB_50q30, "../figures/x50q30_region_2022.csv")
+write.csv(WB_50q30, "../output/x50q30_region_2022.csv")
 
 #by country
 country_50q30<-CVD%>%group_by(age.group,location, wb2021, year, intervention)%>%summarise(pop=sum(pop), dead=sum(dead))
@@ -80,7 +80,7 @@ ggplot(country_50q30%>%filter(wb2021=="LIC", intervention=="Business as usual"),
        aes(x=year, y=x50q30, color=location))+
   geom_point()
 
-write.csv(country_50q30, "../figures/x50q30_country_2022.csv")
+write.csv(country_50q30, "../output/x50q30_country_2022.csv")
 
 
 ##all countries
@@ -95,7 +95,7 @@ ggplot(all_50q30,
        aes(x=year, y=x50q30, color=intervention))+
   geom_point()
 
-write.csv(all_50q30, "../figures/all_50q30_2022.csv")
+write.csv(all_50q30, "../output/all_50q30_2022.csv")
 
 xx50q30<-bind_rows(all_50q30%>%mutate(location="World"), country_50q30,
                    WB_50q30)%>%mutate(sex="Both")
@@ -163,11 +163,11 @@ mx50q30<-bind_rows(all_50q30_m%>%mutate(location="World"), country_50q30_m,
 
 xx50q30<-bind_rows(xx50q30, fx50q30, mx50q30)
 
-write.csv(xx50q30, "../web_appendix/shiny/x_50q30_2022.csv")
+#write.csv(xx50q30, "../web_appendix/shiny/x_50q30_2022.csv")
 
 
 ##add GBD historic data ###
-setwd("~/RTSL/data_preprocessing/2. get AARCs")
+setwd("../data_preprocessing/2. get AARCs")
 pop0<-fread("IHME_GBD_2019_POP_SYA_2000_Y2021M01D28.csv")
 pop1<-fread("IHME_GBD_2019_POP_SYA_2001_Y2021M01D28.csv")
 pop2<-fread("IHME_GBD_2019_POP_SYA_2002_Y2021M01D28.csv")
@@ -281,7 +281,7 @@ ggplot(all_50q30,
        aes(x=year, y=x50q30, color=intervention))+
   geom_point()
 
-write.csv(all_50q30, "../../figures/all_50q30_2022.csv")
+write.csv(all_50q30, "../../output/all_50q30_2022.csv")
 
 p<-all_50q30%>%filter(year==2020)%>%pull(x50q30, intervention)
 p2<-all_50q30%>%filter(year==2023)%>%pull(x50q30, intervention)
@@ -368,7 +368,7 @@ ggplot(plot_country%>%filter(year>=2010 & location=="China",
   ggtitle("CVD-specific 50q30")+
   ylim(0,0.35)
 
-write.csv(plot_country, "../../figures/country_50q30_2020.csv")
+write.csv(plot_country, "../../output/country_50q30_2020.csv")
 
 #ggsave("../../figures/Figure4_alt_2021.png", width=8, height=6)
 
@@ -388,7 +388,7 @@ ggplot(plot_WB2%>%filter(year>=2010,
   ggtitle("CVD-specific 50q30 from 2010 to 2050 by World Bank Income Group")+
   ylim(0,0.35)
 
-ggsave("../../figures/Figure4_ideal2020.png", width=8, height=6)
+#ggsave("../../output/Figure4_ideal2020.png", width=8, height=6)
 
 ggplot(plot_WB2%>%filter(year>=2010 & 
                            Scenario%in%c("Historical", "Business as usual", "Progress", "Aspirational")), 
@@ -402,7 +402,7 @@ ggplot(plot_WB2%>%filter(year>=2010 &
   ylab("Probability of dying from CVD between ages 30 and 80 years")+
   ylim(0,0.35)
 
-ggsave("../../figures/Figure4_2022.png", width=8, height=5)
+#ggsave("../../figures/Figure4_2022.png", width=8, height=5)
 
 
 ggplot(plot_WB%>%filter(year>=2010 & 
@@ -417,10 +417,10 @@ ggplot(plot_WB%>%filter(year>=2010 &
   ylab("Probability of dying from CVD between ages 30 and 80 years")+
   ylim(0,0.35)
 
-ggsave("../../figures/Figure4_connected_2022.png", width=8, height=5)
+ggsave("../../output/fig_3.pdf", width=8, height=5, dpi=600)
 
 
-write.csv(plot_WB, "../../figures/resutls_50q30_2020.csv", row.names = F)
+write.csv(plot_WB, "../../output/resutls_50q30.csv", row.names = F)
 #plot_WB<-read.csv("figures/resutls_50q30.csv", stringsAsFactors = F)
 
 lic20<-plot_WB%>%filter(year==2020, wb2021=="LIC", Scenario =="Business as usual")%>%pull(x50q30)
@@ -487,7 +487,7 @@ basetab<-basetab%>%spread(year, x50q30)%>%
 
 
 tab4<-left_join(tab4, basetab)
-write.csv(tab4, "../../figures/x50q30_slopes_2022.csv")
+write.csv(tab4, "../../output/x50q30_slopes.csv")
 
 #######################################
 ###TABLE 2###
@@ -516,7 +516,7 @@ tab22<-data.frame(
   )
 )%>%mutate(Gap = X90-X10)
 
-write.csv(tab22, "../../figures/Table2_90_2022.csv")
+write.csv(tab22, "../../output/Table2_90_2022.csv")
 
 
 #by WB group
@@ -533,193 +533,4 @@ tab2<-plot_WB%>%filter(year==2050 |
 tab2<-cbind(tab2, tab22[1:4,"SD"])
 names(tab2)[6]<-"Standard deviation"
 
-write.csv(tab2, "../../figures/Table2_2022.csv")
-
-
-#######################################
-## REDID THIS IN newfigs2.R
-#DELETE ?
-########## newest plot (Figure2) ##########
-#######################################
-
-#assumed 2* high BP in CVD than not
-setwd("C:/Users/sarah/Documents/RTSL/data_preprocessing")
-data<-bind_rows(int1, int2, int3)#, int4)
-#bind with BP data
-data.in<-fread("bp_data3.csv")
-data.in$salt[data.in$location=="China"]<-4.83*2.54
-
-names<-read.csv("Country_groupings_extended.csv", stringsAsFactors = F)%>%
-  select(location_gbd, iso3)%>%
-  rename(location = location_gbd)
-
-data.in<-left_join(data.in, names, by = "location" )
-
-setwd("C:/Users/sarah/Documents/RTSL/model")
-#add increase data
-inc<-read.csv("coverage_increases.csv", stringsAsFactors = F)%>%
-  rename(iso3 = ISO)
-
-data.in<-left_join(data.in, inc, by="iso3")
-data.in<-data.in%>%arrange(location,age,sex)%>%
-  filter(location%in%countrylist)
-
-source("functions_review_4.R")
-
-repYear<-function(row){
-  2017+floor((row-1)/224)#40768)
-}
-####
-#call fxn
-###
-
-bps<-data.frame(
-  intervention = character(),
-  age = character(),
-  sex = character(),
-  location = character(),
-  Year = numeric(),
-  bp_cat = character(),
-  prob = numeric()
-)
-
-for (i in countrylist){
-DT<-unique(data.in[location==i][,Year:=2017][,-c("Low95CI", "High95CI", "V1")])
-
-DT.in<-DT[rep(seq(1,nrow(DT)), 34)][, Year:=repYear(.I)]
-bp_prob_ref<-na.omit(get.bp.prob(DT.in, 0.3, "percent", 2023, 2025, 1, "p75"))
-bp_prob_ref$intervention<-"Progress"
-DT.in<-DT[rep(seq(1,nrow(DT)), 34)][, Year:=repYear(.I)]
-bp_prob_asp<-get.bp.prob(DT.in, 7.56, "target", 2023, 2025, 1, "p975")
-bp_prob_asp$intervention<-"Aspirational"
-DT.in<-DT[rep(seq(1,nrow(DT)), 34)][, Year:=repYear(.I)]
-bp_prob_bau<-get.bp.prob(DT.in, 0, 'percent', 2023, saltyear2, 1, "baseline")
-bp_prob_bau$intervention<-"Business as usual"
-DT.in<-DT[rep(seq(1,nrow(DT)), 34)][, Year:=repYear(.I)]
-
-bps<-bind_rows(bps, bp_prob_ref, bp_prob_asp, bp_prob_bau)
-
-}
-
-normo<-bps%>%filter(bp_cat%in%c("<120", "120-129", "130-139"))%>%
-  group_by(location, Year, age, sex, intervention)%>%
-  summarise(prop.norm = sum(prob))
-
-'%!in%' <- function(x,y)!('%in%'(x,y))
-
-hyper<-bps%>%filter(bp_cat%!in%c("<120", "120-129", "130-139"))%>%
-  group_by(location, Year, age, sex, intervention)%>%
-  summarise(prop.hyp = sum(prob))
-  
-htn<-left_join(normo, hyper)%>%
-  mutate(check = prop.norm + prop.hyp)
-sum(htn$check)
-unique(htn$age)
-####
-#add to deaths/prevalence 
-###
-data$age.group[data$age>=20 & data$age<25]<-"20-24"
-data$age.group[data$age>=25 & data$age<30]<-"25-29"
-data$age.group[data$age>=30 & data$age<35]<-"30-34"
-data$age.group[data$age>=35 & data$age<40]<-"35-39"
-data$age.group[data$age>=40 & data$age<45]<-"40-44"
-data$age.group[data$age>=45 & data$age<50]<-"45-49"
-data$age.group[data$age>=50 & data$age<55]<-"50-54"
-data$age.group[data$age>=55 & data$age<60]<-"55-59"
-data$age.group[data$age>=60 & data$age<65]<-"60-64"
-data$age.group[data$age>=65 & data$age<70]<-"65-69"
-data$age.group[data$age>=70 & data$age<75]<-"70-74"
-data$age.group[data$age>=75 & data$age<80]<-"75-79"
-data$age.group[data$age>=80 & data$age<85]<-"80-84"
-data$age.group[data$age>=85]<-"85plus"
-
-data<-data%>%group_by(year, intervention, age.group, sex, location)%>%
-  summarise(pop=sum(pop)/4, all.mx=sum(all.mx)/4, well=sum(well), 
-            dead=sum(dead), newcases=sum(newcases),
-            sick=sum(sick))%>%
-  rename(age = age.group)
-
-df<-left_join(data, htn%>%rename(year = Year))
-
-df$well[df$well==0]<-1
-
-#assume 2times as likely to have high bp if sick(w/CVD)
-df<-df%>%mutate(HTN = (pop-all.mx)*prop.hyp,
-                htn_nocvd = HTN / ((2*sick/well) +1),
-                htn_cvd = HTN - htn_nocvd,
-                check = HTN - htn_nocvd - htn_cvd,
-                check2 = ifelse(sick<htn_cvd,1,0),
-                check3 = ifelse(well<htn_nocvd,1,0)
-                )
-
-plot<-df%>%
-  group_by(year, age, intervention)%>%
-  summarise(dead = sum(all.mx),
-            cvd = sum(sick),
-            htn = sum(htn_nocvd),
-            pop = sum(pop))
-
-
-plot<-plot%>%filter((age%in%c("35-39") & year==2020) |
-                    (age%in%c("40-44") & year==2025) |
-                    (age%in%c("45-49") & year==2030) |
-                    (age%in%c("50-54") & year==2035) |
-                    (age%in%c("55-59") & year==2040) |
-                    (age%in%c("60-64") & year==2045) |
-                    (age%in%c("65-69") & year==2050)
-                    
-                    )%>%
-  group_by(year, intervention)%>%
-  summarise(dead = sum(dead),
-            cvd=sum(cvd),
-            htn=sum(htn),
-            pop = sum(pop),
-            well = pop - htn - cvd)
-
-#make dead absorbing state
-plot$pop20[plot$intervention=="Business as usual"]<-
-  plot$pop[plot$intervention=="Business as usual" & plot$year==2020]
-plot$pop20[plot$intervention=="Progress"]<-
-  plot$pop[plot$intervention=="Progress" & plot$year==2020]
-plot$pop20[plot$intervention=="Aspirational"]<-
-  plot$pop[plot$intervention=="Aspirational" & plot$year==2020]
-
-plot<-plot%>%mutate(dead = pop20 - well - cvd - htn,
-                    well = well/pop20,
-                    cvd = cvd/pop20,
-                    htn = htn/pop20,
-                    dead = dead/pop20)%>%
-  select(-c(pop, pop20))%>%
-  gather(State, proportion, -year, -intervention)
-
-plot$Scenario <- factor(plot$intervention,
-                        levels = c("Business as usual",
-                                   "Progress",
-                                   "Aspirational"))
-
-plot$State[plot$State == "cvd"]<-"Prevalent CVD"
-plot$State[plot$State == "dead"]<-"All cause death"
-plot$State[plot$State == "htn"]<-"Raised blood pressure without CVD"
-plot$State[plot$State == "well"]<-"Alive without hypertension or CVD"
-
-plot$State <- factor(plot$State,
-                        levels = c("Alive without hypertension or CVD",
-                                   "Raised blood pressure without CVD",
-                                   "Prevalent CVD",
-                                   "All cause death"))
-
-ggplot(plot, aes(x=year, y=proportion, 
-                 color=State, linetype=Scenario))+
-  geom_line(size = 0.7)+
-  ylab("Proportion")+
-  xlab("Year")+
-  theme_bw()+
-  scale_linetype_manual(values=c("solid", "longdash", 
-                                 "dotted", "dotdash"))
-
-
-ggsave("../figures/Figure2_new.png", height = 6, width=8)
-
-
-### #s
-plot$proportion[plot$State=="Alive without hypertension or CVD" & plot$year==2050]
+write.csv(tab2, "../../output/Table2_2022.csv")

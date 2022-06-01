@@ -2,7 +2,6 @@ rm(list=ls())
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 pacman::p_load(dplyr, tidyr, data.table, ggplot2, sf, rnaturalearth, rnaturalearthdata)
 
-
 #Using age-standardized rates of htn control from 2000-2019
 
 ncdr<-read.csv("NCD-RisC_Lancet_2021_Hypertension_age_standardised_countries.csv", stringsAsFactors = F)%>%
@@ -219,7 +218,7 @@ ggplot(plot%>%filter(change>=0),
             linetype= "Aspirational scenario \nscale-up function"))
   
 
-ggsave("../../output/fig_A5.png", height = 6, width = 8)
+ggsave("../../output/fig_A5.pdf", height = 6, width = 8, dpi=600)
   
 
 
@@ -465,7 +464,7 @@ ggplot(ncdr%>%filter(model%in%c(1,5,9))%>%mutate(model = factor(model, levels=c(
   theme_bw()
 
 
-ggsave("../../output/fig_A6.png", height=3, width=12)
+ggsave("../../output/fig_A6.pdf", height=3, width=12, dpi=600)
 
 #######################################################
 
@@ -603,7 +602,7 @@ ggplot(na.omit(plot),
   ylab("Hypertension control rate (%)")+
   geom_line(y=51.2, color="red", linetype='dotted')
 
-ggsave("../../output/fig_A7.jpeg", height = 8, width = 12)
+ggsave("../../output/fig_A7.pdf", height = 8, width = 12, dpi=600)
 
 write.csv(plot, "../../output/scale_up_data_2022.csv", row.names = F)
 
@@ -778,14 +777,13 @@ covfxn<-covfxn%>%
 covfxn<-covfxn%>%mutate(ideal = ifelse(Year>=2023, (1-control), 0))
 
 
-write.csv(covfxn, "model/covfxn2.csv", row.names = F)
+#write.csv(covfxn, "model/covfxn2.csv", row.names = F)
 
 
 ################################
 #maps for paper
 ################################
-setwd("~/RTSL")
-
+#setwd("~/RTSL")
 df<-read.csv("../../model/covfxn2.csv", stringsAsFactors = F)
 #df<-covfxn
 df$reach_base[df$reach_base==Inf]<-2065
@@ -813,18 +811,22 @@ world$achievebyb[world$reach_75>2050]<-"After 2050"
 
 world$achievebyb <- factor(world$achievebyb, levels = c("Already achieved", "2023-2030", "2031-2040",
                                                         "2041-2050","After 2050"))
+any(world$reach_75>2050)
 
-ggplot(data = world) +
+d<-ggplot(data = world) +
   geom_sf(aes(fill = factor(achievebyb))) +
   theme_bw()+
-  scale_fill_manual(values = c("#2F635A", "#b9d780", "#feea83",
-                               "#faa175", "#f8696b", "#9B2226"), 
+  scale_fill_manual(values = c("#2F635A","#b9d780", "#feea83",
+                               "#faa175", "#f8696b"), 
+                    drop=FALSE,
+                    labels = c("Already achieved", "2023-2030", "2031-2040",
+                               "2041-2050","After 2050"),
                     name= "Projected timeframe for \nachieving 80-80-80 target")+ 
   theme(legend.position = "right")+
   ggtitle("Progress scenario")
 
-ggsave("figures/map_ref.png", height=6, width=10)
-
+d
+#ggsave("../../output/map_ref.png", height=6, width=10)
 
 world$achievebyb2[world$reach_975<=2022]<-"Already achieved"
 world$achievebyb2[world$reach_975>2022 & world$reach_975<=2030]<-"2023-2030"
@@ -834,8 +836,10 @@ world$achievebyb2[world$reach_975>2050]<-"After 2050"
 
 world$achievebyb2 <- factor(world$achievebyb2, levels = c("Already achieved", "2023-2030", "2031-2040",
                                                           "2041-2050","After 2050"))
+any(world$reach_975>2040)
+any(world$reach_975>2050)
 
-ggplot(data = world) +
+e<-ggplot(data = world) +
   geom_sf(aes(fill = factor(achievebyb2))) +
   theme_bw()+
   scale_fill_manual(values = c("#2F635A","#b9d780", "#feea83",
@@ -844,7 +848,7 @@ ggplot(data = world) +
   theme(legend.position = "right")+
   ggtitle("Aspirational scenario")
 
-ggsave("figures/map_asp.png", height = 6, width=10)
+e
 
 ######################################################################
 
@@ -857,7 +861,7 @@ world$achievebybs[world$refwsalt>2050]<-"After 2050"
 world$achievebybs <- factor(world$achievebybs, levels = c("Already achieved", "2023-2030", "2031-2040",
                                                           "2041-2050","After 2050"))
 
-ggplot(data = world) +
+b<-ggplot(data = world) +
   geom_sf(aes(fill = factor(achievebybs))) +
   theme_bw()+
   scale_fill_manual(values = c("#2F635A", "#b9d780", "#feea83",
@@ -866,8 +870,8 @@ ggplot(data = world) +
   theme(legend.position = "right")+
   ggtitle("Progress scenario")
 
-ggsave("figures/map_refwsalt.png", height=6, width=10)
-
+#ggsave("figures/map_refwsalt.png", height=6, width=10)
+b
 
 world$achievebyb2s[world$aspwsalt<=2022]<-"Already achieved"
 world$achievebyb2s[world$aspwsalt>2022 & world$aspwsalt<=2030]<-"2023-2030"
@@ -878,17 +882,20 @@ world$achievebyb2s[world$aspwsalt>2050]<-"After 2050"
 world$achievebyb2s <- factor(world$achievebyb2s, levels = c("Already achieved", "2023-2030", "2031-2040",
                                                             "2041-2050","After 2050"))
 
-ggplot(data = world) +
+c<-ggplot(data = world) +
   geom_sf(aes(fill = factor(achievebyb2s))) +
   theme_bw()+
   scale_fill_manual(values = c("#2F635A","#b9d780", "#feea83",
                                "#faa175", "#f8696b","#9B2226"), 
+                    labels = c("Already achieved", "2023-2030", "2031-2040",
+                               "2041-2050","After 2050"),
+                    drop=FALSE,
                     name= "Projected timeframe for \nachieving 80-80-80 target")+ 
   theme(legend.position = "right")+
   ggtitle("Aspirational scenario")
 
-ggsave("figures/map_aspwsalt.png", height = 6, width=10)
-
+#ggsave("figures/map_aspwsalt.png", height = 6, width=10)
+c
 
 world$achieveby00[world$reach_base<=2022]<-"Already achieved"
 world$achieveby00[world$reach_base>2022 & world$reach_base<=2030]<-"2023-2030"
@@ -896,19 +903,71 @@ world$achieveby00[world$reach_base>2030 & world$reach_base<=2040]<-"2031-2040"
 world$achieveby00[world$reach_base>2040 & world$reach_base<=2050]<-"2041-2050"
 world$achieveby00[world$reach_base>2050]<-"After 2050"
 
+world$achieveby00[world$reach_base>2050]
+
 world$achieveby00 <- factor(world$achieveby00, levels = c("Already achieved", "2023-2030", "2031-2040",
                                                           "2041-2050","After 2050"))
 
-ggplot(data = world) +
+leg<-world[1:6,]
+leg$achieveby00<-factor(c("Already achieved", "2023-2030", "2031-2040",
+                  "2041-2050","After 2050", NA),
+                  levels = c("Already achieved", "2023-2030", "2031-2040",
+                             "2041-2050","After 2050"))
+
+
+legend1<-get_legend(
+  ggplot(data = leg) +
   geom_sf(aes(fill = factor(achieveby00))) +
   theme_bw()+
+  theme(legend.position = 'right')+
   scale_fill_manual(values = c("#2F635A","#b9d780", "#feea83",
-                               "#faa175", "#f8696b","#9B2226"), 
-                    name= "Projected timeframe for \nachieving 80-80-80 target")+ 
-  theme(legend.position = "right")+
+                               "#faa175", "#f8696b","#9B2226"),
+                    name = "Projected timeframe for \nachieving 80-80-80 target")
+)
+
+unique(world$achieveby00)
+  
+a<-ggplot(data = world) +
+  geom_sf(aes(fill = factor(achieveby00))) +
+  theme_bw()+
+  scale_fill_manual(values = c("#2F635A","#b9d780", "#f8696b"))+
   ggtitle("Business as usual scenario")
 
-ggsave("figures/bizasusual.png", height = 6, width=10)
+a
+#ggsave("figures/bizasusual.png", height = 6, width=10)
+
+library(ggpubr)
+a<- a + theme(legend.position = 'none')
+b<- b + theme(legend.position = 'none')
+c<- c + theme(legend.position = 'none')
+               
+ggarrange(a, legend.grob=legend1, legend='right')
+ggsave("../../output/map_business as usual.pdf", height = 6, width=10, dpi=300)
+ggsave("../../output/map1.png", height = 6, width=10, dpi=300)
+
+ggarrange(b, legend.grob=legend1, legend='right')
+ggsave("../../output/map_reference with salt.pdf", height = 6, width=10, dpi=300)
+ggsave("../../output/map2.png", height = 6, width=10, dpi=300)
+
+ggarrange(c, legend.grob=legend1, legend='right')
+ggsave("../../output/map_aspirational with salt.pdf", height = 6, width=10, dpi=300)
+ggsave("../../output/map3.png", height = 6, width=10, dpi=300)
+
+ggarrange(d, legend.grob=legend1, legend='right')
+ggsave("../../output/map_reference no salt.pdf", height = 6, width=10, dpi=300)
+ggsave("../../output/map4.png", height = 6, width=10, dpi=300)
+
+ggarrange(e, legend.grob=legend1, legend='right')
+ggsave("../../output/map_aspirational no salt.pdf", height = 6, width=10, dpi=300)
+ggsave("../../output/map5.png", height = 6, width=10, dpi=300)
+
+
+a2<-ggarrange(a, legend.grob=legend1, legend='right')
+library(cowplot)
+plot_grid(a2, b, c, ncol=1, axis="l", greedy=FALSE, byrow=FALSE,
+          rel_widths = c(1,0.8,0.8))
+#cant
+
 
 #########################
 

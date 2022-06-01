@@ -164,8 +164,8 @@ p<-ggplot(plot%>%filter(intervention2%in%c("Business as usual", "Progress", "Asp
 
 p
 
-ggsave("../figures/Figure3_2022.png", width=11, height=6)
-write.csv(plot, "../figures/decomp_data_2022.csv")
+ggsave("../output/fig_2.pdf", width=11, height=6, dpi=600)
+write.csv(plot, "../output/decomp_data_2022.csv")
 
 
 ###deaths###
@@ -326,6 +326,6 @@ p<-ggplot(plot%>%filter(intervention2%in%c("Business as usual", "Progress", "Asp
 
 p
 
-ggsave("../figures/Figure3_deaths_2022.png", width=11, height=6)
-write.csv(plot, "../figures/decomp_data_deaths2022.csv")
+ggsave("../output/fig_A1.pdf", width=11, height=6, dpi=600)
+write.csv(plot, "../output/decomp_data_deaths2022.csv")
 

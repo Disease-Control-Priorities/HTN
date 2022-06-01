@@ -4,7 +4,7 @@ library(ggplot2)
 library(readxl)
 library(data.table)
 
-load("model/model_output_newnorm.Rda")
+load("../model/model_output_newnorm.Rda")
 
 comb<-bind_rows(progress%>%filter(intervention!="b.a.u")%>%
                   mutate(intervention = paste0("Progress_", intervention)),
@@ -174,13 +174,13 @@ lt1[Sex=="Both", ex:=lt2[,exboth]]
 LE<-lt1%>%filter(AgeGrp==0)%>%select(Sex, Location, ex, Time2, intervention)
 which(is.na(LE))
 
-write.csv(LE, "../figures/LE0_2022.csv")
+write.csv(LE, "../output/LE0_2022.csv")
 
 ##life expectancy at 40
 LE40<-lt1%>%filter(AgeGrp=="40-44")%>%select(Sex, Location, ex, Time2, intervention)
 which(is.na(LE40))
 
-write.csv(LE40, "../figures/LE40_2022.csv")
+write.csv(LE40, "../output/LE40_2022.csv")
 
 ####
 #do for regions?
@@ -215,7 +215,7 @@ base2<-bind_rows(base2, allc)
 base2<-base2%>%filter(year==2050 |
                         (year==2020 & intervention=="Business as usual"))
 
-write.csv(base2, "../web_appendix/shiny/results_2022.csv", row.names = F)
+#write.csv(base2, "../web_appendix/shiny/results_2022.csv", row.names = F)
 ##
 
 alldf<-comb%>%group_by(year, intervention)%>%
@@ -229,7 +229,7 @@ alldf<-comb%>%group_by(year, intervention)%>%
 
 report<-alldf%>%filter(year%in%c(2020,2030,2040, 2050))
 
-write.csv(report, "../figures/results1_2022.csv")
+write.csv(report, "../output/results1_2022.csv")
 
 #cumulative DA
 cdf<-alldf%>%select(dead, year, intervention)%>%
@@ -238,7 +238,7 @@ cdf<-alldf%>%select(dead, year, intervention)%>%
          rDA =  `Business as usual`- Progress_Both)
          #iDA =  `Business as usual` - Ideal)
 
-write.csv(cdf, "../figures/results_cumulative_2022.csv")
+write.csv(cdf, "../output/results_cumulative_2022.csv")
 
 sum(cdf$rDA)/1e6
 sum(cdf$aDA)/1e6
@@ -252,7 +252,7 @@ pcdf<-alldf%>%select(newcases, year, intervention)%>%
 sum(pcdf$rDA)/1e6
 sum(pcdf$aDA)/1e6
 
-write.csv(pcdf, "../figures/cases_cumulative_2022.csv")
+write.csv(pcdf, "../output/cases_cumulative_2022.csv")
 
 
 #by sex_
@@ -267,6 +267,6 @@ alldf<-comb%>%group_by(year, sex, intervention)%>%
 
 report2<-alldf%>%filter(year%in%c(2020,2050))
 
-write.csv(report2, "../figures/results_bysex_2022.csv")
+write.csv(report2, "../output/results_bysex_2022.csv")
 ####
 

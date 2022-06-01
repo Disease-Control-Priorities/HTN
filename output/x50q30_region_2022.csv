@@ -1,0 +1,953 @@
+"","wb2021","year","intervention","x50q30"
+"1","HIC",2017,"Aspirational_Antihypertensive therapy",0.0928571450764678
+"2","HIC",2017,"Aspirational_Both",0.0928571450764678
+"3","HIC",2017,"Aspirational_Salt reduction",0.0928571450764678
+"4","HIC",2017,"Business as usual",0.0928571450764678
+"5","HIC",2017,"Progress_Antihypertensive therapy",0.0928571450764678
+"6","HIC",2017,"Progress_Both",0.0928571450764678
+"7","HIC",2017,"Progress_Salt reduction",0.0928571450764678
+"8","HIC",2018,"Aspirational_Antihypertensive therapy",0.0866334262667828
+"9","HIC",2018,"Aspirational_Both",0.0866334262667828
+"10","HIC",2018,"Aspirational_Salt reduction",0.0866334262667828
+"11","HIC",2018,"Business as usual",0.0866334262667828
+"12","HIC",2018,"Progress_Antihypertensive therapy",0.0866334262667828
+"13","HIC",2018,"Progress_Both",0.0866334262667828
+"14","HIC",2018,"Progress_Salt reduction",0.0866334262667828
+"15","HIC",2019,"Aspirational_Antihypertensive therapy",0.0862568899894345
+"16","HIC",2019,"Aspirational_Both",0.0862568899894345
+"17","HIC",2019,"Aspirational_Salt reduction",0.0862568899894345
+"18","HIC",2019,"Business as usual",0.0862568899894345
+"19","HIC",2019,"Progress_Antihypertensive therapy",0.0862568899894345
+"20","HIC",2019,"Progress_Both",0.0862568899894345
+"21","HIC",2019,"Progress_Salt reduction",0.0862568899894345
+"22","HIC",2020,"Aspirational_Antihypertensive therapy",0.0847195241069254
+"23","HIC",2020,"Aspirational_Both",0.0847195241069254
+"24","HIC",2020,"Aspirational_Salt reduction",0.0847195241069254
+"25","HIC",2020,"Business as usual",0.0847195241069254
+"26","HIC",2020,"Progress_Antihypertensive therapy",0.0847195241069254
+"27","HIC",2020,"Progress_Both",0.0847195241069254
+"28","HIC",2020,"Progress_Salt reduction",0.0847195241069254
+"29","HIC",2021,"Aspirational_Antihypertensive therapy",0.0835355341531019
+"30","HIC",2021,"Aspirational_Both",0.0835355341531019
+"31","HIC",2021,"Aspirational_Salt reduction",0.0835355341531019
+"32","HIC",2021,"Business as usual",0.0835355341531019
+"33","HIC",2021,"Progress_Antihypertensive therapy",0.0835355341531019
+"34","HIC",2021,"Progress_Both",0.0835355341531019
+"35","HIC",2021,"Progress_Salt reduction",0.0835355341531019
+"36","HIC",2022,"Aspirational_Antihypertensive therapy",0.0818413472100218
+"37","HIC",2022,"Aspirational_Both",0.0818413472100218
+"38","HIC",2022,"Aspirational_Salt reduction",0.0818413472100218
+"39","HIC",2022,"Business as usual",0.0818413472100218
+"40","HIC",2022,"Progress_Antihypertensive therapy",0.0818413472100218
+"41","HIC",2022,"Progress_Both",0.0818413472100218
+"42","HIC",2022,"Progress_Salt reduction",0.0818413472100218
+"43","HIC",2023,"Aspirational_Antihypertensive therapy",0.0794092914766251
+"44","HIC",2023,"Aspirational_Both",0.0794092914766251
+"45","HIC",2023,"Aspirational_Salt reduction",0.0801535210846026
+"46","HIC",2023,"Business as usual",0.0801535210846026
+"47","HIC",2023,"Progress_Antihypertensive therapy",0.0798059529152745
+"48","HIC",2023,"Progress_Both",0.0798059529152745
+"49","HIC",2023,"Progress_Salt reduction",0.0801535210846026
+"50","HIC",2024,"Aspirational_Antihypertensive therapy",0.0772736264117588
+"51","HIC",2024,"Aspirational_Both",0.0771906916769551
+"52","HIC",2024,"Aspirational_Salt reduction",0.0787115726828307
+"53","HIC",2024,"Business as usual",0.0787995712280898
+"54","HIC",2024,"Progress_Antihypertensive therapy",0.0780987682616678
+"55","HIC",2024,"Progress_Both",0.0780718197655839
+"56","HIC",2024,"Progress_Salt reduction",0.0787719125247622
+"57","HIC",2025,"Aspirational_Antihypertensive therapy",0.0753141736892269
+"58","HIC",2025,"Aspirational_Both",0.0750900335926656
+"59","HIC",2025,"Aspirational_Salt reduction",0.0773948701635687
+"60","HIC",2025,"Business as usual",0.07764174629343
+"61","HIC",2025,"Progress_Antihypertensive therapy",0.076590341726392
+"62","HIC",2025,"Progress_Both",0.0765155817145811
+"63","HIC",2025,"Progress_Salt reduction",0.0775638467225187
+"64","HIC",2026,"Aspirational_Antihypertensive therapy",0.0737465062004918
+"65","HIC",2026,"Aspirational_Both",0.0733390849933914
+"66","HIC",2026,"Aspirational_Salt reduction",0.0764218344636055
+"67","HIC",2026,"Business as usual",0.0768877789990817
+"68","HIC",2026,"Progress_Antihypertensive therapy",0.0754926361435581
+"69","HIC",2026,"Progress_Both",0.0753530032099494
+"70","HIC",2026,"Progress_Salt reduction",0.0767401689006012
+"71","HIC",2027,"Aspirational_Antihypertensive therapy",0.0720538675098235
+"72","HIC",2027,"Aspirational_Both",0.071436725225609
+"73","HIC",2027,"Aspirational_Salt reduction",0.0752526932795243
+"74","HIC",2027,"Business as usual",0.0759851806202005
+"75","HIC",2027,"Progress_Antihypertensive therapy",0.0742671021429463
+"76","HIC",2027,"Progress_Both",0.0740496797221657
+"77","HIC",2027,"Progress_Salt reduction",0.0757521966860828
+"78","HIC",2028,"Aspirational_Antihypertensive therapy",0.0704074928783864
+"79","HIC",2028,"Aspirational_Both",0.0695638373415255
+"80","HIC",2028,"Aspirational_Salt reduction",0.0740547902471175
+"81","HIC",2028,"Business as usual",0.07509295300727
+"82","HIC",2028,"Progress_Antihypertensive therapy",0.0730784398040039
+"83","HIC",2028,"Progress_Both",0.0727728623095509
+"84","HIC",2028,"Progress_Salt reduction",0.0747613928851222
+"85","HIC",2029,"Aspirational_Antihypertensive therapy",0.0689265213225065
+"86","HIC",2029,"Aspirational_Both",0.0679018497418067
+"87","HIC",2029,"Aspirational_Salt reduction",0.0730207552998654
+"88","HIC",2029,"Business as usual",0.074321448774313
+"89","HIC",2029,"Progress_Antihypertensive therapy",0.072042333367758
+"90","HIC",2029,"Progress_Both",0.07163977827403
+"91","HIC",2029,"Progress_Salt reduction",0.0738798091427451
+"92","HIC",2030,"Aspirational_Antihypertensive therapy",0.0673548360720131
+"93","HIC",2030,"Aspirational_Both",0.0661884920161663
+"94","HIC",2030,"Aspirational_Salt reduction",0.0718688221345561
+"95","HIC",2030,"Business as usual",0.0733918880203814
+"96","HIC",2030,"Progress_Antihypertensive therapy",0.0708797948098778
+"97","HIC",2030,"Progress_Both",0.0703746706062368
+"98","HIC",2030,"Progress_Salt reduction",0.072832118687028
+"99","HIC",2031,"Aspirational_Antihypertensive therapy",0.0660144708360878
+"100","HIC",2031,"Aspirational_Both",0.0647332425516876
+"101","HIC",2031,"Aspirational_Salt reduction",0.0709269965890134
+"102","HIC",2031,"Business as usual",0.0726445217202516
+"103","HIC",2031,"Progress_Antihypertensive therapy",0.0699222830559005
+"104","HIC",2031,"Progress_Both",0.0693082294953649
+"105","HIC",2031,"Progress_Salt reduction",0.0719578964640156
+"106","HIC",2032,"Aspirational_Antihypertensive therapy",0.0647958552194516
+"107","HIC",2032,"Aspirational_Both",0.0634225563661114
+"108","HIC",2032,"Aspirational_Salt reduction",0.0700779315762965
+"109","HIC",2032,"Business as usual",0.0719645505441467
+"110","HIC",2032,"Progress_Antihypertensive therapy",0.0690529692662027
+"111","HIC",2032,"Progress_Both",0.0683462377729096
+"112","HIC",2032,"Progress_Salt reduction",0.0711685523622874
+"113","HIC",2033,"Aspirational_Antihypertensive therapy",0.0636194022677234
+"114","HIC",2033,"Aspirational_Both",0.0621734718150322
+"115","HIC",2033,"Aspirational_Salt reduction",0.0692274789698057
+"116","HIC",2033,"Business as usual",0.071259050840767
+"117","HIC",2033,"Progress_Antihypertensive therapy",0.068185401325508
+"118","HIC",2033,"Progress_Both",0.067400172285941
+"119","HIC",2033,"Progress_Salt reduction",0.0703693028505465
+"120","HIC",2034,"Aspirational_Antihypertensive therapy",0.0625431470365559
+"121","HIC",2034,"Aspirational_Both",0.061039476234144
+"122","HIC",2034,"Aspirational_Salt reduction",0.0684416540163219
+"123","HIC",2034,"Business as usual",0.0705986527331069
+"124","HIC",2034,"Progress_Antihypertensive therapy",0.0673819889950547
+"125","HIC",2034,"Progress_Both",0.066529768405179
+"126","HIC",2034,"Progress_Salt reduction",0.0696278742885531
+"127","HIC",2035,"Aspirational_Antihypertensive therapy",0.0614583220707973
+"128","HIC",2035,"Aspirational_Both",0.059911817506509
+"129","HIC",2035,"Aspirational_Salt reduction",0.0676033148855687
+"130","HIC",2035,"Business as usual",0.0698643491181791
+"131","HIC",2035,"Progress_Antihypertensive therapy",0.0665257371979542
+"132","HIC",2035,"Progress_Both",0.0656180884276437
+"133","HIC",2035,"Progress_Salt reduction",0.068825441121844
+"134","HIC",2036,"Aspirational_Antihypertensive therapy",0.0605018664933863
+"135","HIC",2036,"Aspirational_Both",0.0589200254459017
+"136","HIC",2036,"Aspirational_Salt reduction",0.0668631350841475
+"137","HIC",2036,"Business as usual",0.0692162804428471
+"138","HIC",2036,"Progress_Antihypertensive therapy",0.0657700199574505
+"139","HIC",2036,"Progress_Both",0.0648140128513914
+"140","HIC",2036,"Progress_Salt reduction",0.0681173416118704
+"141","HIC",2037,"Aspirational_Antihypertensive therapy",0.0596371565610497
+"142","HIC",2037,"Aspirational_Both",0.0580269408747971
+"143","HIC",2037,"Aspirational_Salt reduction",0.0661915475610296
+"144","HIC",2037,"Business as usual",0.0686256340600083
+"145","HIC",2037,"Progress_Antihypertensive therapy",0.0650788496314725
+"146","HIC",2037,"Progress_Both",0.0640810311441103
+"147","HIC",2037,"Progress_Salt reduction",0.0674739225666433
+"148","HIC",2038,"Aspirational_Antihypertensive therapy",0.0588441818209557
+"149","HIC",2038,"Aspirational_Both",0.0572119452200179
+"150","HIC",2038,"Aspirational_Salt reduction",0.065569951706808
+"151","HIC",2038,"Business as usual",0.0680740320737138
+"152","HIC",2038,"Progress_Antihypertensive therapy",0.0644333467333306
+"153","HIC",2038,"Progress_Both",0.0633998468706556
+"154","HIC",2038,"Progress_Salt reduction",0.066876400033981
+"155","HIC",2039,"Aspirational_Antihypertensive therapy",0.0581574056773861
+"156","HIC",2039,"Aspirational_Both",0.0565074672650889
+"157","HIC",2039,"Aspirational_Salt reduction",0.0650355598028906
+"158","HIC",2039,"Business as usual",0.0676012731644337
+"159","HIC",2039,"Progress_Antihypertensive therapy",0.0638756869557883
+"160","HIC",2039,"Progress_Both",0.0628110398005755
+"161","HIC",2039,"Progress_Salt reduction",0.0663630903960117
+"162","HIC",2040,"Aspirational_Antihypertensive therapy",0.0574269415231178
+"163","HIC",2040,"Aspirational_Both",0.05576716426256
+"164","HIC",2040,"Aspirational_Salt reduction",0.0644330902005917
+"165","HIC",2040,"Business as usual",0.0670467818909223
+"166","HIC",2040,"Progress_Antihypertensive therapy",0.0632432796911983
+"167","HIC",2040,"Progress_Both",0.0621544926271119
+"168","HIC",2040,"Progress_Salt reduction",0.0657757517574654
+"169","HIC",2041,"Aspirational_Antihypertensive therapy",0.0568460315919441
+"170","HIC",2041,"Aspirational_Both",0.0551768718631287
+"171","HIC",2041,"Aspirational_Salt reduction",0.0639765660087429
+"172","HIC",2041,"Business as usual",0.0666360426066017
+"173","HIC",2041,"Progress_Antihypertensive therapy",0.0627562681197591
+"174","HIC",2041,"Progress_Both",0.0616450125426763
+"175","HIC",2041,"Progress_Salt reduction",0.0653342298743753
+"176","HIC",2042,"Aspirational_Antihypertensive therapy",0.0563082523188149
+"177","HIC",2042,"Aspirational_Both",0.0546332060751384
+"178","HIC",2042,"Aspirational_Salt reduction",0.0635481038019265
+"179","HIC",2042,"Business as usual",0.066245923831263
+"180","HIC",2042,"Progress_Antihypertensive therapy",0.0622971923320536
+"181","HIC",2042,"Progress_Both",0.0611671465955326
+"182","HIC",2042,"Progress_Salt reduction",0.0649177743822604
+"183","HIC",2043,"Aspirational_Antihypertensive therapy",0.0558406369702921
+"184","HIC",2043,"Aspirational_Both",0.0541619858284397
+"185","HIC",2043,"Aspirational_Salt reduction",0.0631818403286841
+"186","HIC",2043,"Business as usual",0.0659124947570162
+"187","HIC",2043,"Progress_Antihypertensive therapy",0.0618978417462128
+"188","HIC",2043,"Progress_Both",0.0607518787407493
+"189","HIC",2043,"Progress_Salt reduction",0.0645614771421211
+"190","HIC",2044,"Aspirational_Antihypertensive therapy",0.0553990873405638
+"191","HIC",2044,"Aspirational_Both",0.0537193427361647
+"192","HIC",2044,"Aspirational_Salt reduction",0.0628253846975571
+"193","HIC",2044,"Business as usual",0.0655822940911318
+"194","HIC",2044,"Progress_Antihypertensive therapy",0.0615102515222928
+"195","HIC",2044,"Progress_Both",0.0603515202097191
+"196","HIC",2044,"Progress_Salt reduction",0.0642123850949915
+"197","HIC",2045,"Aspirational_Antihypertensive therapy",0.0549458280669205
+"198","HIC",2045,"Aspirational_Both",0.0532681606640888
+"199","HIC",2045,"Aspirational_Salt reduction",0.0624358681328185
+"200","HIC",2045,"Business as usual",0.0652111761913496
+"201","HIC",2045,"Progress_Antihypertensive therapy",0.0610942496991752
+"202","HIC",2045,"Progress_Both",0.0599263295711189
+"203","HIC",2045,"Progress_Salt reduction",0.0638269915370696
+"204","HIC",2046,"Aspirational_Antihypertensive therapy",0.0545194324869253
+"205","HIC",2046,"Aspirational_Both",0.0528433767391916
+"206","HIC",2046,"Aspirational_Salt reduction",0.0620578702281336
+"207","HIC",2046,"Business as usual",0.0648501823181177
+"208","HIC",2046,"Progress_Antihypertensive therapy",0.0606982365001016
+"209","HIC",2046,"Progress_Both",0.0595220184198899
+"210","HIC",2046,"Progress_Salt reduction",0.063453143580456
+"211","HIC",2047,"Aspirational_Antihypertensive therapy",0.0542556171594729
+"212","HIC",2047,"Aspirational_Both",0.0525785306020253
+"213","HIC",2047,"Aspirational_Salt reduction",0.0618470411232167
+"214","HIC",2047,"Business as usual",0.0646580700788348
+"215","HIC",2047,"Progress_Antihypertensive therapy",0.0604726595544355
+"216","HIC",2047,"Progress_Both",0.0592872889726584
+"217","HIC",2047,"Progress_Salt reduction",0.0632479635475218
+"218","HIC",2048,"Aspirational_Antihypertensive therapy",0.0540847670337249
+"219","HIC",2048,"Aspirational_Both",0.0524057240291527
+"220","HIC",2048,"Aspirational_Salt reduction",0.0617320870370971
+"221","HIC",2048,"Business as usual",0.0645617824635429
+"222","HIC",2048,"Progress_Antihypertensive therapy",0.0603423415994673
+"223","HIC",2048,"Progress_Both",0.059148031412908
+"224","HIC",2048,"Progress_Salt reduction",0.0631391540888969
+"225","HIC",2049,"Aspirational_Antihypertensive therapy",0.0539301308091662
+"226","HIC",2049,"Aspirational_Both",0.0522499416394679
+"227","HIC",2049,"Aspirational_Salt reduction",0.06162915892911
+"228","HIC",2049,"Business as usual",0.0644747762042051
+"229","HIC",2049,"Progress_Antihypertensive therapy",0.0602227790274465
+"230","HIC",2049,"Progress_Both",0.0590210021481421
+"231","HIC",2049,"Progress_Salt reduction",0.0630414160801436
+"232","HIC",2050,"Aspirational_Antihypertensive therapy",0.0536964537043776
+"233","HIC",2050,"Aspirational_Both",0.0520185736815993
+"234","HIC",2050,"Aspirational_Salt reduction",0.0614334802839793
+"235","HIC",2050,"Business as usual",0.0642880688125268
+"236","HIC",2050,"Progress_Antihypertensive therapy",0.0600076399708133
+"237","HIC",2050,"Progress_Both",0.0588018546097432
+"238","HIC",2050,"Progress_Salt reduction",0.0628477834324579
+"239","LIC",2017,"Aspirational_Antihypertensive therapy",0.312255731072085
+"240","LIC",2017,"Aspirational_Both",0.312255731072085
+"241","LIC",2017,"Aspirational_Salt reduction",0.312255731072085
+"242","LIC",2017,"Business as usual",0.312255731072085
+"243","LIC",2017,"Progress_Antihypertensive therapy",0.312255731072085
+"244","LIC",2017,"Progress_Both",0.312255731072085
+"245","LIC",2017,"Progress_Salt reduction",0.312255731072085
+"246","LIC",2018,"Aspirational_Antihypertensive therapy",0.310105955071799
+"247","LIC",2018,"Aspirational_Both",0.310105955071799
+"248","LIC",2018,"Aspirational_Salt reduction",0.310105955071799
+"249","LIC",2018,"Business as usual",0.310105955071799
+"250","LIC",2018,"Progress_Antihypertensive therapy",0.310105955071799
+"251","LIC",2018,"Progress_Both",0.310105955071799
+"252","LIC",2018,"Progress_Salt reduction",0.310105955071799
+"253","LIC",2019,"Aspirational_Antihypertensive therapy",0.310661133229472
+"254","LIC",2019,"Aspirational_Both",0.310661133229472
+"255","LIC",2019,"Aspirational_Salt reduction",0.310661133229472
+"256","LIC",2019,"Business as usual",0.310661133229472
+"257","LIC",2019,"Progress_Antihypertensive therapy",0.310661133229472
+"258","LIC",2019,"Progress_Both",0.310661133229472
+"259","LIC",2019,"Progress_Salt reduction",0.310661133229472
+"260","LIC",2020,"Aspirational_Antihypertensive therapy",0.308924042404722
+"261","LIC",2020,"Aspirational_Both",0.308924042404722
+"262","LIC",2020,"Aspirational_Salt reduction",0.308924042404722
+"263","LIC",2020,"Business as usual",0.308924042404722
+"264","LIC",2020,"Progress_Antihypertensive therapy",0.308924042404722
+"265","LIC",2020,"Progress_Both",0.308924042404722
+"266","LIC",2020,"Progress_Salt reduction",0.308924042404722
+"267","LIC",2021,"Aspirational_Antihypertensive therapy",0.306775996630266
+"268","LIC",2021,"Aspirational_Both",0.306775996630266
+"269","LIC",2021,"Aspirational_Salt reduction",0.306775996630266
+"270","LIC",2021,"Business as usual",0.306775996630266
+"271","LIC",2021,"Progress_Antihypertensive therapy",0.306775996630266
+"272","LIC",2021,"Progress_Both",0.306775996630266
+"273","LIC",2021,"Progress_Salt reduction",0.306775996630266
+"274","LIC",2022,"Aspirational_Antihypertensive therapy",0.305075836063382
+"275","LIC",2022,"Aspirational_Both",0.305075836063382
+"276","LIC",2022,"Aspirational_Salt reduction",0.305075836063382
+"277","LIC",2022,"Business as usual",0.305075836063382
+"278","LIC",2022,"Progress_Antihypertensive therapy",0.305075836063382
+"279","LIC",2022,"Progress_Both",0.305075836063382
+"280","LIC",2022,"Progress_Salt reduction",0.305075836063382
+"281","LIC",2023,"Aspirational_Antihypertensive therapy",0.301832990142634
+"282","LIC",2023,"Aspirational_Both",0.301832990142634
+"283","LIC",2023,"Aspirational_Salt reduction",0.30331945730173
+"284","LIC",2023,"Business as usual",0.30331945730173
+"285","LIC",2023,"Progress_Antihypertensive therapy",0.30193361437909
+"286","LIC",2023,"Progress_Both",0.30193361437909
+"287","LIC",2023,"Progress_Salt reduction",0.30331945730173
+"288","LIC",2024,"Aspirational_Antihypertensive therapy",0.298436973825097
+"289","LIC",2024,"Aspirational_Both",0.298024710778697
+"290","LIC",2024,"Aspirational_Salt reduction",0.301289571219827
+"291","LIC",2024,"Business as usual",0.301717075468659
+"292","LIC",2024,"Progress_Antihypertensive therapy",0.298702233697185
+"293","LIC",2024,"Progress_Both",0.298558926923319
+"294","LIC",2024,"Progress_Salt reduction",0.301569226736891
+"295","LIC",2025,"Aspirational_Antihypertensive therapy",0.295447655016224
+"296","LIC",2025,"Aspirational_Both",0.294407754516969
+"297","LIC",2025,"Aspirational_Salt reduction",0.29976949795941
+"298","LIC",2025,"Business as usual",0.300871103718765
+"299","LIC",2025,"Progress_Antihypertensive therapy",0.295964987639104
+"300","LIC",2025,"Progress_Both",0.29560134367153
+"301","LIC",2025,"Progress_Salt reduction",0.300489109712017
+"302","LIC",2026,"Aspirational_Antihypertensive therapy",0.290625462292122
+"303","LIC",2026,"Aspirational_Both",0.288836056926764
+"304","LIC",2026,"Aspirational_Salt reduction",0.296575995320778
+"305","LIC",2026,"Business as usual",0.298515491778676
+"306","LIC",2026,"Progress_Antihypertensive therapy",0.291500458436338
+"307","LIC",2026,"Progress_Both",0.290870685036257
+"308","LIC",2026,"Progress_Salt reduction",0.29784132216222
+"309","LIC",2027,"Aspirational_Antihypertensive therapy",0.285633803349701
+"310","LIC",2027,"Aspirational_Both",0.283018634302811
+"311","LIC",2027,"Aspirational_Salt reduction",0.293418961332209
+"312","LIC",2027,"Business as usual",0.296325796346013
+"313","LIC",2027,"Progress_Antihypertensive therapy",0.286997776190204
+"314","LIC",2027,"Progress_Both",0.286070703951195
+"315","LIC",2027,"Progress_Salt reduction",0.295313160589472
+"316","LIC",2028,"Aspirational_Antihypertensive therapy",0.280536326136373
+"317","LIC",2028,"Aspirational_Both",0.277053105920162
+"318","LIC",2028,"Aspirational_Salt reduction",0.29038720257647
+"319","LIC",2028,"Business as usual",0.294368606081809
+"320","LIC",2028,"Progress_Antihypertensive therapy",0.282548129501159
+"321","LIC",2028,"Progress_Both",0.281303188542631
+"322","LIC",2028,"Progress_Salt reduction",0.292979134688949
+"323","LIC",2029,"Aspirational_Antihypertensive therapy",0.275323552434004
+"324","LIC",2029,"Aspirational_Both",0.271255486371008
+"325","LIC",2029,"Aspirational_Salt reduction",0.287821137165386
+"326","LIC",2029,"Business as usual",0.292589339042019
+"327","LIC",2029,"Progress_Antihypertensive therapy",0.278154727256971
+"328","LIC",2029,"Progress_Both",0.276580471585193
+"329","LIC",2029,"Progress_Salt reduction",0.290792267785176
+"330","LIC",2030,"Aspirational_Antihypertensive therapy",0.270314312251623
+"331","LIC",2030,"Aspirational_Both",0.265831724029398
+"332","LIC",2030,"Aspirational_Salt reduction",0.285889379917426
+"333","LIC",2030,"Business as usual",0.291286611229983
+"334","LIC",2030,"Progress_Antihypertensive therapy",0.27414893439148
+"335","LIC",2030,"Progress_Both",0.272238088064654
+"336","LIC",2030,"Progress_Salt reduction",0.289054017042726
+"337","LIC",2031,"Aspirational_Antihypertensive therapy",0.264782074923889
+"338","LIC",2031,"Aspirational_Both",0.260020070791615
+"339","LIC",2031,"Aspirational_Salt reduction",0.283724353029758
+"340","LIC",2031,"Business as usual",0.289626818943709
+"341","LIC",2031,"Progress_Antihypertensive therapy",0.2697988039677
+"342","LIC",2031,"Progress_Both",0.267555434277297
+"343","LIC",2031,"Progress_Salt reduction",0.286942795119788
+"344","LIC",2032,"Aspirational_Antihypertensive therapy",0.259241645716163
+"345","LIC",2032,"Aspirational_Both",0.254298058544203
+"346","LIC",2032,"Aspirational_Salt reduction",0.281755841983227
+"347","LIC",2032,"Business as usual",0.28807448745542
+"348","LIC",2032,"Progress_Antihypertensive therapy",0.265608721151705
+"349","LIC",2032,"Progress_Both",0.263131692745786
+"350","LIC",2032,"Progress_Salt reduction",0.285051203691608
+"351","LIC",2033,"Aspirational_Antihypertensive therapy",0.253780674744639
+"352","LIC",2033,"Aspirational_Both",0.248731433946431
+"353","LIC",2033,"Aspirational_Salt reduction",0.279981966369969
+"354","LIC",2033,"Business as usual",0.286646216117614
+"355","LIC",2033,"Progress_Antihypertensive therapy",0.261646441822791
+"356","LIC",2033,"Progress_Both",0.258999175845987
+"357","LIC",2033,"Progress_Salt reduction",0.283352747087313
+"358","LIC",2034,"Aspirational_Antihypertensive therapy",0.248464281562143
+"359","LIC",2034,"Aspirational_Both",0.243368481228891
+"360","LIC",2034,"Aspirational_Salt reduction",0.278384613483624
+"361","LIC",2034,"Business as usual",0.285337307754089
+"362","LIC",2034,"Progress_Antihypertensive therapy",0.257949298705065
+"363","LIC",2034,"Progress_Both",0.255176529240161
+"364","LIC",2034,"Progress_Salt reduction",0.281823109755667
+"365","LIC",2035,"Aspirational_Antihypertensive therapy",0.243316739808566
+"366","LIC",2035,"Aspirational_Both",0.238220980839286
+"367","LIC",2035,"Aspirational_Salt reduction",0.276901744136518
+"368","LIC",2035,"Business as usual",0.2840943391739
+"369","LIC",2035,"Progress_Antihypertensive therapy",0.25450386788445
+"370","LIC",2035,"Progress_Both",0.251639045642953
+"371","LIC",2035,"Progress_Salt reduction",0.280398176926341
+"372","LIC",2036,"Aspirational_Antihypertensive therapy",0.238382966127538
+"373","LIC",2036,"Aspirational_Both",0.233321958243154
+"374","LIC",2036,"Aspirational_Salt reduction",0.275510958299556
+"375","LIC",2036,"Business as usual",0.282904157274392
+"376","LIC",2036,"Progress_Antihypertensive therapy",0.25131594470442
+"377","LIC",2036,"Progress_Both",0.248383768485035
+"378","LIC",2036,"Progress_Salt reduction",0.279056439197243
+"379","LIC",2037,"Aspirational_Antihypertensive therapy",0.233715007779027
+"380","LIC",2037,"Aspirational_Both",0.228714255422182
+"381","LIC",2037,"Aspirational_Salt reduction",0.274203456391079
+"382","LIC",2037,"Business as usual",0.281764320726085
+"383","LIC",2037,"Progress_Antihypertensive therapy",0.248394860123102
+"384","LIC",2037,"Progress_Both",0.24541389034205
+"385","LIC",2037,"Progress_Salt reduction",0.277789803354503
+"386","LIC",2038,"Aspirational_Antihypertensive therapy",0.229356158047814
+"387","LIC",2038,"Aspirational_Both",0.22443342820802
+"388","LIC",2038,"Aspirational_Salt reduction",0.272975671151057
+"389","LIC",2038,"Business as usual",0.28067660196561
+"390","LIC",2038,"Progress_Antihypertensive therapy",0.245742687550223
+"391","LIC",2038,"Progress_Both",0.24272685395034
+"392","LIC",2038,"Progress_Salt reduction",0.276595709252186
+"393","LIC",2039,"Aspirational_Antihypertensive therapy",0.225341287229481
+"394","LIC",2039,"Aspirational_Both",0.220508530976804
+"395","LIC",2039,"Aspirational_Salt reduction",0.27183041688676
+"396","LIC",2039,"Business as usual",0.279647144590134
+"397","LIC",2039,"Progress_Antihypertensive therapy",0.243357779883199
+"398","LIC",2039,"Progress_Both",0.240317791055259
+"399","LIC",2039,"Progress_Salt reduction",0.275477309455032
+"400","LIC",2040,"Aspirational_Antihypertensive therapy",0.221649999911501
+"401","LIC",2040,"Aspirational_Both",0.216915335550895
+"402","LIC",2040,"Aspirational_Salt reduction",0.270725794204466
+"403","LIC",2040,"Business as usual",0.278635546806054
+"404","LIC",2040,"Progress_Antihypertensive therapy",0.241188928466537
+"405","LIC",2040,"Progress_Both",0.238133614193301
+"406","LIC",2040,"Progress_Salt reduction",0.274392482166915
+"407","LIC",2041,"Aspirational_Antihypertensive therapy",0.218250523545237
+"408","LIC",2041,"Aspirational_Both",0.213619044659076
+"409","LIC",2041,"Aspirational_Salt reduction",0.26962403532827
+"410","LIC",2041,"Business as usual",0.277605217159383
+"411","LIC",2041,"Progress_Antihypertensive therapy",0.239182898314534
+"412","LIC",2041,"Progress_Both",0.236119721218012
+"413","LIC",2041,"Progress_Salt reduction",0.273303252273979
+"414","LIC",2042,"Aspirational_Antihypertensive therapy",0.215149878928507
+"415","LIC",2042,"Aspirational_Both",0.210623726966671
+"416","LIC",2042,"Aspirational_Salt reduction",0.268550199803271
+"417","LIC",2042,"Business as usual",0.276583674456379
+"418","LIC",2042,"Progress_Antihypertensive therapy",0.237340652468916
+"419","LIC",2042,"Progress_Both",0.234275537705425
+"420","LIC",2042,"Progress_Salt reduction",0.272235221678155
+"421","LIC",2043,"Aspirational_Antihypertensive therapy",0.21234758023911
+"422","LIC",2043,"Aspirational_Both",0.207926854897797
+"423","LIC",2043,"Aspirational_Salt reduction",0.267529274615831
+"424","LIC",2043,"Business as usual",0.275597730758392
+"425","LIC",2043,"Progress_Antihypertensive therapy",0.235664112412656
+"426","LIC",2043,"Progress_Both",0.232601940642924
+"427","LIC",2043,"Progress_Salt reduction",0.271213795061925
+"428","LIC",2044,"Aspirational_Antihypertensive therapy",0.209805572957698
+"429","LIC",2044,"Aspirational_Both",0.205488959667096
+"430","LIC",2044,"Aspirational_Salt reduction",0.266543184759638
+"431","LIC",2044,"Business as usual",0.274630860651746
+"432","LIC",2044,"Progress_Antihypertensive therapy",0.234119432949609
+"433","LIC",2044,"Progress_Both",0.231064369325909
+"434","LIC",2044,"Progress_Salt reduction",0.270221385549281
+"435","LIC",2045,"Aspirational_Antihypertensive therapy",0.207457890740496
+"436","LIC",2045,"Aspirational_Both",0.203243518704319
+"437","LIC",2045,"Aspirational_Salt reduction",0.26553989163242
+"438","LIC",2045,"Business as usual",0.273631517784749
+"439","LIC",2045,"Progress_Antihypertensive therapy",0.232644014114073
+"440","LIC",2045,"Progress_Both",0.229600074106739
+"441","LIC",2045,"Progress_Salt reduction",0.269206038835255
+"442","LIC",2046,"Aspirational_Antihypertensive therapy",0.205257201289861
+"443","LIC",2046,"Aspirational_Both",0.201142603371294
+"444","LIC",2046,"Aspirational_Salt reduction",0.264492451572506
+"445","LIC",2046,"Business as usual",0.272573731130038
+"446","LIC",2046,"Progress_Antihypertensive therapy",0.231198673480043
+"447","LIC",2046,"Progress_Both",0.228169401116146
+"448","LIC",2046,"Progress_Salt reduction",0.268140907150648
+"449","LIC",2047,"Aspirational_Antihypertensive therapy",0.20320164033065
+"450","LIC",2047,"Aspirational_Both",0.199183510959174
+"451","LIC",2047,"Aspirational_Salt reduction",0.263425864408133
+"452","LIC",2047,"Business as usual",0.271484239319371
+"453","LIC",2047,"Progress_Antihypertensive therapy",0.229794534446434
+"454","LIC",2047,"Progress_Both",0.226782713858511
+"455","LIC",2047,"Progress_Salt reduction",0.267051491977724
+"456","LIC",2048,"Aspirational_Antihypertensive therapy",0.201304844952461
+"457","LIC",2048,"Aspirational_Both",0.197379077210034
+"458","LIC",2048,"Aspirational_Salt reduction",0.262380326447829
+"459","LIC",2048,"Business as usual",0.270405549300021
+"460","LIC",2048,"Progress_Antihypertensive therapy",0.228459237028486
+"461","LIC",2048,"Progress_Both",0.225466822394522
+"462","LIC",2048,"Progress_Salt reduction",0.265978892814241
+"463","LIC",2049,"Aspirational_Antihypertensive therapy",0.19956412757336
+"464","LIC",2049,"Aspirational_Both",0.195726049365011
+"465","LIC",2049,"Aspirational_Salt reduction",0.261371159410793
+"466","LIC",2049,"Business as usual",0.269355295670671
+"467","LIC",2049,"Progress_Antihypertensive therapy",0.227200533253762
+"468","LIC",2049,"Progress_Both",0.224228876786018
+"469","LIC",2049,"Progress_Salt reduction",0.264939553730223
+"470","LIC",2050,"Aspirational_Antihypertensive therapy",0.197892368855131
+"471","LIC",2050,"Aspirational_Both",0.194137824583918
+"472","LIC",2050,"Aspirational_Salt reduction",0.260302620785954
+"473","LIC",2050,"Business as usual",0.268238235323198
+"474","LIC",2050,"Progress_Antihypertensive therapy",0.225931306202419
+"475","LIC",2050,"Progress_Both",0.222981882009111
+"476","LIC",2050,"Progress_Salt reduction",0.263838080164233
+"477","LMIC",2017,"Aspirational_Antihypertensive therapy",0.279439618135132
+"478","LMIC",2017,"Aspirational_Both",0.279439618135132
+"479","LMIC",2017,"Aspirational_Salt reduction",0.279439618135132
+"480","LMIC",2017,"Business as usual",0.279439618135132
+"481","LMIC",2017,"Progress_Antihypertensive therapy",0.279439618135132
+"482","LMIC",2017,"Progress_Both",0.279439618135132
+"483","LMIC",2017,"Progress_Salt reduction",0.279439618135132
+"484","LMIC",2018,"Aspirational_Antihypertensive therapy",0.275605446747179
+"485","LMIC",2018,"Aspirational_Both",0.275605446747179
+"486","LMIC",2018,"Aspirational_Salt reduction",0.275605446747179
+"487","LMIC",2018,"Business as usual",0.275605446747179
+"488","LMIC",2018,"Progress_Antihypertensive therapy",0.275605446747179
+"489","LMIC",2018,"Progress_Both",0.275605446747179
+"490","LMIC",2018,"Progress_Salt reduction",0.275605446747179
+"491","LMIC",2019,"Aspirational_Antihypertensive therapy",0.276203812946081
+"492","LMIC",2019,"Aspirational_Both",0.276203812946081
+"493","LMIC",2019,"Aspirational_Salt reduction",0.276203812946081
+"494","LMIC",2019,"Business as usual",0.276203812946081
+"495","LMIC",2019,"Progress_Antihypertensive therapy",0.276203812946081
+"496","LMIC",2019,"Progress_Both",0.276203812946081
+"497","LMIC",2019,"Progress_Salt reduction",0.276203812946081
+"498","LMIC",2020,"Aspirational_Antihypertensive therapy",0.274426606757993
+"499","LMIC",2020,"Aspirational_Both",0.274426606757993
+"500","LMIC",2020,"Aspirational_Salt reduction",0.274426606757993
+"501","LMIC",2020,"Business as usual",0.274426606757993
+"502","LMIC",2020,"Progress_Antihypertensive therapy",0.274426606757993
+"503","LMIC",2020,"Progress_Both",0.274426606757993
+"504","LMIC",2020,"Progress_Salt reduction",0.274426606757993
+"505","LMIC",2021,"Aspirational_Antihypertensive therapy",0.272232065163334
+"506","LMIC",2021,"Aspirational_Both",0.272232065163334
+"507","LMIC",2021,"Aspirational_Salt reduction",0.272232065163334
+"508","LMIC",2021,"Business as usual",0.272232065163334
+"509","LMIC",2021,"Progress_Antihypertensive therapy",0.272232065163334
+"510","LMIC",2021,"Progress_Both",0.272232065163334
+"511","LMIC",2021,"Progress_Salt reduction",0.272232065163334
+"512","LMIC",2022,"Aspirational_Antihypertensive therapy",0.270307721076062
+"513","LMIC",2022,"Aspirational_Both",0.270307721076062
+"514","LMIC",2022,"Aspirational_Salt reduction",0.270307721076062
+"515","LMIC",2022,"Business as usual",0.270307721076062
+"516","LMIC",2022,"Progress_Antihypertensive therapy",0.270307721076062
+"517","LMIC",2022,"Progress_Both",0.270307721076062
+"518","LMIC",2022,"Progress_Salt reduction",0.270307721076062
+"519","LMIC",2023,"Aspirational_Antihypertensive therapy",0.26698431446784
+"520","LMIC",2023,"Aspirational_Both",0.26698431446784
+"521","LMIC",2023,"Aspirational_Salt reduction",0.268419079074001
+"522","LMIC",2023,"Business as usual",0.268419079074001
+"523","LMIC",2023,"Progress_Antihypertensive therapy",0.267079713369619
+"524","LMIC",2023,"Progress_Both",0.267079713369619
+"525","LMIC",2023,"Progress_Salt reduction",0.268419079074001
+"526","LMIC",2024,"Aspirational_Antihypertensive therapy",0.263672188660498
+"527","LMIC",2024,"Aspirational_Both",0.263254969924761
+"528","LMIC",2024,"Aspirational_Salt reduction",0.266383694318129
+"529","LMIC",2024,"Business as usual",0.266814376356099
+"530","LMIC",2024,"Progress_Antihypertensive therapy",0.263931123912286
+"531","LMIC",2024,"Progress_Both",0.263798803354984
+"532","LMIC",2024,"Progress_Salt reduction",0.2666781056577
+"533","LMIC",2025,"Aspirational_Antihypertensive therapy",0.26060683149171
+"534","LMIC",2025,"Aspirational_Both",0.259511415989868
+"535","LMIC",2025,"Aspirational_Salt reduction",0.264601742093531
+"536","LMIC",2025,"Business as usual",0.265756807539809
+"537","LMIC",2025,"Progress_Antihypertensive therapy",0.261120770196469
+"538","LMIC",2025,"Progress_Both",0.260771375035492
+"539","LMIC",2025,"Progress_Salt reduction",0.265390083164838
+"540","LMIC",2026,"Aspirational_Antihypertensive therapy",0.256614652485373
+"541","LMIC",2026,"Aspirational_Both",0.254672181008592
+"542","LMIC",2026,"Aspirational_Salt reduction",0.261965453390904
+"543","LMIC",2026,"Business as usual",0.264062628214396
+"544","LMIC",2026,"Progress_Antihypertensive therapy",0.257497873659326
+"545","LMIC",2026,"Progress_Both",0.256874229712023
+"546","LMIC",2026,"Progress_Salt reduction",0.263394561997775
+"547","LMIC",2027,"Aspirational_Antihypertensive therapy",0.252772663997787
+"548","LMIC",2027,"Aspirational_Both",0.249870020675493
+"549","LMIC",2027,"Aspirational_Salt reduction",0.259586263273209
+"550","LMIC",2027,"Business as usual",0.262802704857073
+"551","LMIC",2027,"Progress_Antihypertensive therapy",0.254161920224614
+"552","LMIC",2027,"Progress_Both",0.253222864735905
+"553","LMIC",2027,"Progress_Salt reduction",0.261774725985489
+"554","LMIC",2028,"Aspirational_Antihypertensive therapy",0.248900565150297
+"555","LMIC",2028,"Aspirational_Both",0.244971926709027
+"556","LMIC",2028,"Aspirational_Salt reduction",0.257287154052082
+"557","LMIC",2028,"Business as usual",0.26176619631658
+"558","LMIC",2028,"Progress_Antihypertensive therapy",0.250949195124977
+"559","LMIC",2028,"Progress_Both",0.249666701580345
+"560","LMIC",2028,"Progress_Salt reduction",0.260329979073536
+"561","LMIC",2029,"Aspirational_Antihypertensive therapy",0.24488417163241
+"562","LMIC",2029,"Aspirational_Both",0.240203576268585
+"563","LMIC",2029,"Aspirational_Salt reduction",0.255310443781991
+"564","LMIC",2029,"Business as usual",0.260791552598678
+"565","LMIC",2029,"Progress_Antihypertensive therapy",0.247753727195792
+"566","LMIC",2029,"Progress_Both",0.246110273399791
+"567","LMIC",2029,"Progress_Salt reduction",0.25890734881831
+"568","LMIC",2030,"Aspirational_Antihypertensive therapy",0.240877780266129
+"569","LMIC",2030,"Aspirational_Both",0.235637478912806
+"570","LMIC",2030,"Aspirational_Salt reduction",0.253678200277116
+"571","LMIC",2030,"Business as usual",0.259988965675938
+"572","LMIC",2030,"Progress_Antihypertensive therapy",0.244729937863099
+"573","LMIC",2030,"Progress_Both",0.242714427108784
+"574","LMIC",2030,"Progress_Salt reduction",0.257622208059345
+"575","LMIC",2031,"Aspirational_Antihypertensive therapy",0.236524643557946
+"576","LMIC",2031,"Aspirational_Both",0.230884156831561
+"577","LMIC",2031,"Aspirational_Salt reduction",0.251908952251308
+"578","LMIC",2031,"Business as usual",0.2589040114918
+"579","LMIC",2031,"Progress_Antihypertensive therapy",0.241497139217531
+"580","LMIC",2031,"Progress_Both",0.23910894073256
+"581","LMIC",2031,"Progress_Salt reduction",0.256031828731522
+"582","LMIC",2032,"Aspirational_Antihypertensive therapy",0.232186637118001
+"583","LMIC",2032,"Aspirational_Both",0.226267316901588
+"584","LMIC",2032,"Aspirational_Salt reduction",0.250284202564102
+"585","LMIC",2032,"Business as usual",0.257853953252062
+"586","LMIC",2032,"Progress_Antihypertensive therapy",0.238397359496294
+"587","LMIC",2032,"Progress_Both",0.235726005540833
+"588","LMIC",2032,"Progress_Salt reduction",0.254574459935941
+"589","LMIC",2033,"Aspirational_Antihypertensive therapy",0.227939976033751
+"590","LMIC",2033,"Aspirational_Both",0.221839028338891
+"591","LMIC",2033,"Aspirational_Salt reduction",0.248799233051012
+"592","LMIC",2033,"Business as usual",0.256853206927512
+"593","LMIC",2033,"Progress_Antihypertensive therapy",0.235475075592144
+"594","LMIC",2033,"Progress_Both",0.232585442532116
+"595","LMIC",2033,"Progress_Salt reduction",0.253236906273185
+"596","LMIC",2034,"Aspirational_Antihypertensive therapy",0.22379861498797
+"597","LMIC",2034,"Aspirational_Both",0.217593777469866
+"598","LMIC",2034,"Aspirational_Salt reduction",0.247389876221919
+"599","LMIC",2034,"Business as usual",0.255851935737954
+"600","LMIC",2034,"Progress_Antihypertensive therapy",0.232707442821334
+"601","LMIC",2034,"Progress_Both",0.229649034537168
+"602","LMIC",2034,"Progress_Salt reduction",0.251954146544744
+"603","LMIC",2035,"Aspirational_Antihypertensive therapy",0.219841170563792
+"604","LMIC",2035,"Aspirational_Both",0.213593688738584
+"605","LMIC",2035,"Aspirational_Salt reduction",0.246077037086413
+"606","LMIC",2035,"Business as usual",0.254882517823375
+"607","LMIC",2035,"Progress_Antihypertensive therapy",0.230137786093912
+"608","LMIC",2035,"Progress_Both",0.226949189755703
+"609","LMIC",2035,"Progress_Salt reduction",0.250748419338624
+"610","LMIC",2036,"Aspirational_Antihypertensive therapy",0.21607165426279
+"611","LMIC",2036,"Aspirational_Both",0.209828224535152
+"612","LMIC",2036,"Aspirational_Salt reduction",0.244813585631634
+"613","LMIC",2036,"Business as usual",0.253908304305456
+"614","LMIC",2036,"Progress_Antihypertensive therapy",0.227736823009983
+"615","LMIC",2036,"Progress_Both",0.224447903077542
+"616","LMIC",2036,"Progress_Salt reduction",0.249574917537379
+"617","LMIC",2037,"Aspirational_Antihypertensive therapy",0.212492925404918
+"618","LMIC",2037,"Aspirational_Both",0.206289899976166
+"619","LMIC",2037,"Aspirational_Salt reduction",0.243563058992322
+"620","LMIC",2037,"Business as usual",0.252898880301484
+"621","LMIC",2037,"Progress_Antihypertensive therapy",0.225477571399664
+"622","LMIC",2037,"Progress_Both",0.222112403721929
+"623","LMIC",2037,"Progress_Salt reduction",0.24839814371222
+"624","LMIC",2038,"Aspirational_Antihypertensive therapy",0.209095931281705
+"625","LMIC",2038,"Aspirational_Both",0.202960962256289
+"626","LMIC",2038,"Aspirational_Salt reduction",0.242286877691965
+"627","LMIC",2038,"Business as usual",0.251820887570938
+"628","LMIC",2038,"Progress_Antihypertensive therapy",0.223325930985342
+"629","LMIC",2038,"Progress_Both",0.219904120308459
+"630","LMIC",2038,"Progress_Salt reduction",0.247180719245272
+"631","LMIC",2039,"Aspirational_Antihypertensive therapy",0.205907600739201
+"632","LMIC",2039,"Aspirational_Both",0.199859938468945
+"633","LMIC",2039,"Aspirational_Salt reduction",0.240999729733251
+"634","LMIC",2039,"Business as usual",0.250695187300784
+"635","LMIC",2039,"Progress_Antihypertensive therapy",0.221291847129234
+"636","LMIC",2039,"Progress_Both",0.217828830315595
+"637","LMIC",2039,"Progress_Salt reduction",0.245939360558027
+"638","LMIC",2040,"Aspirational_Antihypertensive therapy",0.202933868176435
+"639","LMIC",2040,"Aspirational_Both",0.19698617349918
+"640","LMIC",2040,"Aspirational_Salt reduction",0.239703598401411
+"641","LMIC",2040,"Business as usual",0.249528907306679
+"642","LMIC",2040,"Progress_Antihypertensive therapy",0.219369651554034
+"643","LMIC",2040,"Progress_Both",0.215877631249971
+"644","LMIC",2040,"Progress_Salt reduction",0.244677770942166
+"645","LMIC",2041,"Aspirational_Antihypertensive therapy",0.200194565509161
+"646","LMIC",2041,"Aspirational_Both",0.194353924025017
+"647","LMIC",2041,"Aspirational_Salt reduction",0.238432480283335
+"648","LMIC",2041,"Business as usual",0.248361148536552
+"649","LMIC",2041,"Progress_Antihypertensive therapy",0.217576723621304
+"650","LMIC",2041,"Progress_Both",0.214065084390952
+"651","LMIC",2041,"Progress_Salt reduction",0.243431805893926
+"652","LMIC",2042,"Aspirational_Antihypertensive therapy",0.197662248121143
+"653","LMIC",2042,"Aspirational_Both",0.191932780804732
+"654","LMIC",2042,"Aspirational_Salt reduction",0.237166791129475
+"655","LMIC",2042,"Business as usual",0.247174487223448
+"656","LMIC",2042,"Progress_Antihypertensive therapy",0.215883276146813
+"657","LMIC",2042,"Progress_Both",0.212359981429658
+"658","LMIC",2042,"Progress_Salt reduction",0.242182402995879
+"659","LMIC",2043,"Aspirational_Antihypertensive therapy",0.195318600734833
+"660","LMIC",2043,"Aspirational_Both",0.189701185963092
+"661","LMIC",2043,"Aspirational_Salt reduction",0.235902384992919
+"662","LMIC",2043,"Business as usual",0.245968162847863
+"663","LMIC",2043,"Progress_Antihypertensive therapy",0.214272946259684
+"664","LMIC",2043,"Progress_Both",0.210744443419917
+"665","LMIC",2043,"Progress_Salt reduction",0.240926787069107
+"666","LMIC",2044,"Aspirational_Antihypertensive therapy",0.193189036743585
+"667","LMIC",2044,"Aspirational_Both",0.187681376221067
+"668","LMIC",2044,"Aspirational_Salt reduction",0.234690108854652
+"669","LMIC",2044,"Business as usual",0.2447972977203
+"670","LMIC",2044,"Progress_Antihypertensive therapy",0.212780046776739
+"671","LMIC",2044,"Progress_Both",0.20925109740232
+"672","LMIC",2044,"Progress_Salt reduction",0.239717699681788
+"673","LMIC",2045,"Aspirational_Antihypertensive therapy",0.191288464639496
+"674","LMIC",2045,"Aspirational_Both",0.185885913509862
+"675","LMIC",2045,"Aspirational_Salt reduction",0.233568471792816
+"676","LMIC",2045,"Business as usual",0.243704163059369
+"677","LMIC",2045,"Progress_Antihypertensive therapy",0.211429516606111
+"678","LMIC",2045,"Progress_Both",0.207903496839492
+"679","LMIC",2045,"Progress_Salt reduction",0.238595317746694
+"680","LMIC",2046,"Aspirational_Antihypertensive therapy",0.189603991543023
+"681","LMIC",2046,"Aspirational_Both",0.184299864164596
+"682","LMIC",2046,"Aspirational_Salt reduction",0.232546068294903
+"683","LMIC",2046,"Business as usual",0.242701269187462
+"684","LMIC",2046,"Progress_Antihypertensive therapy",0.210219139157611
+"685","LMIC",2046,"Progress_Both",0.206697959583259
+"686","LMIC",2046,"Progress_Salt reduction",0.237569874635883
+"687","LMIC",2047,"Aspirational_Antihypertensive therapy",0.188112054268116
+"688","LMIC",2047,"Aspirational_Both",0.182899413981495
+"689","LMIC",2047,"Aspirational_Salt reduction",0.231617005763551
+"690","LMIC",2047,"Business as usual",0.241783751020901
+"691","LMIC",2047,"Progress_Antihypertensive therapy",0.209134453716813
+"692","LMIC",2047,"Progress_Both",0.205619604183323
+"693","LMIC",2047,"Progress_Salt reduction",0.236635673203991
+"694","LMIC",2048,"Aspirational_Antihypertensive therapy",0.186763631694426
+"695","LMIC",2048,"Aspirational_Both",0.181636297467184
+"696","LMIC",2048,"Aspirational_Salt reduction",0.230741130999411
+"697","LMIC",2048,"Business as usual",0.240911265737133
+"698","LMIC",2048,"Progress_Antihypertensive therapy",0.20813210121843
+"699","LMIC",2048,"Progress_Both",0.204625115543525
+"700","LMIC",2048,"Progress_Salt reduction",0.235752125682345
+"701","LMIC",2049,"Aspirational_Antihypertensive therapy",0.185529091974328
+"702","LMIC",2049,"Aspirational_Both",0.180481350887882
+"703","LMIC",2049,"Aspirational_Salt reduction",0.229897556214161
+"704","LMIC",2049,"Business as usual",0.240063359497366
+"705","LMIC",2049,"Progress_Antihypertensive therapy",0.207188382378531
+"706","LMIC",2049,"Progress_Both",0.203690669194933
+"707","LMIC",2049,"Progress_Salt reduction",0.234898292932161
+"708","LMIC",2050,"Aspirational_Antihypertensive therapy",0.184360542383186
+"709","LMIC",2050,"Aspirational_Both",0.179387519121102
+"710","LMIC",2050,"Aspirational_Salt reduction",0.229038983273176
+"711","LMIC",2050,"Business as usual",0.239192616681135
+"712","LMIC",2050,"Progress_Antihypertensive therapy",0.206257579812084
+"713","LMIC",2050,"Progress_Both",0.202770675664126
+"714","LMIC",2050,"Progress_Salt reduction",0.234026594127269
+"715","UMIC",2017,"Aspirational_Antihypertensive therapy",0.218018493199408
+"716","UMIC",2017,"Aspirational_Both",0.218018493199408
+"717","UMIC",2017,"Aspirational_Salt reduction",0.218018493199408
+"718","UMIC",2017,"Business as usual",0.218018493199408
+"719","UMIC",2017,"Progress_Antihypertensive therapy",0.218018493199408
+"720","UMIC",2017,"Progress_Both",0.218018493199408
+"721","UMIC",2017,"Progress_Salt reduction",0.218018493199408
+"722","UMIC",2018,"Aspirational_Antihypertensive therapy",0.205226178688856
+"723","UMIC",2018,"Aspirational_Both",0.205226178688856
+"724","UMIC",2018,"Aspirational_Salt reduction",0.205226178688856
+"725","UMIC",2018,"Business as usual",0.205226178688856
+"726","UMIC",2018,"Progress_Antihypertensive therapy",0.205226178688856
+"727","UMIC",2018,"Progress_Both",0.205226178688856
+"728","UMIC",2018,"Progress_Salt reduction",0.205226178688856
+"729","UMIC",2019,"Aspirational_Antihypertensive therapy",0.204175657297672
+"730","UMIC",2019,"Aspirational_Both",0.204175657297672
+"731","UMIC",2019,"Aspirational_Salt reduction",0.204175657297672
+"732","UMIC",2019,"Business as usual",0.204175657297672
+"733","UMIC",2019,"Progress_Antihypertensive therapy",0.204175657297672
+"734","UMIC",2019,"Progress_Both",0.204175657297672
+"735","UMIC",2019,"Progress_Salt reduction",0.204175657297672
+"736","UMIC",2020,"Aspirational_Antihypertensive therapy",0.200146398683141
+"737","UMIC",2020,"Aspirational_Both",0.200146398683141
+"738","UMIC",2020,"Aspirational_Salt reduction",0.200146398683141
+"739","UMIC",2020,"Business as usual",0.200146398683141
+"740","UMIC",2020,"Progress_Antihypertensive therapy",0.200146398683141
+"741","UMIC",2020,"Progress_Both",0.200146398683141
+"742","UMIC",2020,"Progress_Salt reduction",0.200146398683141
+"743","UMIC",2021,"Aspirational_Antihypertensive therapy",0.196630728768424
+"744","UMIC",2021,"Aspirational_Both",0.196630728768424
+"745","UMIC",2021,"Aspirational_Salt reduction",0.196630728768424
+"746","UMIC",2021,"Business as usual",0.196630728768424
+"747","UMIC",2021,"Progress_Antihypertensive therapy",0.196630728768424
+"748","UMIC",2021,"Progress_Both",0.196630728768424
+"749","UMIC",2021,"Progress_Salt reduction",0.196630728768424
+"750","UMIC",2022,"Aspirational_Antihypertensive therapy",0.193619560828224
+"751","UMIC",2022,"Aspirational_Both",0.193619560828224
+"752","UMIC",2022,"Aspirational_Salt reduction",0.193619560828224
+"753","UMIC",2022,"Business as usual",0.193619560828224
+"754","UMIC",2022,"Progress_Antihypertensive therapy",0.193619560828224
+"755","UMIC",2022,"Progress_Both",0.193619560828224
+"756","UMIC",2022,"Progress_Salt reduction",0.193619560828224
+"757","UMIC",2023,"Aspirational_Antihypertensive therapy",0.189673650566775
+"758","UMIC",2023,"Aspirational_Both",0.189673650566775
+"759","UMIC",2023,"Aspirational_Salt reduction",0.191282134743003
+"760","UMIC",2023,"Business as usual",0.191282134743003
+"761","UMIC",2023,"Progress_Antihypertensive therapy",0.189879012576656
+"762","UMIC",2023,"Progress_Both",0.189879012576656
+"763","UMIC",2023,"Progress_Salt reduction",0.191282134743003
+"764","UMIC",2024,"Aspirational_Antihypertensive therapy",0.185577814164598
+"765","UMIC",2024,"Aspirational_Both",0.185167396914719
+"766","UMIC",2024,"Aspirational_Salt reduction",0.188587990748099
+"767","UMIC",2024,"Business as usual",0.189019642312633
+"768","UMIC",2024,"Progress_Antihypertensive therapy",0.186079303790273
+"769","UMIC",2024,"Progress_Both",0.185949596008851
+"770","UMIC",2024,"Progress_Salt reduction",0.188883942926708
+"771","UMIC",2025,"Aspirational_Antihypertensive therapy",0.182116911239264
+"772","UMIC",2025,"Aspirational_Both",0.181100512772538
+"773","UMIC",2025,"Aspirational_Salt reduction",0.186541003592404
+"774","UMIC",2025,"Business as usual",0.187644996059482
+"775","UMIC",2025,"Progress_Antihypertensive therapy",0.183028196173533
+"776","UMIC",2025,"Progress_Both",0.182704055231636
+"777","UMIC",2025,"Progress_Salt reduction",0.187296551450264
+"778","UMIC",2026,"Aspirational_Antihypertensive therapy",0.177734092263727
+"779","UMIC",2026,"Aspirational_Both",0.176013576370471
+"780","UMIC",2026,"Aspirational_Salt reduction",0.183614602380278
+"781","UMIC",2026,"Business as usual",0.185549762941066
+"782","UMIC",2026,"Progress_Antihypertensive therapy",0.179176470563839
+"783","UMIC",2026,"Progress_Both",0.178621825922175
+"784","UMIC",2026,"Progress_Salt reduction",0.184936588957954
+"785","UMIC",2027,"Aspirational_Antihypertensive therapy",0.173134001080947
+"786","UMIC",2027,"Aspirational_Both",0.170659991574609
+"787","UMIC",2027,"Aspirational_Salt reduction",0.180517183049294
+"788","UMIC",2027,"Business as usual",0.183406970051778
+"789","UMIC",2027,"Progress_Antihypertensive therapy",0.175235671660999
+"790","UMIC",2027,"Progress_Both",0.174427808586857
+"791","UMIC",2027,"Progress_Salt reduction",0.182487725471668
+"792","UMIC",2028,"Aspirational_Antihypertensive therapy",0.168805971962794
+"793","UMIC",2028,"Aspirational_Both",0.16556198748533
+"794","UMIC",2028,"Aspirational_Salt reduction",0.177733873403833
+"795","UMIC",2028,"Business as usual",0.181679221836669
+"796","UMIC",2028,"Progress_Antihypertensive therapy",0.171696637814066
+"797","UMIC",2028,"Progress_Both",0.17062124782538
+"798","UMIC",2028,"Progress_Salt reduction",0.180419291794418
+"799","UMIC",2029,"Aspirational_Antihypertensive therapy",0.163796745936073
+"800","UMIC",2029,"Aspirational_Both",0.160070181109808
+"801","UMIC",2029,"Aspirational_Salt reduction",0.174593707393029
+"802","UMIC",2029,"Business as usual",0.179296098799937
+"803","UMIC",2029,"Progress_Antihypertensive therapy",0.167591220456099
+"804","UMIC",2029,"Progress_Both",0.166249651129328
+"805","UMIC",2029,"Progress_Salt reduction",0.177677805097856
+"806","UMIC",2030,"Aspirational_Antihypertensive therapy",0.159570776144438
+"807","UMIC",2030,"Aspirational_Both",0.155507542059263
+"808","UMIC",2030,"Aspirational_Salt reduction",0.172435325401564
+"809","UMIC",2030,"Business as usual",0.177758499328675
+"810","UMIC",2030,"Progress_Antihypertensive therapy",0.164376883275484
+"811","UMIC",2030,"Progress_Both",0.162760749698918
+"812","UMIC",2030,"Progress_Salt reduction",0.175752848559682
+"813","UMIC",2031,"Aspirational_Antihypertensive therapy",0.155104248316745
+"814","UMIC",2031,"Aspirational_Both",0.150833901819461
+"815","UMIC",2031,"Aspirational_Salt reduction",0.170085138105265
+"816","UMIC",2031,"Business as usual",0.175900387012889
+"817","UMIC",2031,"Progress_Antihypertensive therapy",0.160992086684721
+"818","UMIC",2031,"Progress_Both",0.159108309601781
+"819","UMIC",2031,"Progress_Salt reduction",0.173498099604839
+"820","UMIC",2032,"Aspirational_Antihypertensive therapy",0.151010036591539
+"821","UMIC",2032,"Aspirational_Both",0.146610231887258
+"822","UMIC",2032,"Aspirational_Salt reduction",0.168102523635366
+"823","UMIC",2032,"Business as usual",0.174333759583202
+"824","UMIC",2032,"Progress_Antihypertensive therapy",0.15802482135276
+"825","UMIC",2032,"Progress_Both",0.155945347170071
+"826","UMIC",2032,"Progress_Salt reduction",0.171623574045588
+"827","UMIC",2033,"Aspirational_Antihypertensive therapy",0.1471301759131
+"828","UMIC",2033,"Aspirational_Both",0.142664533905048
+"829","UMIC",2033,"Aspirational_Salt reduction",0.166252914263561
+"830","UMIC",2033,"Business as usual",0.172830323862355
+"831","UMIC",2033,"Progress_Antihypertensive therapy",0.155279168903972
+"832","UMIC",2033,"Progress_Both",0.153053635405418
+"833","UMIC",2033,"Progress_Salt reduction",0.169873362138835
+"834","UMIC",2034,"Aspirational_Antihypertensive therapy",0.143311696409648
+"835","UMIC",2034,"Aspirational_Both",0.138833786878255
+"836","UMIC",2034,"Aspirational_Salt reduction",0.164308289648787
+"837","UMIC",2034,"Business as usual",0.171163569884817
+"838","UMIC",2034,"Progress_Antihypertensive therapy",0.152557326557639
+"839","UMIC",2034,"Progress_Both",0.15022429452329
+"840","UMIC",2034,"Progress_Salt reduction",0.168009477653003
+"841","UMIC",2035,"Aspirational_Antihypertensive therapy",0.139528576254699
+"842","UMIC",2035,"Aspirational_Both",0.135079540470366
+"843","UMIC",2035,"Aspirational_Salt reduction",0.162191686838512
+"844","UMIC",2035,"Business as usual",0.16926326256646
+"845","UMIC",2035,"Progress_Antihypertensive therapy",0.149794003550511
+"846","UMIC",2035,"Progress_Both",0.147383546134581
+"847","UMIC",2035,"Progress_Salt reduction",0.165953115733832
+"848","UMIC",2036,"Aspirational_Antihypertensive therapy",0.135863484089534
+"849","UMIC",2036,"Aspirational_Both",0.131466220518618
+"850","UMIC",2036,"Aspirational_Salt reduction",0.159981750328234
+"851","UMIC",2036,"Business as usual",0.167227440331828
+"852","UMIC",2036,"Progress_Antihypertensive therapy",0.147052599224026
+"853","UMIC",2036,"Progress_Both",0.144584447226622
+"854","UMIC",2036,"Progress_Salt reduction",0.163790019797068
+"855","UMIC",2037,"Aspirational_Antihypertensive therapy",0.132555934198352
+"856","UMIC",2037,"Aspirational_Both",0.128215451294268
+"857","UMIC",2037,"Aspirational_Salt reduction",0.157956211945976
+"858","UMIC",2037,"Business as usual",0.165357645647606
+"859","UMIC",2037,"Progress_Antihypertensive therapy",0.144577142273019
+"860","UMIC",2037,"Progress_Both",0.142060721961818
+"861","UMIC",2037,"Progress_Salt reduction",0.161808239468232
+"862","UMIC",2038,"Aspirational_Antihypertensive therapy",0.129789100588895
+"863","UMIC",2038,"Aspirational_Both",0.125498442242227
+"864","UMIC",2038,"Aspirational_Salt reduction",0.156349318970602
+"865","UMIC",2038,"Business as usual",0.16390627930044
+"866","UMIC",2038,"Progress_Antihypertensive therapy",0.142565469776099
+"867","UMIC",2038,"Progress_Both",0.140002837756767
+"868","UMIC",2038,"Progress_Salt reduction",0.16024993779216
+"869","UMIC",2039,"Aspirational_Antihypertensive therapy",0.127562687301678
+"870","UMIC",2039,"Aspirational_Both",0.123315303729305
+"871","UMIC",2039,"Aspirational_Salt reduction",0.155185799213828
+"872","UMIC",2039,"Business as usual",0.162897122275338
+"873","UMIC",2039,"Progress_Antihypertensive therapy",0.141027898310518
+"874","UMIC",2039,"Progress_Both",0.138420509198477
+"875","UMIC",2039,"Progress_Salt reduction",0.159138324796859
+"876","UMIC",2040,"Aspirational_Antihypertensive therapy",0.125775852955731
+"877","UMIC",2040,"Aspirational_Both",0.121569608169641
+"878","UMIC",2040,"Aspirational_Salt reduction",0.154365397605975
+"879","UMIC",2040,"Business as usual",0.162221363332983
+"880","UMIC",2040,"Progress_Antihypertensive therapy",0.139865701833531
+"881","UMIC",2040,"Progress_Both",0.137217108806652
+"882","UMIC",2040,"Progress_Salt reduction",0.158368064852098
+"883","UMIC",2041,"Aspirational_Antihypertensive therapy",0.124228643588788
+"884","UMIC",2041,"Aspirational_Both",0.120066636064568
+"885","UMIC",2041,"Aspirational_Salt reduction",0.153670425130039
+"886","UMIC",2041,"Business as usual",0.161650577133749
+"887","UMIC",2041,"Progress_Antihypertensive therapy",0.138871489563667
+"888","UMIC",2041,"Progress_Both",0.136188335486636
+"889","UMIC",2041,"Progress_Salt reduction",0.157715552351788
+"890","UMIC",2042,"Aspirational_Antihypertensive therapy",0.122807251035726
+"891","UMIC",2042,"Aspirational_Both",0.118695261382945
+"892","UMIC",2042,"Aspirational_Salt reduction",0.1529784189076
+"893","UMIC",2042,"Business as usual",0.161055855030669
+"894","UMIC",2042,"Progress_Antihypertensive therapy",0.137928468797711
+"895","UMIC",2042,"Progress_Both",0.135219186559093
+"896","UMIC",2042,"Progress_Salt reduction",0.157054779573913
+"897","UMIC",2043,"Aspirational_Antihypertensive therapy",0.121320807635813
+"898","UMIC",2043,"Aspirational_Both",0.11726933964541
+"899","UMIC",2043,"Aspirational_Salt reduction",0.152065203390172
+"900","UMIC",2043,"Business as usual",0.16020213055376
+"901","UMIC",2043,"Progress_Antihypertensive therapy",0.136830810789711
+"902","UMIC",2043,"Progress_Both",0.134107258643281
+"903","UMIC",2043,"Progress_Salt reduction",0.156155917099054
+"904","UMIC",2044,"Aspirational_Antihypertensive therapy",0.119790688149505
+"905","UMIC",2044,"Aspirational_Both",0.115806625803198
+"906","UMIC",2044,"Aspirational_Salt reduction",0.15096861123845
+"907","UMIC",2044,"Business as usual",0.159133163560865
+"908","UMIC",2044,"Progress_Antihypertensive therapy",0.135607620886692
+"909","UMIC",2044,"Progress_Both",0.13287968514969
+"910","UMIC",2044,"Progress_Salt reduction",0.155059685738839
+"911","UMIC",2045,"Aspirational_Antihypertensive therapy",0.118265668483226
+"912","UMIC",2045,"Aspirational_Both",0.114352184497716
+"913","UMIC",2045,"Aspirational_Salt reduction",0.149760888546132
+"914","UMIC",2045,"Business as usual",0.157928271233453
+"915","UMIC",2045,"Progress_Antihypertensive therapy",0.134319927129557
+"916","UMIC",2045,"Progress_Both",0.131595169263455
+"917","UMIC",2045,"Progress_Salt reduction",0.153841786576457
+"918","UMIC",2046,"Aspirational_Antihypertensive therapy",0.116780780897666
+"919","UMIC",2046,"Aspirational_Both",0.112936739052928
+"920","UMIC",2046,"Aspirational_Salt reduction",0.148503972285814
+"921","UMIC",2046,"Business as usual",0.156658749809993
+"922","UMIC",2046,"Progress_Antihypertensive therapy",0.133016809668727
+"923","UMIC",2046,"Progress_Both",0.130299772885929
+"924","UMIC",2046,"Progress_Salt reduction",0.152568705343533
+"925","UMIC",2047,"Aspirational_Antihypertensive therapy",0.115331477580363
+"926","UMIC",2047,"Aspirational_Both",0.111555412266327
+"927","UMIC",2047,"Aspirational_Salt reduction",0.147202024293703
+"928","UMIC",2047,"Business as usual",0.155330297650907
+"929","UMIC",2047,"Progress_Antihypertensive therapy",0.131698721158483
+"930","UMIC",2047,"Progress_Both",0.128993512664318
+"931","UMIC",2047,"Progress_Salt reduction",0.151245233244731
+"932","UMIC",2048,"Aspirational_Antihypertensive therapy",0.11392820643375
+"933","UMIC",2048,"Aspirational_Both",0.110218032616132
+"934","UMIC",2048,"Aspirational_Salt reduction",0.145877055303731
+"935","UMIC",2048,"Business as usual",0.15396740994741
+"936","UMIC",2048,"Progress_Antihypertensive therapy",0.13038162253602
+"937","UMIC",2048,"Progress_Both",0.127691567435354
+"938","UMIC",2048,"Progress_Salt reduction",0.149894360362728
+"939","UMIC",2049,"Aspirational_Antihypertensive therapy",0.11255248584728
+"940","UMIC",2049,"Aspirational_Both",0.108906267260922
+"941","UMIC",2049,"Aspirational_Salt reduction",0.144515712188578
+"942","UMIC",2049,"Business as usual",0.152557414004957
+"943","UMIC",2049,"Progress_Antihypertensive therapy",0.129053938470802
+"944","UMIC",2049,"Progress_Both",0.126381904375626
+"945","UMIC",2049,"Progress_Salt reduction",0.148502853517172
+"946","UMIC",2050,"Aspirational_Antihypertensive therapy",0.111198184180865
+"947","UMIC",2050,"Aspirational_Both",0.107614304299652
+"948","UMIC",2050,"Aspirational_Salt reduction",0.143114503520565
+"949","UMIC",2050,"Business as usual",0.151097159211081
+"950","UMIC",2050,"Progress_Antihypertensive therapy",0.127712863588286
+"951","UMIC",2050,"Progress_Both",0.125061487322224
+"952","UMIC",2050,"Progress_Salt reduction",0.147067152477592

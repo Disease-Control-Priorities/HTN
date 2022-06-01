@@ -1,6 +1,6 @@
 rm(list=ls()) 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-load("model/model_output_newnorm.Rda")
+load("../model/model_output_newnorm.Rda")
 library(dplyr)
 library(ggplot2)
 library(readxl)
@@ -58,7 +58,7 @@ ggplot(plot%>%filter(Year==2025| Year==2030),
   facet_grid(Year~sex)+
   geom_point()
 
-ggsave("bp_diffs_india.png", height=8, width=10)
+#ggsave("bp_diffs_india.png", height=8, width=10)
 
 #######################################################
 #residual risk example
@@ -314,6 +314,6 @@ ggplot(plot, aes(x=year, y=100*disease_free, color=Scenario, group=Scenario))+
   theme_bw()+
   ylim(0,100)
 
-ggsave("figures/Figure2_2022.png", width = 10, height=8)
+ggsave("../output/fig_1.pdf", width = 10, height=8, dpi=600)
 
 plot%>%filter(year==2050)
