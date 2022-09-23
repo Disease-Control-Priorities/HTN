@@ -451,7 +451,7 @@ ggplot(ncdr%>%filter(model%in%c(1,5,9))%>%mutate(model = factor(model, levels=c(
   geom_line(data = fit_9%>%mutate(model = "Worst-performing quantile"), 
             aes(x=controlValues, y=changePredict,color="Business as usual scenario \nscale-up function"),
             size=1)+
-  facet_wrap(~model)+
+  facet_wrap(~model, ncol=1)+
   xlab("Proportion of population with blood pressure controlled in year t (%)")+
   xlim(0,1)+
   ylim(0,0.05)+
@@ -464,7 +464,7 @@ ggplot(ncdr%>%filter(model%in%c(1,5,9))%>%mutate(model = factor(model, levels=c(
   theme_bw()
 
 
-ggsave("../../output/fig_A6.pdf", height=3, width=12, dpi=600)
+ggsave("../../output/fig_A6_alt.pdf", height=10, width=8, dpi=600)
 
 #######################################################
 
@@ -620,9 +620,9 @@ covfxn$a_change[covfxn$Year<=2019]<-0
 #add salt impacts
 #add salt impacts
 data.in<-fread("../bp_data5.csv")%>%
+  select(-Year, -Country)%>%
   rename(location = location_gbd,
-         age = Age.group)%>%
-  select(-Year, -Country)
+         age = Age.group)
 data.in$salt[data.in$location=="China"]<-4.83*2.52
 
 names<-read.csv("../Country_groupings_extended.csv", stringsAsFactors = F)%>%
@@ -777,7 +777,7 @@ covfxn<-covfxn%>%
 covfxn<-covfxn%>%mutate(ideal = ifelse(Year>=2023, (1-control), 0))
 
 
-#write.csv(covfxn, "model/covfxn2.csv", row.names = F)
+write.csv(covfxn, "../../model/covfxn2.csv", row.names = F)
 
 
 ################################
@@ -914,6 +914,7 @@ leg$achieveby00<-factor(c("Already achieved", "2023-2030", "2031-2040",
                   levels = c("Already achieved", "2023-2030", "2031-2040",
                              "2041-2050","After 2050"))
 
+library(ggpubr)
 
 legend1<-get_legend(
   ggplot(data = leg) +
@@ -936,30 +937,37 @@ a<-ggplot(data = world) +
 a
 #ggsave("figures/bizasusual.png", height = 6, width=10)
 
-library(ggpubr)
 a<- a + theme(legend.position = 'none')
 b<- b + theme(legend.position = 'none')
 c<- c + theme(legend.position = 'none')
                
 ggarrange(a, legend.grob=legend1, legend='right')
 ggsave("../../output/map_business as usual.pdf", height = 6, width=10, dpi=300)
-ggsave("../../output/map1.png", height = 6, width=10, dpi=300)
+ggsave("../../output/map1.jpg", height = 6, width=10, dpi=1200)
+ggsave( "../../output/map1.tiff", device='tiff', width=10, height=6)
 
 ggarrange(b, legend.grob=legend1, legend='right')
 ggsave("../../output/map_reference with salt.pdf", height = 6, width=10, dpi=300)
-ggsave("../../output/map2.png", height = 6, width=10, dpi=300)
+ggsave("../../output/map2.jpg", height = 6, width=10, dpi=1200)
+ggsave( "../../output/map2.tiff", device='tiff', width=10, height=6)
 
 ggarrange(c, legend.grob=legend1, legend='right')
 ggsave("../../output/map_aspirational with salt.pdf", height = 6, width=10, dpi=300)
-ggsave("../../output/map3.png", height = 6, width=10, dpi=300)
+ggsave("../../output/map3.jpg", height = 6, width=10, dpi=1200)
+ggsave( "../../output/map3.tiff", device='tiff', width=10, height=6)
 
 ggarrange(d, legend.grob=legend1, legend='right')
 ggsave("../../output/map_reference no salt.pdf", height = 6, width=10, dpi=300)
-ggsave("../../output/map4.png", height = 6, width=10, dpi=300)
+ggsave("../../output/map4.jpg", height = 6, width=10, dpi=1200)
+ggsave( "../../output/map4.tiff", device='tiff', width=10, height=6)
+
 
 ggarrange(e, legend.grob=legend1, legend='right')
 ggsave("../../output/map_aspirational no salt.pdf", height = 6, width=10, dpi=300)
-ggsave("../../output/map5.png", height = 6, width=10, dpi=300)
+ggsave("../../output/map5.jpg", height = 6, width=10, dpi=1200)
+ggsave( "../../output/map5.tiff", device='tiff', width=10, height=6)
+
+dev.off()
 
 
 a2<-ggarrange(a, legend.grob=legend1, legend='right')

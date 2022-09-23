@@ -4,7 +4,7 @@ library(ggplot2)
 library(readxl)
 library(data.table)
 
-load("../model/model_output_newnorm.Rda")
+load("../model/model_output_updated.Rda")
 
 comb<-bind_rows(progress%>%filter(intervention!="b.a.u")%>%
                   mutate(intervention = paste0("Progress_", intervention)),
@@ -128,7 +128,7 @@ lifetab$lx[lifetab$AgeGrpStart==0]<-100000
 #calc lx
 ##############################################################################################
 
-lt1<-as.data.table(lifetab%>%filter(Location!="South Sudan"))#issue with SSD. need to investigate.
+lt1<-as.data.table(lifetab%>%filter(Location!="South Sudan"))#issue with SSD. 
 lt1<-lt1[order(Sex, Location, Time2, intervention, count)]
 unique(lt1$Location)
 
@@ -140,7 +140,7 @@ lt2<-lt2[,c("AgeGrp", "Sex", "Location", "count", "Time2", "intervention", "lx0"
 lt1[count==i+1, lx:=lt2[,lx0]]
 }
 
-any(is.na(lt1))
+#any(is.na(lt1))
 ################################################################################################
 #calc Lx
 ################################################################################################
@@ -172,20 +172,15 @@ lt1[Sex=="Both", ex:=lt2[,exboth]]
 
 
 LE<-lt1%>%filter(AgeGrp==0)%>%select(Sex, Location, ex, Time2, intervention)
-which(is.na(LE))
+#which(is.na(LE))
 
-write.csv(LE, "../output/LE0_2022.csv")
+write.csv(LE, "../output/LE0_updated.csv")
 
 ##life expectancy at 40
 LE40<-lt1%>%filter(AgeGrp=="40-44")%>%select(Sex, Location, ex, Time2, intervention)
-which(is.na(LE40))
+#which(is.na(LE40))
 
-write.csv(LE40, "../output/LE40_2022.csv")
-
-####
-#do for regions?
-###
-
+write.csv(LE40, "../output/LE40_updated.csv")
 
 #################################
 ## deaths, cases
@@ -194,7 +189,7 @@ base2<-comb%>%filter(year%in%c(2020,2050))%>%
   filter(age!=95)%>%select(-c(well, pop))
 
 base2<-left_join(base2, codes%>%rename(location=gbd2019)%>%select(wb2021,location))
-which(is.na(base2))
+#which(is.na(base2))
 
 alls<-base2%>%group_by(location, year, cause, age, wb2021,
                        intervention)%>%
@@ -215,9 +210,6 @@ base2<-bind_rows(base2, allc)
 base2<-base2%>%filter(year==2050 |
                         (year==2020 & intervention=="Business as usual"))
 
-#write.csv(base2, "../web_appendix/shiny/results_2022.csv", row.names = F)
-##
-
 alldf<-comb%>%group_by(year, intervention)%>%
   summarise(
     pop=sum(pop)/4,
@@ -229,7 +221,9 @@ alldf<-comb%>%group_by(year, intervention)%>%
 
 report<-alldf%>%filter(year%in%c(2020,2030,2040, 2050))
 
-write.csv(report, "../output/results1_2022.csv")
+write.csv(report, "../output/results1_updated.csv")
+
+library(tidyr)
 
 #cumulative DA
 cdf<-alldf%>%select(dead, year, intervention)%>%
@@ -238,10 +232,12 @@ cdf<-alldf%>%select(dead, year, intervention)%>%
          rDA =  `Business as usual`- Progress_Both)
          #iDA =  `Business as usual` - Ideal)
 
-write.csv(cdf, "../output/results_cumulative_2022.csv")
+write.csv(cdf, "../output/results_cumulative_2022_updated.csv")
 
 sum(cdf$rDA)/1e6
 sum(cdf$aDA)/1e6
+signif(round(sum(cdf$rDA)/1e6), digits=2)
+signif(round(sum(cdf$aDA)/1e6), digits=2)
 
 pcdf<-alldf%>%select(newcases, year, intervention)%>%
   spread(intervention, newcases)%>%
@@ -251,8 +247,10 @@ pcdf<-alldf%>%select(newcases, year, intervention)%>%
 
 sum(pcdf$rDA)/1e6
 sum(pcdf$aDA)/1e6
+signif(round(sum(pcdf$rDA)/1e6),digits=2)
+signif(round(sum(pcdf$aDA)/1e6), digits=2)
 
-write.csv(pcdf, "../output/cases_cumulative_2022.csv")
+write.csv(pcdf, "../output/cases_cumulative_2022_updated.csv")
 
 
 #by sex_
@@ -267,6 +265,6 @@ alldf<-comb%>%group_by(year, sex, intervention)%>%
 
 report2<-alldf%>%filter(year%in%c(2020,2050))
 
-write.csv(report2, "../output/results_bysex_2022.csv")
+write.csv(report2, "../output/results_bysex_2022_updated.csv")
 ####
 

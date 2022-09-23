@@ -62,13 +62,13 @@ Sub-Saharan Africa,Eastern Sub-Saharan Africa,Ethiopia,Ethiopia,Ethiopia,Ethiopi
 High-income,Western Europe,Finland,Finland,Finland,Finland,Finland,High-income Western countries,High SDI,HIC,FIN,246,HIC
 High-income,Western Europe,France,France,France,France,France,High-income Western countries,High SDI,HIC,FRA,250,HIC
 Sub-Saharan Africa,Central Sub-Saharan Africa,Gabon,Gabon,Gabon,Gabon,Gabon,Sub-Saharan Africa,Low-middle SDI,UMIC,GAB,266,UMIC
-"Central Europe, Eastern Europe, and Central Asia",Central Asia,Georgia,Georgia,Georgia,Georgia,Gambia,"Central Asia, Middle East and North Africa",High-middle SDI,UMIC,GEO,268,LIC
-High-income,Western Europe,Germany,Germany,Germany,Germany,Georgia,High-income Western countries,High SDI,HIC,DEU,276,UMIC
-Sub-Saharan Africa,Western Sub-Saharan Africa,Ghana,Ghana,Ghana,Ghana,Germany,Sub-Saharan Africa,Low-middle SDI,LMIC,GHA,288,HIC
-High-income,Western Europe,Greece,Greece,Greece,Greece,Ghana,High-income Western countries,High SDI,HIC,GRC,300,LMIC
-High-income,High-income North America,Greenland,Greenland,Greenland,NA,Greece,NA,High-middle SDI,HIC,GRL,304,HIC
-Latin America and Caribbean,Caribbean,Grenada,Grenada,Grenada,Grenada,Greenland,NA,Middle SDI,UMIC,GRD,308,HIC
-"Southeast Asia, East Asia, and Oceania",Oceania,Guam,Guam,Guam,Guam,Grenada,NA,High-middle SDI,HIC,GUM,316,UMIC
+"Central Europe, Eastern Europe, and Central Asia",Central Asia,Georgia,Georgia,Georgia,Georgia,Georgia,"Central Asia, Middle East and North Africa",High-middle SDI,UMIC,GEO,268,UMIC
+High-income,Western Europe,Germany,Germany,Germany,Germany,Germany,High-income Western countries,High SDI,HIC,DEU,276,HIC
+Sub-Saharan Africa,Western Sub-Saharan Africa,Ghana,Ghana,Ghana,Ghana,Ghana,Sub-Saharan Africa,Low-middle SDI,LMIC,GHA,288,LMIC
+High-income,Western Europe,Greece,Greece,Greece,Greece,Greece,High-income Western countries,High SDI,HIC,GRC,300,HIC
+High-income,High-income North America,Greenland,Greenland,Greenland,NA,Greenland,NA,High-middle SDI,HIC,GRL,304,HIC
+Latin America and Caribbean,Caribbean,Grenada,Grenada,Grenada,Grenada,Grenada,NA,Middle SDI,UMIC,GRD,308,UMIC
+"Southeast Asia, East Asia, and Oceania",Oceania,Guam,Guam,Guam,Guam,NA,NA,High-middle SDI,HIC,GUM,316,HIC
 Latin America and Caribbean,Central Latin America,Guatemala,Guatemala,Guatemala,Guatemala,Guatemala,Latin America and Caribbean,Low-middle SDI,LMIC,GTM,320,UMIC
 Sub-Saharan Africa,Western Sub-Saharan Africa,Guinea,Guinea,Guinea,Guinea,Guinea,Sub-Saharan Africa,Low SDI,LIC,GIN,324,LIC
 Sub-Saharan Africa,Western Sub-Saharan Africa,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau,Guinea Bissau,Sub-Saharan Africa,Low SDI,LIC,GNB,624,LIC

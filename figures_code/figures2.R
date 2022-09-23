@@ -6,7 +6,7 @@ library(RColorBrewer)
 library(readxl)
 library(tidyr)
 
-load("../model/model_output_newnorm.Rda")
+load("../model/model_output_updated.Rda")
 
 countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(location!="Global", 
                                                                               location!="American Samoa",
@@ -67,7 +67,7 @@ ggplot(WB_50q30, aes(x=year, y=x50q30, color=intervention))+
   geom_point()+
   facet_wrap(~wb2021)
 
-write.csv(WB_50q30, "../output/x50q30_region_2022.csv")
+write.csv(WB_50q30, "../output/x50q30_region_updated.csv")
 
 #by country
 country_50q30<-CVD%>%group_by(age.group,location, wb2021, year, intervention)%>%summarise(pop=sum(pop), dead=sum(dead))
@@ -80,7 +80,7 @@ ggplot(country_50q30%>%filter(wb2021=="LIC", intervention=="Business as usual"),
        aes(x=year, y=x50q30, color=location))+
   geom_point()
 
-write.csv(country_50q30, "../output/x50q30_country_2022.csv")
+write.csv(country_50q30, "../output/x50q30_country_updated.csv")
 
 
 ##all countries
@@ -95,7 +95,7 @@ ggplot(all_50q30,
        aes(x=year, y=x50q30, color=intervention))+
   geom_point()
 
-write.csv(all_50q30, "../output/all_50q30_2022.csv")
+write.csv(all_50q30, "../output/all_50q30_updated.csv")
 
 xx50q30<-bind_rows(all_50q30%>%mutate(location="World"), country_50q30,
                    WB_50q30)%>%mutate(sex="Both")
@@ -281,7 +281,7 @@ ggplot(all_50q30,
        aes(x=year, y=x50q30, color=intervention))+
   geom_point()
 
-write.csv(all_50q30, "../../output/all_50q30_2022.csv")
+write.csv(all_50q30, "../../output/all_50q30_updated.csv")
 
 p<-all_50q30%>%filter(year==2020)%>%pull(x50q30, intervention)
 p2<-all_50q30%>%filter(year==2023)%>%pull(x50q30, intervention)
@@ -368,7 +368,7 @@ ggplot(plot_country%>%filter(year>=2010 & location=="China",
   ggtitle("CVD-specific 50q30")+
   ylim(0,0.35)
 
-write.csv(plot_country, "../../output/country_50q30_2020.csv")
+write.csv(plot_country, "../../output/country_50q30_updated.csv")
 
 #ggsave("../../figures/Figure4_alt_2021.png", width=8, height=6)
 
@@ -402,7 +402,7 @@ ggplot(plot_WB2%>%filter(year>=2010 &
   ylab("Probability of dying from CVD between ages 30 and 80 years")+
   ylim(0,0.35)
 
-#ggsave("../../figures/Figure4_2022.png", width=8, height=5)
+#ggsave("../../figures/Figure4_2022_updated.png", width=8, height=5)
 
 
 ggplot(plot_WB%>%filter(year>=2010 & 
@@ -417,10 +417,10 @@ ggplot(plot_WB%>%filter(year>=2010 &
   ylab("Probability of dying from CVD between ages 30 and 80 years")+
   ylim(0,0.35)
 
-ggsave("../../output/fig_3.pdf", width=8, height=5, dpi=600)
+ggsave("../../output/fig_3_updated.pdf", width=8, height=5, dpi=600)
 
 
-write.csv(plot_WB, "../../output/resutls_50q30.csv", row.names = F)
+write.csv(plot_WB, "../../output/resutls_50q30_updated.csv", row.names = F)
 #plot_WB<-read.csv("figures/resutls_50q30.csv", stringsAsFactors = F)
 
 lic20<-plot_WB%>%filter(year==2020, wb2021=="LIC", Scenario =="Business as usual")%>%pull(x50q30)
@@ -487,7 +487,7 @@ basetab<-basetab%>%spread(year, x50q30)%>%
 
 
 tab4<-left_join(tab4, basetab)
-write.csv(tab4, "../../output/x50q30_slopes.csv")
+write.csv(tab4, "../../output/x50q30_slopes_updated.csv")
 
 #######################################
 ###TABLE 2###
@@ -516,7 +516,7 @@ tab22<-data.frame(
   )
 )%>%mutate(Gap = X90-X10)
 
-write.csv(tab22, "../../output/Table2_90_2022.csv")
+write.csv(tab22, "../../output/Table2_90_updated.csv")
 
 
 #by WB group
@@ -533,4 +533,5 @@ tab2<-plot_WB%>%filter(year==2050 |
 tab2<-cbind(tab2, tab22[1:4,"SD"])
 names(tab2)[6]<-"Standard deviation"
 
-write.csv(tab2, "../../output/Table2_2022.csv")
+write.csv(tab2, "../../output/Table2_updated.csv")
+

@@ -1,20 +1,22 @@
 ##pull data for online appendix
-
-setwd("~/RTSL/model")
-
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(dplyr)
-library(data.table)
 library(ggplot2)
-library(RColorBrewer)
 library(readxl)
-library(tidyr)
 
-intervention_out<-read.csv("intervention_out_ref_2022.csv", stringsAsFactors = F)
-intervention_out2<-read.csv("intervention_out_asp_2022.csv", stringsAsFactors = F)
+load("../model/model_output_updated.Rda")
 
-bau<-intervention_out%>%filter(intervention=="b.a.u")%>%mutate(intervention = "NA", scenario = "Business as usual")
-prog<-intervention_out%>%filter(intervention!="b.a.u")
-asp<-intervention_out2%>%filter(intervention!="b.a.u")
+df<-bind_rows(progress%>%filter(intervention!="b.a.u")%>%
+                mutate(scenario = "Progress"),
+              aspirational%>%filter(intervention!='b.a.u')%>%
+                mutate(scenario = "Aspirational"),
+              progress%>%filter(intervention=='b.a.u')%>%
+                mutate(intervention = "Both",
+                       scenario = "Business as usual")
+)
+
+#############
+
 
 countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(location!="Global", 
                                                                               location!="American Samoa",
@@ -32,10 +34,9 @@ countrylist <- read.csv("super_regions.csv", stringsAsFactors=FALSE)%>%filter(lo
                                                                               location!="Virgin Islands, U.S.")%>%pull(location)
 
 for (c in countrylist){
-  out<-bind_rows(bau%>%filter(location==c),
-                 prog%>%filter(location==c)%>%mutate(scenario="Progress"),
-                 asp%>%filter(location==c)%>%mutate(scenario="Aspirational"))
-  write.csv(out%>%
+
+  write.csv(df%>%
+              filter(location==c)%>%
               group_by(location, intervention, scenario, 
                        cause, year, sex)%>%
               summarise(`CVD deaths` = sum(dead),
@@ -45,21 +46,18 @@ for (c in countrylist){
                         `Population` = sum(pop)
                         )%>%
               filter(year>=2020),
-              paste0("../BP_Targets/data/", c, ".csv"), 
+              paste0("../../BP_Targets_appendix/data/", c, ".csv"), ##output
             row.names = F)
 }  
 
 
 
 # + Global #
-out<-bind_rows(bau,
-               prog%>%mutate(scenario="Progress"),
-               asp%>%mutate(scenario="Aspirational"))
 
-write.csv(out%>%
+write.csv(df%>%
             mutate(location="Global")%>%
             group_by(intervention, scenario, 
-                     cause, year, sex)%>%
+                     cause, year, sex, location)%>%
             summarise(`CVD deaths` = sum(dead),
                       `All deaths` = sum(all.mx),
                       `New cases` = sum(newcases),
@@ -67,10 +65,23 @@ write.csv(out%>%
                       `Population` = sum(pop)
             )%>%
             filter(year>=2020),
-          "../BP_Targets/data/Global.csv", 
+          "../../BP_Targets_appendix/data/Global.csv", ##output
           row.names = F)
 
 
+test<-df%>%
+  mutate(location="Global")%>%
+  group_by(intervention, scenario, 
+           cause, year, sex, location)%>%
+  summarise(`CVD deaths` = sum(dead),
+            `All deaths` = sum(all.mx),
+            `New cases` = sum(newcases),
+            `Prevalent cases` = sum(sick),
+            `Population` = sum(pop)
+  )%>%
+  filter(year>=2020)
+
+#############################################
 
 #50q30
 
@@ -82,7 +93,9 @@ int2<-intervention_out%>%filter(intervention =="Both")%>%select(-intervention)%>
 in32<-intervention_out2%>%filter(intervention =="Both")%>%select(-intervention)%>%
   mutate(scenario = "Aspirational")
 
-comb<-bind_rows(int1, int2, in32)%>%select(location, age, year, scenario, pop, newcases)
+
+comb<-df%>%filter(intervention=="Both")%>%select(location, age, year, scenario, pop, newcases)
+
 all<-comb%>%group_by(age, year, scenario)%>%
   summarise(pop=sum(pop), newcases=sum(newcases))%>%
   mutate(location="Global")
@@ -154,6 +167,8 @@ ggplot(ptest%>%filter(location=="Global"), aes(x=scenario))+
   ylab("Change in incidence 2020 to 2050 (%)")+
   labs(fill="", shape=NULL)
 
+
+
 #WPP#
 
 model.pop<-read.csv("../web_appendix/shiny/pop.csv", stringsAsFactors = F)
@@ -187,7 +202,7 @@ ggplot(all, aes(x=year))+
   xlab("Year")
 
 wpp.plot<-bind_rows(plot3, all)
-write.csv(wpp.plot, "wpp_data.csv", row.names = F)
+write.csv(wpp.plot, "wpp_data.csv", row.names = F) ##output
 
 
 ggplot(wpp.plot%>%filter(location=="China"), aes(x=year))+
@@ -212,4 +227,4 @@ all<-plot4%>%group_by(year, cause, Scenario)%>%
 
 gbd<-bind_rows(plot4, all)
 
-write.csv(gbd, "gbd_deaths.csv", row.names = F)
+write.csv(gbd, "gbd_deaths.csv", row.names = F) ##output

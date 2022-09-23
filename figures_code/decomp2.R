@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(readxl)
 
-load("../model/model_output_newnorm.Rda")
+load("../model/model_output_updated.Rda")
 
 df<-bind_rows(progress%>%filter(intervention!="b.a.u")%>%
                   mutate(intervention = paste0("Progress_", intervention)),
@@ -120,6 +120,7 @@ names(output)[11]<-"Percent change from 2020 due to age-specific incidence rates
 #write.csv(output, "decomp_data_BG.csv", row.names = F)
 
 ### graph time! ###
+library(tidyr)
 
 plot<-output[,c(1,2,3,6,8,10,11)]
 names(plot)[4]<-"Net change in new cases"
@@ -164,8 +165,8 @@ p<-ggplot(plot%>%filter(intervention2%in%c("Business as usual", "Progress", "Asp
 
 p
 
-ggsave("../output/fig_2.pdf", width=11, height=6, dpi=600)
-write.csv(plot, "../output/decomp_data_2022.csv")
+ggsave("../output/fig_2_updated.pdf", width=11, height=6, dpi=600)
+write.csv(plot, "../output/decomp_data_updated.csv")
 
 
 ###deaths###
@@ -288,6 +289,9 @@ names(plot)[6]<-"Change due to population aging"
 names(plot)[7]<-"Change due to age-specific CVD mortality rates"
 
 
+#plot<-read.csv("../output/decomp_data_deaths2022.csv")%>%
+#  rename(`Net change in CVD deaths` = Net.change.in.CVD.deaths)
+
 plot<-plot%>%mutate(intervention = ifelse(intervention=="Progress_Both", "Progress",
                                           ifelse(intervention=="Aspirational_Both", "Aspirational", intervention)))
 
@@ -309,6 +313,8 @@ plot$wb2021<-factor(plot$wb2021, levels = c("All countries",
                                             "UMIC", "HIC"))
 library(ggthemes)
 
+
+
 p<-ggplot(plot%>%filter(intervention2%in%c("Business as usual", "Progress", "Aspirational")), 
           aes(x=intervention2))+
   geom_bar(stat='identity', aes(y=change, fill=metric), position="stack")+
@@ -326,6 +332,15 @@ p<-ggplot(plot%>%filter(intervention2%in%c("Business as usual", "Progress", "Asp
 
 p
 
-ggsave("../output/fig_A1.pdf", width=11, height=6, dpi=600)
-write.csv(plot, "../output/decomp_data_deaths2022.csv")
+ggsave("../output/fig_A1_updated.pdf", width=11, height=6, dpi=600)
+
+ggsave("../output/fig_A1_updated.jpg", width=11, height=6, dpi=1200)
+
+ggsave(p, "../output/fig_A1_updated.eps", device='eps', width=11, height=6)
+
+tiff("../output/fig_A1_updated.tiff")
+ggsave( "../output/fig_A1_updated.tiff", device='tiff', width=11, height=6)
+dev.off()
+
+write.csv(plot, "../output/decomp_data_deaths2022_updated.csv")
 

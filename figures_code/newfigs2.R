@@ -1,6 +1,6 @@
 rm(list=ls()) 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-load("../model/model_output_newnorm.Rda")
+load("../model/model_output_updated.Rda")
 library(dplyr)
 library(ggplot2)
 library(readxl)
@@ -314,6 +314,7 @@ ggplot(plot, aes(x=year, y=100*disease_free, color=Scenario, group=Scenario))+
   theme_bw()+
   ylim(0,100)
 
-ggsave("../output/fig_1.pdf", width = 10, height=8, dpi=600)
+ggsave("../output/fig_1_updated.pdf", width = 10, height=8, dpi=600)
 
 plot%>%filter(year==2050)
+

@@ -1,0 +1,106 @@
+"","cause","intervention","wb2021","Net change in new cases","intervention2","metric","change"
+"1","all cvd","Aspirational_Antihypertensive therapy","All countries",89.4627341190016,"Aspirational_Antihypertensive therapy","Change due to population growth",37.7402157042748
+"2","all cvd","Aspirational_Antihypertensive therapy","HIC",43.5024321748736,"Aspirational_Antihypertensive therapy","Change due to population growth",3.26118715569363
+"3","all cvd","Aspirational_Antihypertensive therapy","LIC",158.43665505333,"Aspirational_Antihypertensive therapy","Change due to population growth",143.192756510031
+"4","all cvd","Aspirational_Antihypertensive therapy","LMIC",108.551630523027,"Aspirational_Antihypertensive therapy","Change due to population growth",58.9054184786111
+"5","all cvd","Aspirational_Antihypertensive therapy","UMIC",84.5267870206554,"Aspirational_Antihypertensive therapy","Change due to population growth",14.8540701452651
+"6","all cvd","Aspirational","All countries",85.7601075928854,"Aspirational","Change due to population growth",37.8896576298027
+"7","all cvd","Aspirational","HIC",39.3186012880006,"Aspirational","Change due to population growth",3.34036631187778
+"8","all cvd","Aspirational","LIC",154.927030086808,"Aspirational","Change due to population growth",143.298187316306
+"9","all cvd","Aspirational","LMIC",104.589570593932,"Aspirational","Change due to population growth",59.0682318890443
+"10","all cvd","Aspirational","UMIC",81.1987286198925,"Aspirational","Change due to population growth",15.0297690051174
+"11","all cvd","Aspirational_Salt reduction","All countries",106.336664367769,"Aspirational_Salt reduction","Change due to population growth",36.6802648030854
+"12","all cvd","Aspirational_Salt reduction","HIC",53.1850163157816,"Aspirational_Salt reduction","Change due to population growth",2.9040117689646
+"13","all cvd","Aspirational_Salt reduction","LIC",197.61912385128,"Aspirational_Salt reduction","Change due to population growth",141.925070736558
+"14","all cvd","Aspirational_Salt reduction","LMIC",127.716171136219,"Aspirational_Salt reduction","Change due to population growth",57.7920167698778
+"15","all cvd","Aspirational_Salt reduction","UMIC",100.122731814674,"Aspirational_Salt reduction","Change due to population growth",13.5509988238727
+"16","all cvd","Business as usual","All countries",113.461268705045,"Business as usual","Change due to population growth",36.4125588234572
+"17","all cvd","Business as usual","HIC",60.166915318098,"Business as usual","Change due to population growth",2.77230084331703
+"18","all cvd","Business as usual","LIC",204.754602733301,"Business as usual","Change due to population growth",141.741383200647
+"19","all cvd","Business as usual","LMIC",135.563303288475,"Business as usual","Change due to population growth",57.5123161974338
+"20","all cvd","Business as usual","UMIC",106.706930039375,"Business as usual","Change due to population growth",13.2180413936192
+"21","all cvd","Progress_Antihypertensive therapy","All countries",101.132577904307,"Progress_Antihypertensive therapy","Change due to population growth",37.2129137701901
+"22","all cvd","Progress_Antihypertensive therapy","HIC",54.1886542235743,"Progress_Antihypertensive therapy","Change due to population growth",2.95766740322708
+"23","all cvd","Progress_Antihypertensive therapy","LIC",178.688511984302,"Progress_Antihypertensive therapy","Change due to population growth",142.668680795793
+"24","all cvd","Progress_Antihypertensive therapy","LMIC",120.395870991601,"Progress_Antihypertensive therapy","Change due to population growth",58.394518336469
+"25","all cvd","Progress_Antihypertensive therapy","UMIC",95.6186591680476,"Progress_Antihypertensive therapy","Change due to population growth",14.2030313927247
+"26","all cvd","Progress","All countries",98.322936554663,"Progress","Change due to population growth",37.3081247540125
+"27","all cvd","Progress","HIC",51.1022450862066,"Progress","Change due to population growth",3.01267488192433
+"28","all cvd","Progress","LIC",175.768671550207,"Progress","Change due to population growth",142.739075215434
+"29","all cvd","Progress","LMIC",117.440948829141,"Progress","Change due to population growth",58.4931275066593
+"30","all cvd","Progress","UMIC",93.0419087426142,"Progress","Change due to population growth",14.3176843849718
+"31","all cvd","Progress_Salt reduction","All countries",109.78632810684,"Progress_Salt reduction","Change due to population growth",36.5445434021035
+"32","all cvd","Progress_Salt reduction","HIC",56.6006054704526,"Progress_Salt reduction","Change due to population growth",2.83675162095762
+"33","all cvd","Progress_Salt reduction","LIC",200.715901248854,"Progress_Salt reduction","Change due to population growth",141.840254461054
+"34","all cvd","Progress_Salt reduction","LMIC",131.504408943964,"Progress_Salt reduction","Change due to population growth",57.6501747584392
+"35","all cvd","Progress_Salt reduction","UMIC",103.340380706946,"Progress_Salt reduction","Change due to population growth",13.3811337123169
+"36","all cvd","Aspirational_Antihypertensive therapy","All countries",89.4627341190016,"Aspirational_Antihypertensive therapy","Change due to population aging",77.2229654280169
+"37","all cvd","Aspirational_Antihypertensive therapy","HIC",43.5024321748736,"Aspirational_Antihypertensive therapy","Change due to population aging",54.7002815323527
+"38","all cvd","Aspirational_Antihypertensive therapy","LIC",158.43665505333,"Aspirational_Antihypertensive therapy","Change due to population aging",92.9645366319678
+"39","all cvd","Aspirational_Antihypertensive therapy","LMIC",108.551630523027,"Aspirational_Antihypertensive therapy","Change due to population aging",95.5304644330498
+"40","all cvd","Aspirational_Antihypertensive therapy","UMIC",84.5267870206554,"Aspirational_Antihypertensive therapy","Change due to population aging",120.463837791705
+"41","all cvd","Aspirational","All countries",85.7601075928854,"Aspirational","Change due to population aging",78.1577056293014
+"42","all cvd","Aspirational","HIC",39.3186012880006,"Aspirational","Change due to population aging",55.1765873262152
+"43","all cvd","Aspirational","LIC",154.927030086808,"Aspirational","Change due to population aging",93.853052300423
+"44","all cvd","Aspirational","LMIC",104.589570593932,"Aspirational","Change due to population aging",96.4825281562711
+"45","all cvd","Aspirational","UMIC",81.1987286198925,"Aspirational","Change due to population aging",121.978707935644
+"46","all cvd","Aspirational_Salt reduction","All countries",106.336664367769,"Aspirational_Salt reduction","Change due to population aging",70.8579093567967
+"47","all cvd","Aspirational_Salt reduction","HIC",53.1850163157816,"Aspirational_Salt reduction","Change due to population aging",52.5203601749391
+"48","all cvd","Aspirational_Salt reduction","LIC",197.61912385128,"Aspirational_Salt reduction","Change due to population aging",82.7232461194648
+"49","all cvd","Aspirational_Salt reduction","LMIC",127.716171136219,"Aspirational_Salt reduction","Change due to population aging",89.2574464035717
+"50","all cvd","Aspirational_Salt reduction","UMIC",100.122731814674,"Aspirational_Salt reduction","Change due to population aging",109.459030255191
+"51","all cvd","Business as usual","All countries",113.461268705045,"Business as usual","Change due to population aging",69.2003337650876
+"52","all cvd","Business as usual","HIC",60.166915318098,"Business as usual","Change due to population aging",51.7094096892708
+"53","all cvd","Business as usual","LIC",204.754602733301,"Business as usual","Change due to population aging",81.1978211911394
+"54","all cvd","Business as usual","LMIC",135.563303288475,"Business as usual","Change due to population aging",87.6341693588535
+"55","all cvd","Business as usual","UMIC",106.706930039375,"Business as usual","Change due to population aging",106.647052489538
+"56","all cvd","Progress_Antihypertensive therapy","All countries",101.132577904307,"Progress_Antihypertensive therapy","Change due to population aging",73.9375997528503
+"57","all cvd","Progress_Antihypertensive therapy","HIC",54.1886542235743,"Progress_Antihypertensive therapy","Change due to population aging",52.8142043720019
+"58","all cvd","Progress_Antihypertensive therapy","LIC",178.688511984302,"Progress_Antihypertensive therapy","Change due to population aging",88.6884198090694
+"59","all cvd","Progress_Antihypertensive therapy","LMIC",120.395870991601,"Progress_Antihypertensive therapy","Change due to population aging",92.6207583041248
+"60","all cvd","Progress_Antihypertensive therapy","UMIC",95.6186591680476,"Progress_Antihypertensive therapy","Change due to population aging",114.911361379354
+"61","all cvd","Progress","All countries",98.322936554663,"Progress","Change due to population aging",74.5360009749852
+"62","all cvd","Progress","HIC",51.1022450862066,"Progress","Change due to population aging",53.153540816246
+"63","all cvd","Progress","LIC",175.768671550207,"Progress","Change due to population aging",89.2782346013195
+"64","all cvd","Progress","LMIC",117.440948829141,"Progress","Change due to population aging",93.1944463135539
+"65","all cvd","Progress","UMIC",93.0419087426142,"Progress","Change due to population aging",115.896106358948
+"66","all cvd","Progress_Salt reduction","All countries",109.78632810684,"Progress_Salt reduction","Change due to population aging",70.0126644539483
+"67","all cvd","Progress_Salt reduction","HIC",56.6006054704526,"Progress_Salt reduction","Change due to population aging",52.1068039557674
+"68","all cvd","Progress_Salt reduction","LIC",200.715901248854,"Progress_Salt reduction","Change due to population aging",82.0142750811021
+"69","all cvd","Progress_Salt reduction","LMIC",131.504408943964,"Progress_Salt reduction","Change due to population aging",88.4303721724494
+"70","all cvd","Progress_Salt reduction","UMIC",103.340380706946,"Progress_Salt reduction","Change due to population aging",108.019288804985
+"71","all cvd","Aspirational_Antihypertensive therapy","All countries",89.4627341190016,"Aspirational_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-25.5004470132901
+"72","all cvd","Aspirational_Antihypertensive therapy","HIC",43.5024321748736,"Aspirational_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-14.4590365131728
+"73","all cvd","Aspirational_Antihypertensive therapy","LIC",158.43665505333,"Aspirational_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-77.7206380886679
+"74","all cvd","Aspirational_Antihypertensive therapy","LMIC",108.551630523027,"Aspirational_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-45.8842523886337
+"75","all cvd","Aspirational_Antihypertensive therapy","UMIC",84.5267870206554,"Aspirational_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-50.7911209163152
+"76","all cvd","Aspirational","All countries",85.7601075928854,"Aspirational","Change due to age-specific cvd incidence rates",-30.2872556662187
+"77","all cvd","Aspirational","HIC",39.3186012880006,"Aspirational","Change due to age-specific cvd incidence rates",-19.1983523500924
+"78","all cvd","Aspirational","LIC",154.927030086808,"Aspirational","Change due to age-specific cvd incidence rates",-82.224209529921
+"79","all cvd","Aspirational","LMIC",104.589570593932,"Aspirational","Change due to age-specific cvd incidence rates",-50.9611894513831
+"80","all cvd","Aspirational","UMIC",81.1987286198925,"Aspirational","Change due to age-specific cvd incidence rates",-55.8097483208685
+"81","all cvd","Aspirational_Salt reduction","All countries",106.336664367769,"Aspirational_Salt reduction","Change due to age-specific cvd incidence rates",-1.20150979211355
+"82","all cvd","Aspirational_Salt reduction","HIC",53.1850163157816,"Aspirational_Salt reduction","Change due to age-specific cvd incidence rates",-2.23935562812203
+"83","all cvd","Aspirational_Salt reduction","LIC",197.61912385128,"Aspirational_Salt reduction","Change due to age-specific cvd incidence rates",-27.0291930047426
+"84","all cvd","Aspirational_Salt reduction","LMIC",127.716171136219,"Aspirational_Salt reduction","Change due to age-specific cvd incidence rates",-19.3332920372305
+"85","all cvd","Aspirational_Salt reduction","UMIC",100.122731814674,"Aspirational_Salt reduction","Change due to age-specific cvd incidence rates",-22.8872972643892
+"86","all cvd","Business as usual","All countries",113.461268705045,"Business as usual","Change due to age-specific cvd incidence rates",7.84837611649985
+"87","all cvd","Business as usual","HIC",60.166915318098,"Business as usual","Change due to age-specific cvd incidence rates",5.68520478551016
+"88","all cvd","Business as usual","LIC",204.754602733301,"Business as usual","Change due to age-specific cvd incidence rates",-18.1846016584846
+"89","all cvd","Business as usual","LMIC",135.563303288475,"Business as usual","Change due to age-specific cvd incidence rates",-9.58318226781185
+"90","all cvd","Business as usual","UMIC",106.706930039375,"Business as usual","Change due to age-specific cvd incidence rates",-13.1581638437813
+"91","all cvd","Progress_Antihypertensive therapy","All countries",101.132577904307,"Progress_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-10.0179356187338
+"92","all cvd","Progress_Antihypertensive therapy","HIC",54.1886542235743,"Progress_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-1.58321755165465
+"93","all cvd","Progress_Antihypertensive therapy","LIC",178.688511984302,"Progress_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-52.6685886205609
+"94","all cvd","Progress_Antihypertensive therapy","LMIC",120.395870991601,"Progress_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-30.6194056489926
+"95","all cvd","Progress_Antihypertensive therapy","UMIC",95.6186591680476,"Progress_Antihypertensive therapy","Change due to age-specific cvd incidence rates",-33.4957336040309
+"96","all cvd","Progress","All countries",98.322936554663,"Progress","Change due to age-specific cvd incidence rates",-13.5211891743347
+"97","all cvd","Progress","HIC",51.1022450862066,"Progress","Change due to age-specific cvd incidence rates",-5.06397061196379
+"98","all cvd","Progress","LIC",175.768671550207,"Progress","Change due to age-specific cvd incidence rates",-56.2486382665471
+"99","all cvd","Progress","LMIC",117.440948829141,"Progress","Change due to age-specific cvd incidence rates",-34.2466249910726
+"100","all cvd","Progress","UMIC",93.0419087426142,"Progress","Change due to age-specific cvd incidence rates",-37.1718820013058
+"101","all cvd","Progress_Salt reduction","All countries",109.78632810684,"Progress_Salt reduction","Change due to age-specific cvd incidence rates",3.22912025078806
+"102","all cvd","Progress_Salt reduction","HIC",56.6006054704526,"Progress_Salt reduction","Change due to age-specific cvd incidence rates",1.65704989372758
+"103","all cvd","Progress_Salt reduction","LIC",200.715901248854,"Progress_Salt reduction","Change due to age-specific cvd incidence rates",-23.1386282933015
+"104","all cvd","Progress_Salt reduction","LMIC",131.504408943964,"Progress_Salt reduction","Change due to age-specific cvd incidence rates",-14.576137986925
+"105","all cvd","Progress_Salt reduction","UMIC",103.340380706946,"Progress_Salt reduction","Change due to age-specific cvd incidence rates",-18.060041810356
