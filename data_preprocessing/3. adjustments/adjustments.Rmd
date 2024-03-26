@@ -395,8 +395,14 @@ b_rates[, CF:=CF*CFadjust]
 b_rates[CF>0.99, CF:=0.99]
 b_rates[IR>0.99, IR:=0.99]
 
+## adjusted TPs for model
+write.csv(b_rates, "../../model/base_rates_2022.csv")
 
-##model##
+
+#######################
+## test model##
+#######################
+
 #as a function#
 state.transition<-function(b_rates, pop20){ 
   
@@ -493,6 +499,7 @@ DT<-merge(DT, iso3, by="location")
 DT[,location:=NULL]
 setnames(DT, "location_gbd", "location")
 
+
 out.df$age.group[out.df$age<25]<-"20 to 24"
 out.df$age.group[out.df$age<30 & out.df$age>=25]<-"25 to 29"
 out.df$age.group[out.df$age<35 & out.df$age>=30]<-"30 to 34"
@@ -511,8 +518,26 @@ out.df$age.group[out.df$age<95 & out.df$age>=90]<-"90 to 94"
 out.df$age.group[out.df$age>=95]<-"95 plus"
 
 
-##do +/- 5% graph for deaths*
+temp<-out.df%>%group_by(year, age.group, cause, location, sex)%>%
+  summarise(val = sum(dead))%>%
+  mutate(cause = ifelse(cause=="ihd", "Ischemic heart disease", cause),
+         cause = ifelse(cause=="hhd", "Hypertensive heart disease", cause),
+         cause = ifelse(cause=="istroke", "Ischemic stroke", cause),
+         cause = ifelse(cause=="hstroke", "Intracerebral hemorrhage", cause))
 
+plot<-bind_rows(DT%>%mutate(source="gbd")%>%filter(metric=="Number", measure=="Deaths"),
+                temp%>%mutate(source="model"))
+
+
+ggplot(plot%>%filter(location=="China"), aes(x=year, y=val, color = source))+
+  geom_point()+
+  facet_grid(cause~sex)
+
+
+ggplot(plot%>%filter(location=="China", age.group=="45 to 49", cause!="All causes"), aes(x=year, y=val, color = source))+
+  geom_point()+
+  facet_grid(cause~sex)+
+  ylab("Deaths (#)")
 
 
 ```
